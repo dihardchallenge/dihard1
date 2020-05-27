@@ -1,0 +1,6 @@
+AddType application/x-httpd-php .php .html
+AddHandler x-httpd-php5 .php .html
+AuthName "dihardchallenge"
+AuthType Basic
+AuthUserFile "dihard/submission/.htpasswd"
+Require valid-user

@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>DIHARD Challenge</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- StyleSheet -->
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/custom.min.css">
+    <link rel="stylesheet" href="./css/flaty.css">
+    <!-- SCRIPT -->
+    <script src="./js/dihard.js"></script>
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML">
+    </script>
+</head>
+
+<body>
+    <div class="page-header" id="banner">
+        <center>
+            <div class="my4" style="max-width: 69rem;background-color:pink;padding-left:20px;padding-right:20px">
+                <h4 class="card-title" align="justify">
+                    <br>
+         The first DIHARD challenge is now complete. We would like to thank all teams that participated in the challenge and at the special session an Interspeech 2018 for making it a success. For full results as well as system descriptions, please see the <a href="results.php" style="color:blue">results page</a>. Development and test sets are in the process of being published through <a href="https://www.ldc.upenn.edu/" style="color:blue">LDC</a>.
+         <br><br>
+       </h4>
+            </div>
+           </center> 
+    </div>
+    <div class="container">
+        <!-- Navbar -->
+        <div class="bs-docs-section clearfix">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+                <a class="navbar-brand" href="index.html">DIHARD</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="true" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse show" id="navbarColor01">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="overview.html">
+                                <font size="4">Overview </font><span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="data.html">
+                                <font size="4">Data </font>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="instructions.html">
+                                <font size="4">Instructions </font>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="submission.html">
+                                <font size="4">Submissions </font>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="results.php">
+                                <font size="4">Results </font>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">
+                                <font size="4">Contact Us </font>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <!-- Navbar -->
+        <!-- Content -->
+        <div id="overview" class="jumbotron">
+            <!-- Overview -->
+            <h1>Overview</h1>
+            <hr class="my-4">
+            <p align="justify">While state-of-the-art diarization systems perform remarkably well for some domains (e.g., conversational telephone speech such as CallHome), as was discovered at the 2017 JSALT Summer Workshop at CMU, this success does not transfer to more challenging corpora such as child language recordings, clinical interviews, speech in reverberant environments, web video, and “speech in the wild” (e.g., recordings from wearables in an outdoor or restaurant setting). In particular, current approaches:</p>
+            <ul>
+                <li>fare poorly at estimating of the number of speakers (e.g., monologues are frequently broken into multiple speakers)</li>
+                <li>fail to work for short utterances (&#60;1 second), which is particularly problematic for domains such as clinical interviews, which contain many short segments of high information content</li>
+                <li>deal poorly with child speech and pathological speech (e.g., due to neurodegenerative diseases)</li>
+                <li>are not robust to materials with large amounts of overlapping speech or dynamic environmental noise with some speechlike characteristics</li>
+            </ul>
+            <p align="justify">The goals of the inaugural DIHARD evaluation include:</p>
+            <ul>
+                <li>to create an evaluation set drawn from a diverse set of challenging domains</li>
+                <li>to establish a baseline of performance for existing diarization technologies on this set</li>
+                <li>to release the reference data and result for continued research after the evaluation to encourage further testing and development</li>
+            </ul>
+            <br>
+            <br>
+            <!-- Task -->
+            <h1>Task</h1>
+            <hr class="my-4">
+            <p align="justify">The goal of the challenge is to automatically detect and label all speaker segments in each audio recording. Small pauses of &#60;= 200 ms by a speaker are not considered to be segmentation breaks and should be bridged into a single continuous segment. Vocal noises other than breaths (e.g., laughter, cough, sneeze, and lipsmack), are considered to be speech for the purpose of this evaluation, though all other sounds are considered non-speech. Because system performance is strongly influenced by the quality of the speech segmentation used, two tracks will be supported:</p>
+            <ul>
+                <li>Track 1: diarization using gold speech segmentation</li>
+                <li>Track 2: diarization from scratch</li>
+            </ul>
+            <p align="justify">Systems submitted to the former track should use the provided reference speech segmentation for each file, which will allow for evaluation of the diarization component in isolation from the SAD component. Systems submitted to the latter track will work directly from the audio. All researchers are strongly encouraged to submit results to at least the first track.</p>
+            <br>
+            <br>
+            <!-- Scoring -->
+            <h1>Scoring</h1>
+            <hr class="my-4">
+            <p align="justify">System output will be scored by comparison to human reference segmentation with performance evaluated by two metrics:
+            </p>
+            <ul>
+                <li>diarization error rate (DER)</li>
+                <li>framewise mutual information (MI)</li>
+            </ul>
+            <!-- DER -->
+            <hr class="my-4">
+            <h3><b>1. Diarization error rate</b></h3>
+            <p align="justify">
+                Diarization error rate (DER), introduced for the NIST Rich Transcription Spring 2003 Evaluation (RT-03S), is the total percentage of reference speaker time that is not correctly attributed to a speaker, where &#8220;correctly attributed&#8221; is defined in terms of an optimal one-to-one mapping between the reference and system speakers. More concretely, DER is defined as:
+            </p>
+            <br>
+            <div style="Text-align:center">
+                $$\textrm{DER} = \frac{\textrm{FA} + \textrm{MISS} + \textrm{ERROR}}{\textrm{TOTAL}}$$
+            </div>
+            <br>
+            <p align="justify">
+                where
+                <ul>
+                    <li><i>TOTAL</i> is the total reference speaker time; that is, the sum of the durations of all reference speaker segments</li>
+                    <li><i>FA</i> is the total system speaker time not attributed to a reference speaker</li>
+                    <li><i>MISS</i> is the total reference speaker time not attributed to a system speaker</li>
+                    <li><i>ERROR</i> is the total reference speaker time attributed to the wrong speaker</li>
+                </ul>
+            </p>
+            <p align="justify">
+                Contrary to practice in the NIST evaluations, <b>NO</b> forgiveness collar will be applied to the reference segments prior to scoring and overlapping speech <b>WILL</b> be evaluated. For more details please consult section 6 of the <a href="https://web.archive.org/web/20100606041157if_/http://www.itl.nist.gov/iad/mig/tests/rt/2009/docs/rt09-meeting-eval-plan-v2.pdf">RT-09 evaluation plan</a> and the source to the NIST <i>md-eval</i> scoring tool, available as part of the <a href="ftp://jaguar.ncsl.nist.gov/pub/sctk-2.4.10-20151007-1312Z.tar.bz2">Speech Recognition Scoring Toolkit (SCTK)</a>. For DIHARD, we will be using version 22 of <i>md-eval</i>.
+            </p>
+            <!-- Mutual information -->
+            <hr class="my-4">
+            <h3><b>2. Mutual information</b></h3>
+            <p align="justify">
+                We will also approach system evaluation from the standpoint of clustering evaluation, where both the reference and system segmentations are viewed as assignments of labels to frames of speech and a system's score is the mutual information in bits between its labeling and the reference labeling. More concretely, each segmentation will be converted to a sequence of 10 ms frames, each of which is assigned a single label corresponding to one of the following classes:
+                <ul>
+                    <li>non-speech</li>
+                    <li>non-overlapping speech by speaker<sub>i</sub></li>
+                    <li>overlapping speech by <i>n</i> speakers speaker<sub>i<sub>1</sub></sub>, ..., speaker<sub>i<sub>n</sub></sub>
+                    </li>
+                </ul>
+                where the sets of speakers are assumed disjoint for any pair of files. The contingency matrix between the reference and system labelings is then built and from this the mutual information computed according to:
+            </p>
+            <br>
+            <div style="text-align:center">
+                $$\textrm{MI} = \sum_{i=1}^{R}\sum_{j=1}^{S}\frac{n_{ij}}{N}\log_2{\frac{n_{ij}N}{r_is_j}}$$
+            </div>
+            <br>
+            <p align="justify">
+                where
+                <ul>
+                    <li><i>R</i> is the number of reference clusters</li>
+                    <li><i>S</i> is the number of system clusters</li>
+                    <li><i>n<sub>ij</sub></i> is the number of frames assigned to the <i>i</i>-th reference cluster and <i>j</i>-th system cluster</li>
+                    <li><i>r<sub>i</sub></i> is the number of frames assigned to the <i>i</i>-th reference cluster</li>
+                    <li><i>s<sub>j</sub></i> is the number of frames assigned to the <i>j</i>-th system cluster</li>
+                    <li><i>N</i> is the total number of frames</li>
+                </ul>
+            </p>
+            <!-- Scoring regions -->
+            <div id="uem"></div>
+            <hrclass="my-4">
+                <h3><b>3. Scoring regions</b></h3>
+                <p align="justify">
+                    The scoring region for each recording will be the <b>entirety</b> of the recording; that is, for a recording of duration 405.37 seconds, the scoring region will be [0, 405.37]. These regions will be provided to the scoring tool via un-partitioned evaluation map (UEM) files, which are plaintext files containing one scoring region per line, each line consisting of four space-delimited fields
+                    <ul>
+                        <li> File ID -- file name; basename of the recording minus extension (e.g., &#8220;rec1_a&#8221;)</li>
+                        <li>Channel ID -- channel (1-indexed) that scoring region is on</li>
+                        <li>Onset -- onset of scoring region in seconds from beginning of recording</li>
+                        <li>Offset -- offset of scoring region in seconds from beginning of recording</li>
+                    </ul>
+                    For instance:
+                    <pre>
+              <code>
+                CMU_20020319-1400_d01_NONE 1 125.000000 727.090000
+                CMU_20020320-1500_d01_NONE 1 111.700000 615.330000
+                ICSI_20010208-1430_d05_NONE 1 97.440000 697.290000</code>
+            </pre>
+                </p>
+                <p align="justify">
+                    UEM files for the dev/eval partitions:
+                    <ul>
+                        <li><a href="overview/dev.uem">dev.uem</a></li>
+                        <li><a href="overview/eval.uem">eval.uem</a></li>
+                    </ul>
+                </p>
+                <!-- Scoring tool -->
+                <hrclass="my-4">
+                    <h3><b>4. Scoring tool</b></h3>
+                    <p align="justify">
+                        The official scoring tool is maintained as a github repo: <a href="https://github.com/nryant/dscore">https://github.com/nryant/dscore</a>. To score a set of system output RTTMs <i>sys1.rttm</i>, <i>sys2.rttm</i>, ... against corresponding reference RTTMs <i>ref1.rttm</i>, <i>ref2.rttm</i>, ... using the un-partitioned evaluation map (UEM) <i>dev.uem</i>, the command line would be:
+                        <pre>
+              <code>
+                $ python score.py -u dev.uem -r ref1.rttm ref2.rttm ... -s sys1.rttm sys2.rttm ...</code>
+            </pre> The overall and per-file results for DER and MI (and many other metrics) will be printed to STDOUT as a table. For additional details about scoring tool usage, please consult the documentation for the github repo.
+                    </p>
+        </div>
+        <!-- Content -->
+    </div>
+</body>
+
+</html>

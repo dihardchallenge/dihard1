@@ -1,0 +1,391 @@
+﻿Date	system_name	DOI	email	pin
+2018-03-02 06:12:16	test	test	test@test.com	test
+2018-03-02 07:37:11	test2	test	test@test.com	test
+2018-03-04 23:21:06	test	10.5072/zenodo.210627	nryant@gmail.com	19472
+2018-03-06 16:16:17	original_speech	10.5281/zenodo.1189633	leisun8@iflytek.com	18729
+2018-03-06 16:27:40	original_speech	10.5281/zenodo.1189729	leisun8@iflytek.com	18729
+2018-03-06 16:30:27	front-end system1	10.5281/zenodo.1189738	leisun8@iflytek.com	18729
+2018-03-06 16:56:24	original_speech	10.5281/zenodo.1189872	leisun8@iflytek.com	18729
+2018-03-06 19:11:54	TESTSYS1	10.5281/zenodo.1190493	mireia@fit.vutbr.cz	52569
+2018-03-07 01:47:00	original_speech	10.5281/zenodo.1192927	leisun8@iflytek.com	18729
+2018-03-07 02:03:08	front-end system1	10.5281/zenodo.1193059	leisun8@iflytek.com	18729
+2018-03-07 02:17:46	RAW	10.5281/zenodo.1193185	leisun8@iflytek.com	18729
+2018-03-07 02:25:40	front-end system2	10.5281/zenodo.1193187	leisun8@iflytek.com	18729
+2018-03-07 12:30:23	RAW	10.5281/zenodo.1193507	leisun8@iflytek.com	18729
+2018-03-07 12:32:46	front-end system1	10.5281/zenodo.1193527	leisun8@iflytek.com	18729
+2018-03-07 14:04:42	BASELINE	10.5281/zenodo.1193583	mireia@fit.vutbr.cz	52569
+2018-03-07 14:05:51	ws-cr	10.5281/zenodo.1193585 	mkunes@ntis.zcu.cz	25355
+2018-03-07 14:12:28	ws-cr	10.5281/zenodo.1193585	mkunes@ntis.zcu.cz	25355
+2018-03-07 14:29:01	ws-cr	10.5281/zenodo.1193611	mkunes@ntis.zcu.cz	25355
+2018-03-07 14:54:33	BASELINE	10.5281/zenodo.1193633	mireia@fit.vutbr.cz	52569
+2018-03-07 17:08:52	BASELINE_dev	10.5281/zenodo.1193683	mireia@fit.vutbr.cz	52569
+2018-03-07 18:07:12	BASELINE	10.5281/zenodo.1193762	hector.delgado@eurecom.fr	30064
+2018-03-07 19:04:38	BISC	10.5281/zenodo.1193786	hector.delgado@eurecom.fr	30064
+2018-03-07 19:30:49	SYSTEM_1	10.5281/zenodo.1193799	hector.delgado@eurecom.fr	30064
+2018-03-07 20:11:50	SYSTEM_1	10.5281/zenodo.1193809	hector.delgado@eurecom.fr	30064
+2018-03-07 21:24:08	BASELINE_dev	10.5281/zenodo.1193834	mireia@fit.vutbr.cz	52569
+2018-03-07 21:25:53	ws-cr	10.5281/zenodo.1193835	mkunes@ntis.zcu.cz	25355
+2018-03-07 22:05:05	System_1_mbp	10.5281/zenodo.1193852	shobhana224@gmail.com	43575
+2018-03-07 22:34:43	Test	10.5281/zenodo.1193918	gsell@jhu.edu	58751
+2018-03-07 23:01:21	BASELINE	10.5281/zenodo.1193919	hector.delgado@eurecom.fr	30064
+2018-03-07 23:02:24	SYSTEM_1	10.5281/zenodo.1193920	hector.delgado@eurecom.fr	30064
+2018-03-08 13:49:18	System_1_mbp	10.5281/zenodo.1194212	shobhana224@gmail.com	43575
+2018-03-08 13:52:50	BASELINE_dev	10.5281/zenodo.1194214	mireia@fit.vutbr.cz	52569
+2018-03-08 15:10:00	RAW	10.5281/zenodo.1194234	leisun8@iflytek.com	18729
+2018-03-08 15:49:31	front-end system2	0.5281/zenodo.1194249	leisun8@iflytek.com	18729
+2018-03-08 15:53:58	front-end system2	10.5281/zenodo.1194249	leisun8@iflytek.com	18729
+2018-03-08 15:55:22	ViVoLab_Baseline	10.5281/zenodo.1194251	ortega@unizar.es	43462
+2018-03-08 16:12:07	front-end system1	10.5281/zenodo.1194276	leisun8@iflytek.com	18729
+2018-03-08 16:28:07	VivoLab Sys 1	10.5281/zenodo.1194286	ortega@unizar.es	43462
+2018-03-08 16:41:54	front-end system2	10.5281/zenodo.1194296	leisun8@iflytek.com	18729
+2018-03-08 16:56:46	RAW	10.5281/zenodo.1194307	leisun8@iflytek.com	18729
+2018-03-08 17:14:19	front-end system1	10.5281/zenodo.1194317	leisun8@iflytek.com	18729
+2018-03-08 17:36:10	VivoLab Sys 1	10.5281/zenodo.1194338	ortega@unizar.es	43462
+2018-03-08 17:38:10	BASELINE_dev	10.5281/zenodo.1194342	mireia@fit.vutbr.cz	52569
+2018-03-08 17:51:07	SYSTEM_1	10.5281/zenodo.1194349	hector.delgado@eurecom.fr	30064
+2018-03-08 17:51:49	SYSTEM_1	10.5281/zenodo.1194350	hector.delgado@eurecom.fr	30064
+2018-03-08 18:06:22	dev-s	10.5281/zenodo.1194355	mireia@fit.vutbr.cz	52569
+2018-03-08 18:08:31	CRIM1	10.5281/zenodo.1194352	vishwa.gupta@crim.ca	59005
+2018-03-08 18:26:24	CRIM1	10.5281/zenodo.1194363	vishwa.gupta@crim.ca	59005
+2018-03-08 18:28:35	ws-cr	10.5281/zenodo.1194364	mkunes@ntis.zcu.cz	25355
+2018-03-08 18:40:12	ws-crR	10.5281/zenodo.1194372	mkunes@ntis.zcu.cz	25355
+2018-03-08 19:23:22	ws-cr	10.5281/zenodo.1194382	mkunes@ntis.zcu.cz	25355
+2018-03-08 19:24:04	ws-crR	10.5281/zenodo.1194383	mkunes@ntis.zcu.cz	25355
+2018-03-08 19:49:20	Sys1	10.5281/zenodo.1194390	gsell@jhu.edu	58751
+2018-03-08 20:07:32	Sys4	10.5281/zenodo.1194392	gsell@jhu.edu	58751
+2018-03-08 20:21:15	CRIM1	10.5281/zenodo.1194393	vishwa.gupta@crim.ca	59005
+2018-03-09 10:04:53	SYSTEM_1	10.5281/zenodo.1194626	hector.delgado@eurecom.fr	30064
+2018-03-09 11:42:36	ViVoLab_Baseline	10.5281/zenodo.1194681	ortega@unizar.es	43462
+2018-03-09 11:44:42	VivoLab Sys 1	10.5281/zenodo.1194688	ortega@unizar.es	43462
+2018-03-09 12:02:54	ws-cr	10.5281/zenodo.1194701	mkunes@ntis.zcu.cz	25355
+2018-03-09 12:03:29	ws-crR	10.5281/zenodo.1194703	mkunes@ntis.zcu.cz	25355
+2018-03-09 13:34:34	dev-s	10.5281/zenodo.1194763	mireia@fit.vutbr.cz	52569
+2018-03-09 14:25:12	VivoLab Sys 1	10.5281/zenodo.1194784	ortega@unizar.es	43462
+2018-03-09 15:48:17	RAW	10.5281/zenodo.1194822	leisun8@iflytek.com	18729
+2018-03-09 16:06:37	TESTSYS1	10.5281/zenodo.1194828	mireia@fit.vutbr.cz	52569
+2018-03-09 16:09:06	front-end system2	10.5281/zenodo.1194829	leisun8@iflytek.com	18729
+2018-03-09 16:32:55	front-end system1	10.5281/zenodo.1194834	leisun8@iflytek.com	18729
+2018-03-09 17:17:33	VivoLab Sys 2	10.5281/zenodo.1194852	ortega@unizar.es	43462
+2018-03-09 17:20:08	VivoLab Sys 3	10.5281/zenodo.1194854	ortega@unizar.es	43462
+2018-03-09 17:41:55	VivoLab Sys 3	10.5281/zenodo.1194861	ortega@unizar.es	43462
+2018-03-09 17:47:09	TESTSYS1	10.5281/zenodo.1194862	mireia@fit.vutbr.cz	52569
+2018-03-09 19:00:30	BASELINE_dev	10.5281/zenodo.1194903	mireia@fit.vutbr.cz	52569
+2018-03-09 20:00:53	SYSTEM_1	10.5281/zenodo.1195001	hector.delgado@eurecom.fr	30064
+2018-03-09 21:32:46	ws-cr	10.5281/zenodo.1195016	mkunes@ntis.zcu.cz	25355
+2018-03-09 22:46:32	ws-cr-baseline	10.5281/zenodo.1195026	mkunes@ntis.zcu.cz	25355
+2018-03-10 00:02:23	Baseline	10.5281/zenodo.1195038	diego.castan@sri.com	68285
+2018-03-10 02:39:02	Baseline	10.5281/zenodo.1195045	diego.castan@sri.com	68285
+2018-03-10 15:37:28	front-end system1	10.5281/zenodo.1195502	leisun8@iflytek.com	18729
+2018-03-10 15:51:59	front-end system1	10.5281/zenodo.1195503	leisun8@iflytek.com	18729
+2018-03-10 16:09:08	RAW	10.5281/zenodo.1195506	leisun8@iflytek.com	18729
+2018-03-10 16:24:24	front-end system2	10.5281/zenodo.1195510	leisun8@iflytek.com	18729
+2018-03-10 16:33:14	BASELINE_dev	10.5281/zenodo.1195512	mireia@fit.vutbr.cz	52569
+2018-03-10 17:05:03	front-end system2	10.5281/zenodo.1195518	leisun8@iflytek.com	18729
+2018-03-10 17:22:17	RAW	10.5281/zenodo.1195509	leisun8@iflytek.com	18729
+2018-03-10 17:47:23	ws-cr	10.5281/zenodo.1195526	mkunes@ntis.zcu.cz	25355
+2018-03-10 18:35:24	ws-cr	10.5281/zenodo.1195529	mkunes@ntis.zcu.cz	25355
+2018-03-10 18:56:19	SYSTEM_2	10.5281/zenodo.1195536	hector.delgado@eurecom.fr	30064
+2018-03-10 18:56:56	SYSTEM_1	10.5281/zenodo.1195534	hector.delgado@eurecom.fr	30064
+2018-03-11 01:18:48	system-g6	https://doi.org/10.5281/zenodo.1195573	diegoa@cpqd.com.br	14637
+2018-03-11 01:21:35	system-g6	10.5281/zenodo.1195573	diegoa@cpqd.com.br	14637
+2018-03-11 05:38:34	system-i2	10.5281/zenodo.1195589	diegoa@cpqd.com.br	14637
+2018-03-11 14:20:15	ws-cr	10.5281/zenodo.1195668	mkunes@ntis.zcu.cz	25355
+2018-03-11 14:26:36	front-end system2	10.5281/zenodo.1195672	leisun8@iflytek.com	18729
+2018-03-11 14:41:18	RAW	10.5281/zenodo.1195675	leisun8@iflytek.com	18729
+2018-03-11 14:59:18	front-end system1	10.5281/zenodo.1195680	leisun8@iflytek.com	18729
+2018-03-11 15:10:59	front-end system1	10.5281/zenodo.1195683	leisun8@iflytek.com	18729
+2018-03-11 15:23:27	front-end system2	10.5281/zenodo.1195684	leisun8@iflytek.com	18729
+2018-03-11 15:36:35	RAW	10.5281/zenodo.1195685	leisun8@iflytek.com	18729
+2018-03-11 19:37:15	SYSTEM_1	10.5281/zenodo.1195712	hector.delgado@eurecom.fr	30064
+2018-03-11 20:12:26	Sys2	10.5281/zenodo.1195714 	gsell@jhu.edu	58751
+2018-03-11 20:14:14	Sys4	10.5281/zenodo.1195716	gsell@jhu.edu	58751
+2018-03-11 20:20:03	Sys2	10.5281/zenodo.1195713	gsell@jhu.edu	58751
+2018-03-11 20:37:44	BASELINE_dev	10.5281/zenodo.1195725	mireia@fit.vutbr.cz	52569
+2018-03-11 21:50:33	ws-crR	10.5281/zenodo.1195748	mkunes@ntis.zcu.cz	25355
+2018-03-11 22:23:09	BASELINE_dev	10.5281/zenodo.1195753	mireia@fit.vutbr.cz	52569
+2018-03-11 22:33:01	SYSTEM_1	10.5281/zenodo.1195756	hector.delgado@eurecom.fr	30064
+2018-03-11 22:38:00	dev-s	10.5281/zenodo.1195757	mireia@fit.vutbr.cz	52569
+2018-03-12 07:23:33	ws-cr	10.5281/zenodo.1195850	mkunes@ntis.zcu.cz	25355
+2018-03-12 07:24:00	ws-crR	10.5281/zenodo.1195849	mkunes@ntis.zcu.cz	25355
+2018-03-12 07:27:44	front-end system1	10.5281/zenodo.1195851	leisun8@iflytek.com	18729
+2018-03-12 09:21:06	SYSTEM_1	10.5281/zenodo.1195864	hector.delgado@eurecom.fr	30064
+2018-03-12 10:40:51	ws-crR	10.5281/zenodo.1195884	mkunes@ntis.zcu.cz	25355
+2018-03-12 12:01:53	SYSTEM_2	10.5281/zenodo.1196019	hector.delgado@eurecom.fr	30064
+2018-03-12 12:39:57	SYSTEM_2	10.5281/zenodo.1196051	hector.delgado@eurecom.fr	30064
+2018-03-12 17:42:58	ViVoLab_Baseline	10.5281/zenodo.1196487	ortega@unizar.es	43462
+2018-03-12 17:45:21	VivoLab Sys 1	10.5281/zenodo.1196493	ortega@unizar.es	43462
+2018-03-12 17:47:16	VivoLab Sys 2	10.5281/zenodo.1196499	ortega@unizar.es	43462
+2018-03-12 17:49:05	VivoLab Sys 3	10.5281/zenodo.1196503	ortega@unizar.es	43462
+2018-03-12 18:02:26	front-end system2	10.5281/zenodo.1196518	leisun8@iflytek.com	18729
+2018-03-12 18:14:27	front-end system2	10.5281/zenodo.1196539	leisun8@iflytek.com	18729
+2018-03-12 18:18:55	VivoLab Sys 1	10.5281/zenodo.1196544	ortega@unizar.es	43462
+2018-03-12 18:21:58	VivoLab Sys 3	10.5281/zenodo.1196552	ortega@unizar.es	43462
+2018-03-12 18:30:33	front-end system1	10.5281/zenodo.1196556	leisun8@iflytek.com	18729
+2018-03-12 21:08:16	ws-crR	10.5281/zenodo.1196629	mkunes@ntis.zcu.cz	25355
+2018-03-12 21:10:06	ws-cr	10.5281/zenodo.1196632	mkunes@ntis.zcu.cz	25355
+2018-03-12 21:46:08	Sys5	10.5281/zenodo.1196636	gsell@jhu.edu	58751
+2018-03-12 22:27:11	Sys5	10.5281/zenodo.1196649	gsell@jhu.edu	58751
+2018-03-13 00:43:19	system-j2	10.5281/zenodo.1196672	diegoa@cpqd.com.br	14637
+2018-03-13 07:37:15	ws-cr-baseline	10.5281/zenodo.1196763	mkunes@ntis.zcu.cz	25355
+2018-03-13 16:11:25	front-end system1	10.5281/zenodo.1197179	leisun8@iflytek.com	18729
+2018-03-13 16:29:15	front-end system1	10.5281/zenodo.1197197	leisun8@iflytek.com	18729
+2018-03-13 16:47:25	dev-s	10.5281/zenodo.1197214	mireia@fit.vutbr.cz	52569
+2018-03-13 16:47:43	RAW	10.5281/zenodo.1197217	leisun8@iflytek.com	18729
+2018-03-13 18:36:28	ws-crR	10.5281/zenodo.1197284	mkunes@ntis.zcu.cz	25355
+2018-03-13 18:41:36	dev-s	10.5281/zenodo.1197286	mireia@fit.vutbr.cz	52569
+2018-03-13 20:24:50	ws-crR	10.5281/zenodo.1197337	mkunes@ntis.zcu.cz	25355
+2018-03-13 21:13:36	ws-cr	10.5281/zenodo.1197351	mkunes@ntis.zcu.cz	25355
+2018-03-13 21:15:22	ws-cr-baseline	10.5281/zenodo.1197354	mkunes@ntis.zcu.cz	25355
+2018-03-14 00:58:52	system-j6	10.5281/zenodo.1197375	diegoa@cpqd.com.br	14637
+2018-03-14 11:52:57	dev-s	10.5281/zenodo.1197584	mireia@fit.vutbr.cz	52569
+2018-03-14 12:22:31	SYSTEM_1	10.5281/zenodo.1197770	hector.delgado@eurecom.fr	30064
+2018-03-14 13:43:32	dev-s2	10.5281/zenodo.1198110	mireia@fit.vutbr.cz	52569
+2018-03-14 13:56:23	SYSTEM_1	10.5281/zenodo.1198159	hector.delgado@eurecom.fr	30064
+2018-03-14 16:53:37	front-end system1	10.5281/zenodo.1198625	leisun8@iflytek.com	18729
+2018-03-14 17:07:39	front-end system1	10.5281/zenodo.1198649	leisun8@iflytek.com	18729
+2018-03-14 17:14:13	MFCC_13	10.5281/zenodo.1198644	k890268@gmail.com	80065
+2018-03-14 17:24:30	front-end system2	10.5281/zenodo.1198655	leisun8@iflytek.com	18729
+2018-03-14 17:40:59	RAW	10.5281/zenodo.1198671	leisun8@iflytek.com	18729
+2018-03-14 17:56:10	RAW	10.5281/zenodo.1198680	leisun8@iflytek.com	18729
+2018-03-14 20:04:45	ws-crR	10.5281/zenodo.1198779	mkunes@ntis.zcu.cz	25355
+2018-03-14 20:06:02	ws-cr	10.5281/zenodo.1198782	mkunes@ntis.zcu.cz	25355
+2018-03-14 21:37:01	ws-crR	10.5281/zenodo.1198836	mkunes@ntis.zcu.cz	25355
+2018-03-14 21:38:23	ws-cr	10.5281/zenodo.1198837	mkunes@ntis.zcu.cz	25355
+2018-03-14 22:41:53	ws-cr-baseline	10.5281/zenodo.1198851	mkunes@ntis.zcu.cz	25355
+2018-03-14 22:46:53	ws-cr-baseline	10.5281/zenodo.1198851	mkunes@ntis.zcu.cz	25355
+2018-03-15 00:51:51	system-k6	10.5281/zenodo.1198871	diegoa@cpqd.com.br	14637
+2018-03-15 01:00:12	system-j6	10.5281/zenodo.1198876	diegoa@cpqd.com.br	14637
+2018-03-15 05:00:01	RAW	10.5281/zenodo.1198896	leisun8@iflytek.com	18729
+2018-03-15 05:12:33	RAW	10.5281/zenodo.1198898	leisun8@iflytek.com	18729
+2018-03-15 09:12:23	SYSTEM_1	10.5281/zenodo.1198987	hector.delgado@eurecom.fr	30064
+2018-03-15 10:11:33	front-end system2	10.5281/zenodo.1198670	leisun8@iflytek.com	18729
+2018-03-15 13:06:05	ws-cr	10.5281/zenodo.1199417	mkunes@ntis.zcu.cz	25355
+2018-03-15 13:07:39	ws-crR	10.5281/zenodo.1199420	mkunes@ntis.zcu.cz	25355
+2018-03-15 13:41:46	ws-crR	10.5281/zenodo.1199455	mkunes@ntis.zcu.cz	25355
+2018-03-15 14:22:15	SYSTEM_2	10.5281/zenodo.1199492	hector.delgado@eurecom.fr	30064
+2018-03-15 14:37:40	front-end system2	10.5281/zenodo.1199496	leisun8@iflytek.com	18729
+2018-03-15 15:35:24	SYSTEM_1	10.5281/zenodo.1199526	hector.delgado@eurecom.fr	30064
+2018-03-15 16:23:34	dev-s	10.5281/zenodo.1199548	mireia@fit.vutbr.cz	52569
+2018-03-15 16:42:34	dev-s	10.5281/zenodo.1199576	mireia@fit.vutbr.cz	52569
+2018-03-15 19:01:52	SYSTEM_3	10.5281/zenodo.1199626	hector.delgado@eurecom.fr	30064
+2018-03-15 21:33:08	MH-crR	10.5281/zenodo.1199661	mkunes@ntis.zcu.cz	25355
+2018-03-15 21:34:17	ws-cr	10.5281/zenodo.1199659	mkunes@ntis.zcu.cz	25355
+2018-03-15 21:58:50	MH-crR	10.5281/zenodo.1199662	mkunes@ntis.zcu.cz	25355
+2018-03-16 00:54:07	system-j2	10.5281/zenodo.1199678	diegoa@cpqd.com.br	1432
+2018-03-16 00:59:42	system-j21	10.5281/zenodo.1199683	diegoa@cpqd.com.br	14637
+2018-03-16 01:50:15	Sys2	10.5281/zenodo.1199685	gsell@jhu.edu	58751
+2018-03-16 02:08:07	Sys4	10.5281/zenodo.1199687	gsell@jhu.edu	58751
+2018-03-16 02:20:16	Sys5	10.5281/zenodo.1199689	gsell@jhu.edu	58751
+2018-03-16 02:27:03	JFA_1	10.5281/zenodo.1199693	i.himawan@qut.edu.au	82936
+2018-03-16 03:48:42	test2_baseline	10.5281/zenodo.1199702	i.himawan@qut.edu.au	82936
+2018-03-16 07:40:05	ws-crR	10.5281/zenodo.1199975	mkunes@ntis.zcu.cz	25355
+2018-03-16 08:55:46	Hybrid	10.5281/zenodo.1200100	diego.castan@sri.com	68285
+2018-03-16 12:12:44	ws-cr-baseline	10.5281/zenodo.1200243	zzajic@ntis.zcu.cz	25355
+2018-03-16 12:38:26	Baseline	10.5281/zenodo.1200250	diego.castan@sri.com	68285
+2018-03-16 14:01:08	SYSTEM_1	10.5281/zenodo.1200442	hector.delgado@eurecom.fr	30064
+2018-03-16 14:01:10	RAW	10.5281/zenodo.1200441	leisun8@iflytek.com	18729
+2018-03-16 14:18:37	RAW	10.5281/zenodo.1200541	leisun8@iflytek.com	18729
+2018-03-16 14:33:54	front-end system1	10.5281/zenodo.1200622	leisun8@iflytek.com	18729
+2018-03-16 15:10:54	front-end system2	10.5281/zenodo.1200859	leisun8@iflytek.com	18729
+2018-03-16 15:43:33	dev-s2	10.5281/zenodo.1200944	mireia@fit.vutbr.cz	52569
+2018-03-16 15:49:30	front-end system2	10.5281/zenodo.1200884	leisun8@iflytek.com	18729
+2018-03-16 18:25:02	Hyb-Emb-BN	10.5281/zenodo.1201532	diego.castan@sri.com	68285
+2018-03-16 18:37:07	MH-crR	10.5281/zenodo.1201537	mkunes@ntis.zcu.cz	25355
+2018-03-16 18:39:52	ws-crR	10.5281/zenodo.1201538	mkunes@ntis.zcu.cz	25355
+2018-03-16 19:10:22	system-k6	10.5281/zenodo.1201552	diegoa@cpqd.com.br	14637
+2018-03-16 20:18:43	dev-s	10.5281/zenodo.1201631	mireia@fit.vutbr.cz	52569
+2018-03-16 20:22:59	system-k6	10.5281/zenodo.1201643	diegoa@cpqd.com.br	14637
+2018-03-16 20:36:33	SYSTEM_4	10.5281/zenodo.1201746	hector.delgado@eurecom.fr	30064
+2018-03-16 20:37:14	SYSTEM_5	10.5281/zenodo.1201754	hector.delgado@eurecom.fr	30064
+2018-03-16 20:39:35	dev-s2	10.5281/zenodo.1201781	mireia@fit.vutbr.cz	52569
+2018-03-17 00:53:31	system-k4	10.5281/zenodo.1202063	diegoa@cpqd.com.br	14637
+2018-03-17 08:21:44	ws-cr	10.5281/zenodo.1202088	mkunes@ntis.zcu.cz	25355
+2018-03-17 08:24:35	ws-crR	10.5281/zenodo.1202089	mkunes@ntis.zcu.cz	25355
+2018-03-17 09:06:52	RAW	10.5281/zenodo.1202091	leisun8@iflytek.com	18729
+2018-03-17 10:24:23	test2_baseline	10.5281/zenodo.1202100	i.himawan@qut.edu.au	82936
+2018-03-17 12:17:12	RAW	10.5281/zenodo.1202122	leisun8@iflytek.com	18729
+2018-03-17 12:32:16	front-end system2	10.5281/zenodo.1202131	leisun8@iflytek.com	18729
+2018-03-17 12:50:13	front-end system2	10.5281/zenodo.1202143	leisun8@iflytek.com	18729
+2018-03-17 13:16:43	front-end system1	10.5281/zenodo.1202157	leisun8@iflytek.com	18729
+2018-03-17 13:41:25	front-end system1	10.5281/zenodo.1202167	leisun8@iflytek.com	18729
+2018-03-17 19:05:47	dev-s2	10.5281/zenodo.1202195	mireia@fit.vutbr.cz	52569
+2018-03-17 19:41:08	MH-crR	10.5281/zenodo.1202213	mkunes@ntis.zcu.cz	25355
+2018-03-17 20:19:55	Sys2	10.5281/zenodo.1202220	gsell@jhu.edu	58751
+2018-03-17 22:34:39	BASELINE_dev	10.5281/zenodo.1202246	mireia@fit.vutbr.cz	52569
+2018-03-17 22:51:42	dev-s	10.5281/zenodo.1202249	mireia@fit.vutbr.cz	52569
+2018-03-17 23:11:40	Hyb-Emb-BN	10.5281/zenodo.1202245	mitchell.mclaren@sri.com	68285
+2018-03-18 00:08:18	ws-crR	10.5281/zenodo.1202254	mkunes@ntis.zcu.cz	25355
+2018-03-18 00:09:46	ws-cr	10.5281/zenodo.1196632	mkunes@ntis.zcu.cz	25355
+2018-03-18 00:57:39	system-l6	10.5281/zenodo.1202258	diegoa@cpqd.com.br	14637
+2018-03-18 01:00:04	system-k4	10.5281/zenodo.1202260	diegoa@cpqd.com.br	14637
+2018-03-18 01:25:50	Sys4	10.5281/zenodo.1202266	gsell@jhu.edu	58751
+2018-03-18 01:26:27	system-j21	10.5281/zenodo.1202264	diegoa@cpqd.com.br	14637
+2018-03-18 01:27:43	Sys5	10.5281/zenodo.1202268	gsell@jhu.edu	58751
+2018-03-18 01:31:50	Sys4	10.5281/zenodo.1202270	gsell@jhu.edu	58751
+2018-03-18 01:33:10	Sys5	10.5281/zenodo.1202272	gsell@jhu.edu	58751
+2018-03-18 09:16:43	test2_baseline	10.5281/zenodo.1202304	i.himawan@qut.edu.au	82936
+2018-03-18 14:28:09	front-end system1	10.5281/zenodo.1202334	leisun8@iflytek.com	18729
+2018-03-18 14:42:45	front-end system1	10.5281/zenodo.1202340	leisun8@iflytek.com	18729
+2018-03-18 14:45:06	ws-crR	10.5281/zenodo.1202341	mkunes@ntis.zcu.cz	25355
+2018-03-18 14:46:29	SYSTEM_4	10.5281/zenodo.1202344	hector.delgado@eurecom.fr	30064
+2018-03-18 16:51:59	RAW	10.5281/zenodo.1202372	leisun8@iflytek.com	18729
+2018-03-18 16:54:58	RAW	10.5281/zenodo.1202375	leisun8@iflytek.com	18729
+2018-03-18 17:30:36	dev-s2	10.5281/zenodo.1202382	mireia@fit.vutbr.cz	52569
+2018-03-18 18:30:02	SYSTEM_1	10.5281/zenodo.1202386	hector.delgado@eurecom.fr	30064
+2018-03-18 18:30:10	ws-crR	10.5281/zenodo.1202385	mkunes@ntis.zcu.cz	25355
+2018-03-18 18:51:58	dev-s2	10.5281/zenodo.1202391	mireia@fit.vutbr.cz	52569
+2018-03-18 20:12:17	dev-s	10.5281/zenodo.1202408	mireia@fit.vutbr.cz	52569
+2018-03-18 20:50:49	dev-s3	10.5281/zenodo.1202427	mireia@fit.vutbr.cz	52569
+2018-03-18 21:07:43	dev-s3	10.5281/zenodo.1202438	mireia@fit.vutbr.cz	52569
+2018-03-19 00:23:00	system-i2	10.5281/zenodo.1202466	diegoa@cpqd.com.br	14637
+2018-03-19 06:57:46	test1_baseline	10.5281/zenodo.1202517	i.himawan@qut.edu.au	82936
+2018-03-19 10:22:24	front-end system1	10.5281/zenodo.1203199	leisun8@iflytek.com	18729
+2018-03-19 10:26:40	RAW_MFCC_13	10.5281/zenodo.1203201	hungshinlee@gmail.com	80065
+2018-03-19 10:56:58	RAW_MFCC_13	10.5281/zenodo.1203222	hungshinlee@gmail.com	80065
+2018-03-19 11:52:46	dev-s	10.5281/zenodo.1203240	mireia@fit.vutbr.cz	52569
+2018-03-19 14:28:12	IV_baseline	10.5281/zenodo.1203350	abbas.khosravani@gmail.com	69559
+2018-03-19 14:30:04	ws-crR	10.5281/zenodo.1203356	mkunes@ntis.zcu.cz	25355
+2018-03-19 14:30:11	front-end system2	10.5281/zenodo.1203359	leisun8@iflytek.com	18729
+2018-03-19 15:12:38	SYSTEM_4	10.5281/zenodo.1203479	hector.delgado@eurecom.fr	30064
+2018-03-19 15:40:54	dev-s	10.5281/zenodo.1203581	mireia@fit.vutbr.cz	52569
+2018-03-19 15:50:55	front-end system1	10.5281/zenodo.1203586	leisun8@iflytek.com	18729
+2018-03-19 16:05:52	front-end system2	10.5281/zenodo.1203595	leisun8@iflytek.com	18729
+2018-03-19 16:53:24	RAW	10.5281/zenodo.1203616	leisun8@iflytek.com	18729
+2018-03-19 17:03:35	BASELINE_dev	10.5281/zenodo.1203618	mireia@fit.vutbr.cz	52569
+2018-03-19 17:05:57	RAW	10.5281/zenodo.1203619	leisun8@iflytek.com	18729
+2018-03-19 18:29:30	REG_MFCC_13	10.5281/zenodo.1203667	hungshinlee@gmail.com	80065
+2018-03-19 18:57:48	SYSTEM_5	10.5281/zenodo.1203679	hector.delgado@eurecom.fr	30064
+2018-03-19 19:14:42	Sys1	10.5281/zenodo.1203682	gsell@jhu.edu	58751
+2018-03-19 19:18:45	ws-crR	10.5281/zenodo.1203683	mkunes@ntis.zcu.cz	25355
+2018-03-19 19:20:12	SYSTEM_4	10.5281/zenodo.1203684	hector.delgado@eurecom.fr	30064
+2018-03-19 19:22:23	ws-cr	10.5281/zenodo.1203685	mkunes@ntis.zcu.cz	25355
+2018-03-19 19:35:05	MH-crR	10.5281/zenodo.1203688	mkunes@ntis.zcu.cz	25355
+2018-03-19 21:15:41	dev-s2	10.5281/zenodo.1203717	mireia@fit.vutbr.cz	52569
+2018-03-19 21:31:50	Sys1	10.5281/zenodo.1203721	gsell@jhu.edu	58751
+2018-03-19 21:33:51	Sys5	10.5281/zenodo.1203723	gsell@jhu.edu	58751
+2018-03-19 22:00:12	dev-s3	10.5281/zenodo.1203730	mireia@fit.vutbr.cz	52569
+2018-03-19 22:17:28	dev-s2	10.5281/zenodo.1203732	mireia@fit.vutbr.cz	52569
+2018-03-19 22:42:23	Hyb-Emb-BN	10.5281/zenodo.1203735	mitchell.mclaren@sri.com	68285
+2018-03-20 00:13:08	Sys2	10.5281/zenodo.1203747	gsell@jhu.edu	58751
+2018-03-20 00:14:20	Sys4	10.5281/zenodo.1203749	gsell@jhu.edu	58751
+2018-03-20 00:15:29	Sys4	10.5281/zenodo.1203751	gsell@jhu.edu	58751
+2018-03-20 00:16:48	Sys5	10.5281/zenodo.1203753	gsell@jhu.edu	58751
+2018-03-20 00:47:13	system-l4	10.5281/zenodo.1203755	diegoa@cpqd.com.br	14637
+2018-03-20 01:33:00	system-j6	10.5281/zenodo.1203761	diegoa@cpqd.com.br	14637
+2018-03-20 02:19:16	system-l4	10.5281/zenodo.1203765	diegoa@cpqd.com.br	14637
+2018-03-20 06:16:51	Baseline_v2	10.5281/zenodo.1203813	abbas.khosravani@gmail.com	69559
+2018-03-20 07:36:32	COMBINE_MFCC_13	10.5281/zenodo.1203827	hungshinlee@gmail.com	80065
+2018-03-20 08:08:07	IRM_MFCC_13	10.5281/zenodo.1203833	hungshinlee@gmail.com	80065
+2018-03-20 08:11:16	ws-crR	10.5281/zenodo.1203834	mkunes@ntis.zcu.cz	25355
+2018-03-20 08:14:02	MH-crR	10.5281/zenodo.1203835	mkunes@ntis.zcu.cz	25355
+2018-03-20 09:39:17	dev-s	10.5281/zenodo.1203879	mireia@fit.vutbr.cz	52569
+2018-03-20 14:18:52	dev-s	10.5281/zenodo.1204303	mireia@fit.vutbr.cz	52569
+2018-03-20 15:48:36	MH-crR	10.5281/zenodo.1204342	mkunes@ntis.zcu.cz	25355
+2018-03-20 16:55:28	Baseline_v3	10.5281/zenodo.1204379	abbas.khosravani@gmail.com	69559
+2018-03-20 17:34:29	front-end system1	10.5281/zenodo.1204409	leisun8@iflytek.com	18729
+2018-03-20 17:49:21	front-end system1	10.5281/zenodo.1204431	leisun8@iflytek.com	18729
+2018-03-20 18:03:02	front-end system2	10.5281/zenodo.1204448	leisun8@iflytek.com	18729
+2018-03-20 18:11:34	front-end system2	10.5281/zenodo.1204446	leisun8@iflytek.com	18729
+2018-03-20 18:24:13	SYSTEM_4	10.5281/zenodo.1204461	hector.delgado@eurecom.fr	30064
+2018-03-20 18:43:50	SYSTEM_4	10.5281/zenodo.1204465	hector.delgado@eurecom.fr	30064
+2018-03-20 20:38:46	Sys2	10.5281/zenodo.1204545	gsell@jhu.edu	58751
+2018-03-20 21:16:09	dev-s2	10.5281/zenodo.1204611	mireia@fit.vutbr.cz	52569
+2018-03-20 21:48:22	Sys2	10.5281/zenodo.1204620	gsell@jhu.edu	58751
+2018-03-21 00:07:50	dev-s2	10.5281/zenodo.1204685	mireia@fit.vutbr.cz	52569
+2018-03-21 00:36:59	system-j2	10.5281/zenodo.120470	diegoa@cpqd.com.br	14637
+2018-03-21 00:41:11	system-j2	10.5281/zenodo.1204701	diegoa@cpqd.com.br	14637
+2018-03-21 00:58:21	Hyb-Emb-BN	10.5281/zenodo.1204706	mitchell.mclaren@sri.com	68285
+2018-03-21 08:33:00	dev-s	10.5281/zenodo.1204745	mireia@fit.vutbr.cz	52569
+2018-03-21 08:39:11	leap_system1	10.5281/zenodo.1194180	shobhana224@gmail.com	43575
+2018-03-21 08:57:26	ViVoLab_Baseline	10.5281/zenodo.1204763	ivinalsb@unizar.es	43462
+2018-03-21 09:09:49	SYSTEM_4	10.5281/zenodo.1204767	hector.delgado@eurecom.fr	30064
+2018-03-21 09:18:06	TEST	10.5281/zenodo.1204769	leisun8@iflytek.com	18729
+2018-03-21 09:26:32	REG_MFCC_13_DcAE_70_3	10.5281/zenodo.1204782	hungshinlee@gmail.com	80065
+2018-03-21 09:31:59	TEST	10.5281/zenodo.1204787	leisun8@iflytek.com	18729
+2018-03-21 10:28:56	REG_MFCC_13_DcAE_70_3	10.5281/zenodo.1204823	hungshinlee@gmail.com	80065
+2018-03-21 11:11:55	front-end system1	27 10.5281/zenodo.1204861	leisun8@iflytek.com	18729
+2018-03-21 11:16:58	front-end system1	10.5281/zenodo.1204861	leisun8@iflytek.com	18729
+2018-03-21 11:21:21	sys1	10.5281/zenodo.1204862	abbas.khosravani@gmail.com	69559
+2018-03-21 11:34:07	front-end system1	10.5281/zenodo.1204865	leisun8@iflytek.com	18729
+2018-03-21 11:49:34	Sys2	10.5281/zenodo.1204869	gsell@jhu.edu	58751
+2018-03-21 12:34:13	leap_system1	10.5281/zenodo.1204894	shobhana224@gmail.com	43575
+2018-03-21 12:45:30	leap_system1	10.5281/zenodo.1204908	shobhana224@gmail.com	43575
+2018-03-21 13:32:24	sys1	10.5281/zenodo.1204927	abbas.khosravani@gmail.com	69559
+2018-03-21 13:35:16	System_1_mbp	10.5281/zenodo.1194188	shobhana224@gmail.com	43575
+2018-03-21 13:53:53	REG_MFCC_13	10.5281/zenodo.1204932	hungshinlee@gmail.com	80065
+2018-03-21 14:55:53	front-end system2	10.5281/zenodo.1204952	leisun8@iflytek.com	18729
+2018-03-21 15:10:07	front-end system2	10.5281/zenodo.1204957	leisun8@iflytek.com	18729
+2018-03-21 16:19:45	SYSTEM_4	10.5281/zenodo.1204997	hector.delgado@eurecom.fr	30064
+2018-03-21 16:20:47	SYSTEM_5	10.5281/zenodo.1205000	hector.delgado@eurecom.fr	30064
+2018-03-21 17:06:19	dev-s2	10.5281/zenodo.1205028	mireia@fit.vutbr.cz	52569
+2018-03-21 18:05:58	MH-crR	10.5281/zenodo.1205053	mkunes@ntis.zcu.cz	25355
+2018-03-21 18:32:16	diartk-gold	10.5281/zenodo.1205034	riebling@gmail.com	 53624
+2018-03-21 18:32:44	diartk-ldc	10.5281/zenodo.1205055	riebling@gmail.com	 53624
+2018-03-21 18:42:57	diartk-noisemes	10.5281/zenodo.1205072	riebling@gmail.com	 53624
+2018-03-21 19:17:46	dev-s2	10.5281/zenodo.1205083	mireia@fit.vutbr.cz	52569
+2018-03-21 20:09:46	VivoLab Sys 2	10.5281/zenodo.1205108	ivinalsb@unizar.es	43462
+2018-03-21 20:12:03	VivoLab Sys 3	10.5281/zenodo.1205112	ivinalsb@unizar.es	43462
+2018-03-21 22:41:18	system-j2	10.5281/zenodo.1205147	diegoa@cpqd.com.br	14637
+2018-03-21 23:49:43	system-l6	10.5281/zenodo.1205150	diegoa@cpqd.com.br	14637
+2018-03-22 00:11:22	Hyb-Emb-BN	10.5281/zenodo.1205152	mitchell.mclaren@sri.com	68285
+2018-03-22 00:54:37	dev-s4	10.5281/zenodo.1205158	mireia@fit.vutbr.cz	52569
+2018-03-22 00:57:51	dev-s4	10.5281/zenodo.1205161	mireia@fit.vutbr.cz	52569
+2018-03-22 00:59:48	Hybrid-Multi	10.5281/zenodo.1205163	mitchell.mclaren@sri.com	68285
+2018-03-22 01:41:51	RAW	10.5281/zenodo.1205174	leisun8@iflytek.com	18729
+2018-03-22 02:14:37	Hybrid-Multi	10.5281/zenodo.1205177	mitchell.mclaren@sri.com	68285
+2018-03-22 04:15:31	TEST	10.5281/zenodo.1205190	leisun8@iflytek.com	18729
+2018-03-22 05:34:30	REG_MFCC_13	10.5281/zenodo.1205199	hungshinlee@gmail.com	80065
+2018-03-22 10:51:56	BASELINE	10.5281/zenodo.1193762	hector.delgado@eurecom.fr	30064
+2018-03-22 11:51:20	leap_system1	10.5281/zenodo.1205294	shobhana224@gmail.com	43575
+2018-03-22 12:53:14	SYSTEM_3	10.5281/zenodo.1205323	hector.delgado@eurecom.fr	30064
+2018-03-22 14:23:44	front-end system2	10.5281/zenodo.1205461	leisun8@iflytek.com	18729
+2018-03-22 14:49:55	VivoLab Sys 2	10.5281/zenodo.1205473	ivinalsb@unizar.es	43462
+2018-03-22 14:52:54	VivoLab Sys 3	10.5281/zenodo.1205477	ivinalsb@unizar.es	43462
+2018-03-22 15:26:05	Hyb-Emb-BN	10.5281/zenodo.1205491	mitchell.mclaren@sri.com	68285
+2018-03-22 15:28:20	SYSTEM_4	10.5281/zenodo.1204767	hector.delgado@eurecom.fr	30064
+2018-03-22 16:40:57	dev-s4	10.5281/zenodo.1205516	mireia@fit.vutbr.cz	52569
+2018-03-22 17:04:18	dev-s4	10.5281/zenodo.1205526	mireia@fit.vutbr.cz	52569
+2018-03-22 17:06:59	TEST	10.5281/zenodo.1205528	leisun8@iflytek.com	18729
+2018-03-22 19:18:36	Sys2	10.5281/zenodo.1205595	gsell@jhu.edu	58751
+2018-03-22 19:42:24	dev-s2	10.5281/zenodo.1205599	mireia@fit.vutbr.cz	52569
+2018-03-22 19:47:24	Sys4	10.5281/zenodo.1205604	gsell@jhu.edu	58751
+2018-03-22 19:48:42	Sys5	10.5281/zenodo.1205606	gsell@jhu.edu	58751
+2018-03-22 21:27:46	dev-s2	10.5281/zenodo.1205647	mireia@fit.vutbr.cz	52569
+2018-03-23 00:34:18	system-i2	10.5281/zenodo.1205691	diegoa@cpqd.com.br	14637
+2018-03-23 00:41:25	system-k6	10.5281/zenodo.1205697	diegoa@cpqd.com.br	14637
+2018-03-23 09:06:17	DEV_1	10.5281/zenodo.1205784	hector.delgado@eurecom.fr	30064
+2018-03-23 09:08:36	DEV_2	10.5281/zenodo.1205790	hector.delgado@eurecom.fr	30064
+2018-03-23 09:18:00	VivoLab Sys 4	10.5281/zenodo.1205792	ivinalsb@unizar.es	43462
+2018-03-23 10:15:53	test2_baseline	10.5281/zenodo.1205865	i.himawan@qut.edu.au	82936
+2018-03-23 14:09:55	MH-crR	10.5281/zenodo.1206070	mkunes@ntis.zcu.cz	25355
+2018-03-23 14:19:43	MH-crR	10.5281/zenodo.1205053	mkunes@ntis.zcu.cz	25355
+2018-03-23 15:16:17	ViVoLab_Baseline	10.5281/zenodo.1206111	ortega@unizar.es	43462
+2018-03-23 15:18:21	VivoLab Sys 1	10.5281/zenodo.1206113	ortega@unizar.es	43462
+2018-03-23 15:19:47	VivoLab Sys 2	10.5281/zenodo.1206117	ortega@unizar.es	43462
+2018-03-23 15:21:35	VivoLab Sys 3	10.5281/zenodo.1206119	ortega@unizar.es	43462
+2018-03-23 15:41:28	sys1	10.5281/zenodo.1206126	abbas.khosravani@gmail.com	69559
+2018-03-23 18:00:23	dev-s2	10.5281/zenodo.1206186	mireia@fit.vutbr.cz	52569
+2018-03-23 18:27:29	dev-s5	10.5281/zenodo.1206190	mireia@fit.vutbr.cz	52569
+2018-03-23 18:45:42	dev-s5	10.5281/zenodo.1206192	mireia@fit.vutbr.cz	52569
+2018-03-23 18:58:48	system-k4	10.5281/zenodo.1206194	diegoa@cpqd.com.br	14637
+2018-03-23 19:09:16	system-g6	10.5281/zenodo.1206199	diegoa@cpqd.com.br	14637
+2018-03-23 19:18:43	system-j21	10.5281/zenodo.1206205	diegoa@cpqd.com.br	14637
+2018-03-23 19:21:08	dev-s2	10.5281/zenodo.1206206	mireia@fit.vutbr.cz	52569
+2018-03-23 19:51:05	dev-s6	10.5281/zenodo.1206216	mireia@fit.vutbr.cz	52569
+2018-03-23 20:00:48	RAW	10.5281/zenodo.1206219	leisun8@iflytek.com	18729
+2018-03-23 20:02:40	Sys1	10.5281/zenodo.1206221	gsell@jhu.edu	58751
+2018-03-23 20:21:52	System_1_mbp	10.5281/zenodo.1206226	shobhana224@gmail.com	43575
+2018-03-23 20:59:26	sys1	10.5281/zenodo.1204862	abbas.khosravani@gmail.com	69559
+2018-03-23 21:00:54	CRIM2	10.5281/zenodo.1206236	vishwa.gupta@crim.ca	59005
+2018-03-23 21:10:19	CRIM2	10.5281/zenodo.1206243	vishwa.gupta@crim.ca	59005
+2018-03-23 21:37:41	RAW	10.5281/zenodo.1206251	leisun8@iflytek.com	18729
+2018-03-23 22:23:06	System_1_mbp	10.5281/zenodo.1206274	shobhana224@gmail.com	43575
+2018-03-23 22:35:37	Hybrid-Multi2	10.5281/zenodo.1206282	diego.castan@sri.com	68285
+2018-03-23 23:03:54	TEST	10.5281/zenodo.1206289	leisun8@iflytek.com	18729
+2018-03-23 23:15:12	TEST	10.5281/zenodo.1206290	leisun8@iflytek.com	18729
+2018-03-23 23:19:06	front-end system2	10.5281/zenodo.1206291	leisun8@iflytek.com	18729
+2018-03-23 23:49:56	dev-s6	10.5281/zenodo.1206295	mireia@fit.vutbr.cz	52569
+2018-03-23 23:56:23	front-end system2	10.5281/zenodo.1206300	leisun8@iflytek.com	18729
+2018-03-23 23:58:50	system-l4	10.5281/zenodo.1206299	diegoa@cpqd.com.br	14637
+2018-03-24 01:27:02	LateSys	10.5281/zenodo.1206311	mireia@fit.vutbr.cz	52569
+2018-03-26 00:36:09	system1	10.5281/zenodo.1207281	i.himawan@qut.edu.au	82936

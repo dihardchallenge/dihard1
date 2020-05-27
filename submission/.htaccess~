@@ -1,0 +1,4 @@
+AuthName "dihardchallenge"
+AuthType Basic
+AuthUserFile "dihard/submission/.htpasswd"
+Require valid-user

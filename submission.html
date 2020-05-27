@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>DIHARD Challenge</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- StyleSheet -->
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/custom.min.css">
+    <link rel="stylesheet" href="./css/flaty.css">
+    <!-- SCRIPT -->
+    <script src="./js/dihard.js"></script>
+</head>
+
+<body>
+    <div class="page-header" id="banner">
+        <center>
+            <div class="my4" style="max-width: 69rem;background-color:pink;padding-left:20px;padding-right:20px">
+                <h4 class="card-title" align="justify">
+                    <br>
+        Submissions to the first DIHARD challenge are now closed. For full results as well as system descriptions, please see the <a href="results.php" style="color:blue">results page</a>.
+         <br><br>
+       </h4>
+            </div>
+        </center>
+    </div>
+    <div class="container">
+        <!-- Navbar -->
+        <div class="bs-docs-section clearfix">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+                <a class="navbar-brand" href="index.html">DIHARD</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="true" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse show" id="navbarColor01">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="overview.html">
+                                <font size="4">Overview </font>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="data.html">
+                                <font size="4">Data </font>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="instructions.html">
+                                <font size="4">Instructions </font>
+                            </a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="submission.html">
+                                <font size="4">Submissions </font><span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="results.php">
+                                <font size="4">Results </font>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">
+                                <font size="4">Contact Us </font>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <!-- Navbar -->
+        <!-- Content -->
+        <div class="jumbotron">
+            <h1>Instructions for participants’ submissions to Zenodo </h1>
+            <hr class="my-4">
+            <p align="justify">
+                In order to have your system results processed by the scoring server, you will need to create a tarball and upload it to Zenodo. The following instructions will guide you through this process:
+            </p>
+            <div class="card border-primary mb-3" style="max-width: 70rem;">
+                <div class="card-header">
+                    <h2 class="card-title">1. Diarization results directory format</h2>
+                </div>
+                <div class="card-body text-primary">
+                    <ul>
+                        <li>
+                            The DIHARD Challenge has two tracks (<a href="https://coml.lscp.ens.fr/dihard/overview.html">
+                    https://coml.lscp.ens.fr/dihard/overview.html</a>)
+                            <ul>
+                                <br>
+                                <li>Track1: Diarization from gold SAD</li>
+                                <li>Track2: Diarization from scratch</li>
+                                <br>
+                            </ul>
+                            Each participating team is registered for for at least one track. System output for each track should be stored in a directory of RTTM files containing one RTTM file for each FLAC file in the eval set with the basename identical to the FLAC file save for extension. For instance:
+                            <br>
+                            <pre><code>
+        DH_0001.rttm
+        DH_0002.rttm
+        …
+        DH_0164.rttm
+
+</code></pre> RTTMs should be present for <b>ALL</b> FLAC files. If any RTTMs are missing your submission will <b>NOT</b> be scored.</li>
+                        <br>
+                        <li>These output directories will be submitted as a <em>.tar.gz</em> archive with the following structure:
+                            <pre><code>
+        track1/
+            DH_0001.rttm
+            DH_0002.rttm
+            …
+            DH_0164.rttm
+        track2/
+            DH_0001.rttm
+            DH_0002.rttm
+            …
+            DH_0164.rttm
+
+</code></pre> If participating in only one track, then only that track’s directory should be present.
+                        </li>
+                        <br>
+                        <li> Examples of valid <i>.tar.gz</i> archives for the evaluation set:
+                            <ul>
+                                <li>valid submission for track 1 only: <a href="submission_egs/valid_track1_submission.tar.gz">valid_track1_submission.tar.gz<a></li>
+                    <li>valid submission for track 2 only: <a href="submission_egs/valid_track2_submission.tar.gz">valid_track2_submission.tar.gz<a></li>
+                    <li>valid submission for tracks 1 and 2: <a href="submission_egs/valid_track1_track2_submission.tar.gz">valid_track1_track2_submission.tar.gz<a></li>
+                  </ul>
+                </li><br>
+                <li>
+                  To validate the RTTMs in your submission before creating the tarball, use the <i>validate_rttm.py</i> script from the <a href="https://github.com/nryant/dscore">dscore repo</a> with the command:
+                                    <pre>
+                    <code>
+        python validate_rttm.py rec1.rttm rec2.rttm ...</code>
+                  </pre>
+                                </li>
+                                <li>To validate your <i>.tar.gz</i> archive's directory strucure, use the <a href="submission_egs/validate_archive.py">validate_archive.py</a> script with the command:
+                                    <pre>
+                      <code>
+        python validate_archive.py submission.tar.gz</code>
+                    </pre>
+                                </li>
+                            </ul>
+                </div>
+            </div>
+            <hr class="my-4">
+            <div class="card border-primary mb-3" style="max-width: 70rem;">
+                <div class="card-header">
+                    <h2 class="card-title">2. Archive submission for a new system</h2>
+                </div>
+                <div class="card-body text-primary">
+                    <ul>
+                        <li>
+                            Create an account with <a href="https://zenodo.org/signup">Zenodo</a>. This step only needs to be done once (i.e., additional submissions are done with the extant account.)
+                        </li>
+                        <br>
+                        <li>Upload your <em>.tar.gz</em> archive to the <a href="https://zenodo.org/communities/dihard2018/?page=1&size=20">DIHARD Zenodo community.</a>
+                        </li>
+                        <ul>
+                            <li>For upload type, select <b>Dataset</b>.</li>
+                            <li>Enter your team name (this is the name you registered the DIHARD challenge under) under the <b>Authors</b> section. </li>
+                            <li>Enter your system name under <b>Title</b>.</li>
+                            <li>Enter any additional details you desire under <b>Description</b>.</li>
+                            <li>Pre-reserve a DOI by clicking <b>Reserve DOI</b>. The DOI will be a string in the format of <b>10.SERV/DATACITE</b>, where <b>SERV</b> is numeric value for the DOI provider and <b>DATACITE</b> is your data alphanumeric string id (e.g., “10.5281/zenodo.1183345”). Retain this DOI for later as it will be needed for the submission form on the DIHARD website.
+                            </li>
+                            <li>Select “Open Access” for <b>Access right</b> (this is the default).
+                                <br>
+                                <br>
+                                <font color="red"><b>IMPORTANT:</b></font> You <b>MUST</b> perform this step as directed. If you select anything other than “Open Access” the cronjobs that download and score submissions will not be able to access your archive.
+                                <br>
+                                <br>
+                            <li>Click <b>Save</b>.</li>
+                            <li>Click <b>Publish</b>.</li>
+                            <li>Your <em>.tar.gz</em> archive will now be available on Zenodo and publicly viewable. Please be careful as at this point it can only be deleted by emailing Zenodo.</li>
+                            <li>Submit your DOI via the DIHARD website (details below).</li>
+                            <br>
+                        </ul>
+                        <li>Fill out the submission form on the DIHARD website</li>
+                        <ul>
+                            <li>Navigate to <a href="https://coml.lscp.ens.fr/dihard/submission.html#subform">Submission Form</a>.</li>
+                            <li>Under <b>System Name</b> enter the name of the system you are submitting results for.</li>
+                            <li>Under <b>DOI</b> enter the FULL DOI you obtained in step 3 (e.g., “10.5281/zenodo.1183345”).</li>
+                            <li>Under <b>Email address</b> enter the email address that the scoring server should send your scores to.</li>
+                            <li>Under <b>PIN</b> enter the 5-digit PIN that your team was assigned.</li>
+                            <br>
+                        </ul>
+                        <li>Wait for your results</li>
+                        <ul>
+                            <li>The evaluation results will be sent to you by email (at the email you included on the submission form) and published within one hour on the <a href="https://coml.lscp.ens.fr/dihard/results.php">DIHARD results page</a>.</li>
+                            <li>If your submission could not be scored (missing track directories, missing RTTMs, invalid RTTMs, etc), an email with the relevant error messages will be sent instead.</li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+            <hr class="my-4">
+            <div class="card border-primary mb-3" style="max-width: 70rem;">
+                <div class="card-header">
+                    <h2 class="card-title">3. Archive submission for an existing system</h2>
+                </div>
+                <div class="card-body text-primary">
+                    <ul>
+                        <li>
+                            Upload your <em>.tar.gz</em> archive as new version of an existing Zenodo record</li>
+                        <ul>
+                            <li>Navigate to the Zenodo record page for the existing system. To see a list of all records you have created, navigate to <a href="https://www.zenodo.org/deposit">https://www.zenodo.org/deposit</a>.</li>
+                            <li>Click <b>New version</b>. </li>
+                            <li>Upload the new <em>.tar.gz</em> archive.</li>
+                            <li>Record the DOI listed under <b>Digital Object Identifier</b>. Each version gets a new DOI.</li>
+                            <li>Click <b>Save</b>.</li>
+                            <li>Click <b>Publish</b>.</li>
+                            <br>
+                        </ul>
+                        <li>Fill out the submission form on the DIHARD website.</li>
+                        <ul>
+                            <li>Follows the instructions from step 2, but remember to use the <b>NEW DOI</b> you recorded when uploading the new version.</li>
+                        </ul>
+                        <li>Wait for your results</li>
+                    </ul>
+                </div>
+            </div>
+            <br>
+            <h1>Rules</h1>
+            <hr class="my-4">
+            <ul>
+                <li>Each team is limited to <b>two</b> submissions per system per day, where a day is defined as beginning at midnight GMT. Submissions past the first two will be ignored. </li>
+                <br>
+                <li>Submissions that are not scored due to being invalid do not count against this limit.</li>
+                <br>
+                <li>In the case of teams registered for both tracks 1 and 2, partial submissions -- that is, submissions containing results for only a single track -- will be scored, though they count the same against this daily limit as a submission containing results for both tracks.</li>
+                <br>
+                <li>There is currently no cap on how many total submissions a team may make per day as long as they submit no more than two per system. Please do not abuse this by creating identical or near identical systems to get around the two per day limit. If it is discovered that this is happening, we will be forced to impose a cap on total submissions.
+                </li>
+                <br>
+            </ul>
+            <hr class="my-4">
+        </div>
+        <!-- Content -->
+    </div>
+</body>
+
+</html>

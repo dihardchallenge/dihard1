@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>DIHARD Challenge</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- StyleSheet -->
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/custom.min.css">
+    <link rel="stylesheet" href="./css/flaty.css">
+    <!-- SCRIPT -->
+    <script src="./js/dihard.js"></script>
+</head>
+
+<body>
+<div class="page-header" id="banner">
+    <center>
+        <div class="my4" style="max-width: 69rem;background-color:pink;padding-left:20px;padding-right:20px">
+            <h4 class="card-title" align="justify">
+                    <br>
+         The first DIHARD challenge is now complete. We would like to thank all teams that participated in the challenge and at the special session an Interspeech 2018 for making it a success. For full results as well as system descriptions, please see the <a href="results.php" style="color:blue">results page</a>. Development and test sets are in the process of being published through <a href="https://www.ldc.upenn.edu/" style="color:blue">LDC</a>.
+         <br><br>
+       </h4>
+        </div>
+    </center>
+</div>
+    <div class="container">
+        <!-- Navbar -->
+        <div class="bs-docs-section clearfix">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+                <a class="navbar-brand" href="index.html">DIHARD</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="true" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse show" id="navbarColor01">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="overview.html">
+                                <font size="4">Overview </font>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="data.html">
+                                <font size="4">Data </font>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="instructions.html">
+                                <font size="4">Instructions </font>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="submission.html">
+                                <font size="4">Submissions </font>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="results.php">
+                                <font size="4">Results </font>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">
+                                <font size="4">Contact Us </font>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <!-- Navbar -->
+        <!-- Content -->
+        <div class="jumbotron">
+            <h1>The First DIHARD Speech Diarization Challenge</h1>
+            <hr class="my-4">
+            <p class="lead" align="justify">DIHARD is a new annual challenge focusing on “hard” diarization; that is, speech diarization for challenging corpora where there is an expectation that the current state-of-the-art will fare poorly, including, but not limited to:</p>
+            <ul>
+                <li style="font-size:18px">clinical interviews</li>
+                <li style="font-size:18px">extended child language acquisition recordings</li>
+                <li style="font-size:18px">YouTube videos</li>
+                <li style="font-size:18px">“speech in the wild” (e.g., recordings in restaurants)</li>
+            </ul>
+            <p class="lead" align="justify">Because the performance of a diarization system is highly dependent on the quality of the speech activity detection (SAD) system used, the challenge will have two tracks:</p>
+            <ul>
+                <li style="font-size:18px">Track 1: diarization beginning from gold speech segmentation </li>
+                <li style="font-size:18px">Track 2: diarization from scratch </li>
+            </ul>
+            <p class="lead" align="justify">The results of this initial challenge will be presented at a special session at <a href="http://interspeech2018.org/" target="_top">Interspeech 2018</a> in Hyderabad.</p>
+            <p class="lead" align="justify">For questions not answered in this document or to join the DIHARD mailing list, please contact <a href="mailto:dihardchallenge@gmail.com" target="_top">dihardchallenge@gmail.com</a></p>
+            <br>
+            <br>
+            <br>
+            <h2><b>Important dates</b></h2>
+            <hr class="my-4">
+            <table class="table table-hover">
+                <tbody>
+                    <tr class="table-success">
+                        <td>
+                            <li>
+                                <font size="4">Registration period – <u>January 30 through February 23, 2018</u></font>
+                            </li>
+                        </td>
+                    </tr>
+                    <tr class="table-success">
+                        <td>
+                            <li>
+                                <font size="4">Dev set release – <u>February 1, 2018</u></font>
+                        </td>
+                    </tr>
+                    <tr class="table-success">
+                        <td>
+                            <li>
+                                <font size="4">Eval set release – <u>February 26, 2018</u></font>
+                        </td>
+                    </tr>
+                    <tr class="table-success">
+                        <td>
+                            <li>
+                                <font size="4">Interspeech abstract submission – <u>March 16, 2018</u></font>
+                        </td>
+                    </tr>
+                    <tr class="table-success">
+                        <td>
+                            <li>
+                                <font size="4">Interspeech paper submission/final system outputs – <u>March 23, 2018</u></font>
+                        </td>
+                    </tr>
+                    <tr class="table-success">
+                        <td>
+                            <li>
+                                <font size="4">Final system descriptions – <u>March 31, 2018</u></font>
+                        </td>
+                    </tr>
+                    <tr class="table-success">
+                        <td>
+                            <li>
+                                <font size="4">Interspeech 2018 special session – <u>September, 2018</u></font>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <p class="lead" align="justify">
+                The deadline for submission of final system outputs corresponds to the Interspeech deadline (<a href="https://www.timeanddate.com/countdown/generic?p0=769&iso=20180324T00&year=2018&month=3&day=24&hour=0&min=0&sec=0&msg=DIHARD%20Submission%20Deadline">March 23, 2018 midnight GMT</a>).
+            </p>
+            <br>
+            <br>
+            <br>
+            <h2><b>Organizers</b></h2>
+            <hr class="my-4">
+            <center>
+                <h5><b><a href="javascript:void(0)" onclick="hideshow('church')" id="kenneth">Kenneth Church </a></b><br>(Baidu)</h5>
+            </center>
+            <p align="justify" id="church" style="display:none">
+                Kenneth Church has worked on many topics in computational linguistics including: web search, language modeling, text analysis, spelling correction, word-sense disambiguation, terminology, translation,lexicography, compression, speech (recognition, synthesis &amp; diarization), OCR, as well as applications that go well beyond computational linguistics such as revenue assurance and virtual integration (using screen scraping and web crawling to integrate systems that traditionally don’t talk together as well as they could such as billing and customer care). He enjoys working with large corpora such as the Associated Press newswire (1 million words per week) and even larger datasets such as telephone calldetail (1-10 billion records per month) and web logs. He earned his undergraduate and graduate de-grees from MIT, and has worked at AT&amp;T, Microsoft, Hopkins and IBM. He was the president of ACLin 2012, and SIGDAT (the group that organizes EMNLP) from 1993 until 2011. He became an AT&amp;T Fellow in 2001.</p>
+            <br>
+            <center>
+                <h5><b><a href="javascript:void(0)" onclick="hideshow('cieri')" id="christopher">Christopher Cieri</a></b><br>(Linguistic Data Consortium)</h5>
+            </center>
+            <p align="justify" id="cieri" style="display:none">Christopher Cieri was trained as a linguist working principally on language contact and variation in phonology. More recently, he has worked at the intersection of corpus building, linguistic analysis and human language technology development and evaluation. In 1998, he became Executive Directory of the Linguistic Data Consortium (LDC), where he oversees LDC operations including the creation and distribution of hundreds of databases. His recent work focuses on social dimensions of linguistic variation, corpus building for clinical applications and the science of human linguistic annotation, especially the impact of incentives and workflows.</p>
+            <br>
+            <center>
+                <h5><b><a href="javascript:void(0)" onclick="hideshow('cristia')" id="alejandrina">Alejandrina Cristia</a></b><br>(Laboratoire de Sciences Cognitives et Psycholinguistique)</h5>
+            </center>
+            <p align="justify" id="cristia" style="display:none">Alejandrina Cristia received her PhD in Linguistics from Purdue University and did post-doctoral work on neuroimaging at the Max Planck Institute for Psycholinguistics before joining the French CNRS as a Researcher in 2013. Her publications include 45 journal articles (e.g.,<i>Psychological Science</i>i>; <i>Child Development</i>i>; average impact factor 2.8) and 16 conference proceeding articles (including a best short paper award from ACL 2017; h-index scholar.google.com: 18). She is the French PI for the “Analyzing Children’s Language Environments across the World” (sites.google.com/site/aclewdid) project,which is developing cross-linguistically valid annotations and automatized analysis routines for daylong audio-recordings gathered from young children.
+            </p>
+            <br>
+            <center>
+                <h5><b><a href="javascript:void(0)" onclick="hideshow('du')" id="jun">Jun Du</a></b><br>(University of Science and Technology of China)</h5>
+            </center>
+            <p align="justify" id="du" style="display:none">Jun Du received the B.Eng. and Ph.D. degrees from the Department of Electronic Engineering and Information Science, University of Science and Technology of China (USTC), Hefei, China, in 2004 and 2009, respectively. From July 2009 to June 2010, he worked with iFlytek Research. From July 2010 toJanuary 2013, he joined Microsoft Research Asia as an associate researcher. Since February 2013, hehas been with USTC as an associate professor. His research interests include speech signal processingand pattern recognition. He has published more than 80 conference and journal papers with 1000+citations in Google Scholar.</p>
+            <br>
+            <center>
+                <h5><b><a href="javascript:void(0)" onclick="hideshow('ganapathy')" id="sriram">Sriram Ganapathy</a></b><br>(Indian Institute of Science)</h5>
+            </center>
+            <p align="justify" id="ganapathy" style="display:none">Dr. Sriram Ganapathy is an Assistant Professor at the Electrical Engineering Dept., Indian Institute of Science, Bangalore and he leads the activities of the learning and extraction of acoustic patterns(LEAP) laboratory. Before joining as a faculty member in early 2016, he spent 4 years as a Research Staff Member at the IBM T.J. Watson Research Center in Yorktown Heights, NY, USA. He obtainedhis PhD from the Center for Language and Speech Processing (CLSP), Johns Hopkins University, USA. Over the past 10 years, Dr. Ganapathy has published over 60 articles in leading international journals and conferences along with a number of patents. Dr. Ganapathy also won the best tutorial speakeraward in Interspeech 2014 and the Pratiksha Young Investigator award in 2017. Dr. Ganapathy is a member of the International Speech Communication Association (ISCA) and a senior member ofthe IEEE signal processing society. His research interests are in signal processing, machine learning, deep learning and neuroscience with applications to robust speech recognition, speech enhancementand audio analytics including biometrics.</p>
+            <br>
+            <center>
+                <h5><b><a href="javascript:void(0)" onclick="hideshow('liberman')" id="mark">Mark Liberman</a></b><br>(Linguistic Data Consortium)</h5>
+            </center>
+            <p align="justify" id="liberman" style="display:none">Mark Liberman trained as a phonetician and has worked in many areas including: corpus-based phonetics; speech and language technology; the phonology and phonetics of lexical tone, and its relationship to intonation; gestural, prosodic, morphological and syntactic ways of marking focus, and their usein discourse; formal models for linguistic annotation; information retrieval and information extraction from text. He was an undergraduate at Harvard and earned a PhD at MIT, before moving on to AT&amp;T Bell Labs from 1975 to 1990. Since 1990 he has served as the Trustee Professor of Phonetics at the University of Pennsylvania. In 1992 he helped found the Linguistic Data Consortium (LDC), whoseefforts have fueled the development and advancement of human language technology (HLT), including speech and speaker recognition, machine translation, and semantic analyses. Today, the LDC is the largest developer of shared language resources in the world, distributing more than 120,000 copies of over 2,000 databases covering 91 different languages to more than 3,600 organizations in over 70 countries.</p>
+            <br>
+            <center>
+                <h5><b><a href="javascript:void(0)" onclick="hideshow('ryant')" id="neville">Neville Ryant</a></b><br>(Linguistic Data Consortium)</h5>
+            </center>
+            <p align="justify" id="ryant" style="display:none">Neville Ryant is a researcher at the Linguistic Data Consortium (LDC) at the University of Pennsylvania, where he has worked on many topics in speech recognition including: forced alignment, speech activity detection, large scale corpus linguistics, computational paralinguistics, and automated analysis of tone. He has also supported LDC’s annotation efforts through the development of new tools for named entity recognition, sentence segmentation, and comparable corpora construction for low resource languages. He did his undergraduate and graduate studies at the University of Pennsylvania, where he focused on formal semantics and the neural basis of natural language quantifiers.</p>
+            <br>
+            <p align="justify">
+                <center><b><font size="4"> If you are interested in participating or just want to learn more, <br>then please email <a href="mailto:dihardchallenge@gmail.com" target="_top">dihardchallenge@gmail.com</a> with the subject DIHARD<br>you will be added to the email list for updates.</font></b></center>
+            </p>
+        </div>
+        <!-- Content -->
+    </div>
+</body>
+
+</html>

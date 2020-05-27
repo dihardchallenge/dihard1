@@ -1,0 +1,398 @@
+Team_Name	System_Name	Track	Date	DER	MI	DOI	SystemDescription	URL
+BISC	SYSTEM_1	Track1	"2018-03-07 17:07:12"	48.31	8.5	10.5281/zenodo.1193762	bisc_systems.pdf	https://zenodo.org/record/1193762
+BISC	SYSTEM_1	Track1	"2018-03-07 22:01:21"	47.44	8.47	10.5281/zenodo.1193919	bisc_systems.pdf	https://zenodo.org/record/1193919
+BISC	SYSTEM_1	Track1	"2018-03-22 09:51:56"	48.31	8.5	10.5281/zenodo.1193762	bisc_systems.pdf	https://zenodo.org/record/1193762
+BISC	SYSTEM_2	Track1	"2018-03-23 08:06:17"	48.7	8.5	10.5281/zenodo.1205784	bisc_systems.pdf	https://zenodo.org/record/1205784
+BISC	SYSTEM_3	Track1	"2018-03-23 08:08:36"	34.29	8.33	10.5281/zenodo.1205790	bisc_systems.pdf	https://zenodo.org/record/1205790
+BISC	SYSTEM_4	Track1	"2018-03-15 18:01:52"	32.54	8.34	10.5281/zenodo.1199626	bisc_systems.pdf	https://zenodo.org/record/1199626
+BISC	SYSTEM_4	Track1	"2018-03-22 11:53:14"	30.44	8.33	10.5281/zenodo.1205323	bisc_systems.pdf	https://zenodo.org/record/1205323
+BISC	SYSTEM_5	Track1	"2018-03-16 19:36:33"	29.34	8.33	10.5281/zenodo.1201746	bisc_systems.pdf	https://zenodo.org/record/1201746
+BISC	SYSTEM_5	Track1	"2018-03-18 13:46:29"	29.85	8.3	10.5281/zenodo.1202344	bisc_systems.pdf	https://zenodo.org/record/1202344
+BISC	SYSTEM_5	Track1	"2018-03-19 14:12:38"	29.71	8.33	10.5281/zenodo.1203479	bisc_systems.pdf	https://zenodo.org/record/1203479
+BISC	SYSTEM_5	Track1	"2018-03-19 18:20:12"	30.15	8.33	10.5281/zenodo.1203684	bisc_systems.pdf	https://zenodo.org/record/1203684
+BISC	SYSTEM_5	Track1	"2018-03-20 17:24:13"	29.92	8.33	10.5281/zenodo.1204461	bisc_systems.pdf	https://zenodo.org/record/1204461
+BISC	SYSTEM_5	Track1	"2018-03-20 17:43:50"	30.08	8.33	10.5281/zenodo.1204465	bisc_systems.pdf	https://zenodo.org/record/1204465
+BISC	SYSTEM_5	Track1	"2018-03-21 08:09:49"	29.33	8.33	10.5281/zenodo.1204767	bisc_systems.pdf	https://zenodo.org/record/1204767
+BISC	SYSTEM_5	Track1	"2018-03-21 15:19:45"	29.34	8.32	10.5281/zenodo.1204997	bisc_systems.pdf	https://zenodo.org/record/1204997
+BISC	SYSTEM_5	Track1	"2018-03-22 14:28:20"	29.33	8.33	10.5281/zenodo.1204767	bisc_systems.pdf	https://zenodo.org/record/1204767
+BUT	BASELINE	Track1	"2018-03-07 13:04:42"	80.7	7.39	10.5281/zenodo.1193583	but_systems.pdf	https://zenodo.org/record/1193583
+BUT	BASELINE	Track1	"2018-03-07 13:54:33"	35.85	8.33	10.5281/zenodo.1193633	but_systems.pdf	https://zenodo.org/record/1193633
+BUT	dev-s2	Track1	"2018-03-14 12:43:32"	28.66	8.36	10.5281/zenodo.1198110	but_systems.pdf	https://zenodo.org/record/1198110
+BUT	dev-s2	Track1	"2018-03-16 14:43:33"	26.92	8.39	10.5281/zenodo.1200944	but_systems.pdf	https://zenodo.org/record/1200944
+BUT	dev-s2	Track1	"2018-03-16 19:39:35"	27.74	8.38	10.5281/zenodo.1201781	but_systems.pdf	https://zenodo.org/record/1201781
+BUT	dev-s2	Track1	"2018-03-17 18:05:47"	26.92	8.39	10.5281/zenodo.1202195	but_systems.pdf	https://zenodo.org/record/1202195
+BUT	dev-s2	Track1	"2018-03-18 16:30:36"	27.41	8.35	10.5281/zenodo.1202382	but_systems.pdf	https://zenodo.org/record/1202382
+BUT	dev-s2	Track1	"2018-03-18 17:51:58"	27.1	8.37	10.5281/zenodo.1202391	but_systems.pdf	https://zenodo.org/record/1202391
+BUT	dev-s2	Track1	"2018-03-19 20:15:41"	27.03	8.39	10.5281/zenodo.1203717	but_systems.pdf	https://zenodo.org/record/1203717
+BUT	dev-s2	Track1	"2018-03-19 21:17:28"	28.72	8.32	10.5281/zenodo.1203732	but_systems.pdf	https://zenodo.org/record/1203732
+BUT	dev-s2	Track1	"2018-03-20 20:16:09"	27.11	8.37	10.5281/zenodo.1204611	but_systems.pdf	https://zenodo.org/record/1204611
+BUT	dev-s2	Track1	"2018-03-20 23:07:50"	27.0	8.41	10.5281/zenodo.1204685	but_systems.pdf	https://zenodo.org/record/1204685
+BUT	dev-s2	Track1	"2018-03-21 16:06:19"	26.51	8.4	10.5281/zenodo.1205028	but_systems.pdf	https://zenodo.org/record/1205028
+BUT	dev-s2	Track1	"2018-03-21 18:17:46"	26.46	8.41	10.5281/zenodo.1205083	but_systems.pdf	https://zenodo.org/record/1205083
+BUT	dev-s2	Track1	"2018-03-22 18:42:24"	25.39	8.43	10.5281/zenodo.1205599	but_systems.pdf	https://zenodo.org/record/1205599
+BUT	dev-s2	Track1	"2018-03-22 20:27:46"	25.66	8.43	10.5281/zenodo.1205647	but_systems.pdf	https://zenodo.org/record/1205647
+BUT	dev-s2	Track1	"2018-03-23 17:00:23"	25.44	8.44	10.5281/zenodo.1206186	but_systems.pdf	https://zenodo.org/record/1206186
+BUT	dev-s2	Track1	"2018-03-23 18:21:08"	25.39	8.43	10.5281/zenodo.1206206	but_systems.pdf	https://zenodo.org/record/1206206
+BUT	dev-s2	Track2	"2018-03-22 20:27:46"	39.52	8.02	10.5281/zenodo.1205647	but_systems.pdf	https://zenodo.org/record/1205647
+BUT	dev-s2	Track2	"2018-03-23 17:00:23"	36.28	8.07	10.5281/zenodo.1206186	but_systems.pdf	https://zenodo.org/record/1206186
+BUT	dev-s2	Track2	"2018-03-23 18:21:08"	35.51	8.07	10.5281/zenodo.1206206	but_systems.pdf	https://zenodo.org/record/1206206
+BUT	dev-s4	Track1	"2018-03-21 23:54:37"	28.72	8.37	10.5281/zenodo.1205158	but_systems.pdf	https://zenodo.org/record/1205158
+BUT	dev-s4	Track1	"2018-03-21 23:57:51"	29.6	8.32	10.5281/zenodo.1205161	but_systems.pdf	https://zenodo.org/record/1205161
+BUT	dev-s4	Track1	"2018-03-22 15:40:57"	29.81	8.42	10.5281/zenodo.1205516	but_systems.pdf	https://zenodo.org/record/1205516
+BUT	dev-s4	Track1	"2018-03-22 16:04:18"	29.94	8.39	10.5281/zenodo.1205526	but_systems.pdf	https://zenodo.org/record/1205526
+BUT	dev-s5	Track1	"2018-03-23 17:27:29"	26.42	8.41	10.5281/zenodo.1206190	but_systems.pdf	https://zenodo.org/record/1206190
+BUT	dev-s5	Track1	"2018-03-23 17:45:42"	26.46	8.4	10.5281/zenodo.1206192	but_systems.pdf	https://zenodo.org/record/1206192
+BUT	dev-s6	Track1	"2018-03-23 18:51:05"	25.07	8.46	10.5281/zenodo.1206216	but_systems.pdf	https://zenodo.org/record/1206216
+CDS	CRIM1	Track1	"2018-03-08 19:21:15"	33.84	8.12	10.5281/zenodo.1194393	crim_systems.pdf	https://zenodo.org/record/1194393
+CDS	CRIM1	Track2	"2018-03-08 19:21:15"	68.31	7.89	10.5281/zenodo.1194393	crim_systems.pdf	https://zenodo.org/record/1194393
+CDS	CRIM2	Track1	"2018-03-23 20:10:19"	33.79	8.14	10.5281/zenodo.1206243	crim_systems.pdf	https://zenodo.org/record/1206243
+CDS	CRIM2	Track2	"2018-03-23 20:10:19"	52.38	7.72	10.5281/zenodo.1206243	crim_systems.pdf	https://zenodo.org/record/1206243
+CPqD	b1_system	Track1	"2018-03-17 23:57:39"	43.72	8.1	10.5281/zenodo.1202258	cpqd_b1b2.pdf	https://zenodo.org/record/1202258
+CPqD	b1_system	Track1	"2018-03-21 22:49:43"	40.94	8.17	10.5281/zenodo.1205150	cpqd_b1b2.pdf	https://zenodo.org/record/1205150
+CPqD	b1_system	Track2	"2018-03-17 23:57:39"	53.79	7.83	10.5281/zenodo.1202258	cpqd_b1b2.pdf	https://zenodo.org/record/1202258
+CPqD	b1_system	Track2	"2018-03-21 22:49:43"	50.14	7.9	10.5281/zenodo.1205150	cpqd_b1b2.pdf	https://zenodo.org/record/1205150
+CPqD	b2_system	Track1	"2018-03-16 23:53:31"	45.84	8.01	10.5281/zenodo.1202063	cpqd_b1b2.pdf	https://zenodo.org/record/1202063
+CPqD	b2_system	Track1	"2018-03-18 00:00:04"	45.98	8.01	10.5281/zenodo.1202260	cpqd_b1b2.pdf	https://zenodo.org/record/1202260
+CPqD	b2_system	Track1	"2018-03-23 17:58:48"	42.28	8.08	10.5281/zenodo.1206194	cpqd_b1b2.pdf	https://zenodo.org/record/1206194
+CPqD	b2_system	Track2	"2018-03-16 23:53:31"	56.51	7.78	10.5281/zenodo.1202063	cpqd_b1b2.pdf	https://zenodo.org/record/1202063
+CPqD	b2_system	Track2	"2018-03-18 00:00:04"	56.67	7.78	10.5281/zenodo.1202260	cpqd_b1b2.pdf	https://zenodo.org/record/1202260
+CPqD	b2_system	Track2	"2018-03-23 17:58:48"	48.85	7.88	10.5281/zenodo.1206194	cpqd_b1b2.pdf	https://zenodo.org/record/1206194
+CPqD	hybrid_system	Track1	"2018-03-16 19:22:59"	43.25	8.11	10.5281/zenodo.1201643	cpqd_hybrid.pdf	https://zenodo.org/record/1201643
+CPqD	hybrid_system	Track1	"2018-03-22 23:41:25"	32.76	8.29	10.5281/zenodo.1205697	cpqd_hybrid.pdf	https://zenodo.org/record/1205697
+CPqD	hybrid_system	Track2	"2018-03-14 23:51:51"	43.77	8.0	10.5281/zenodo.1198871	cpqd_hybrid.pdf	https://zenodo.org/record/1198871
+CPqD	hybrid_system	Track2	"2018-03-16 19:22:59"	55.75	7.8	10.5281/zenodo.1201643	cpqd_hybrid.pdf	https://zenodo.org/record/1201643
+CPqD	hybrid_system	Track2	"2018-03-22 23:41:25"	41.17	8.03	10.5281/zenodo.1205697	cpqd_hybrid.pdf	https://zenodo.org/record/1205697
+IntelligentVoice	Baseline_v2	Track1	"2018-03-20 05:16:51"	37.11	8.12	10.5281/zenodo.1203813	intelligentvoice_systems.pdf	https://zenodo.org/record/1203813
+IntelligentVoice	Baseline_v3	Track1	"2018-03-20 15:55:28"	36.76	8.12	10.5281/zenodo.1204379	intelligentvoice_systems.pdf	https://zenodo.org/record/1204379
+IntelligentVoice	IV_baseline	Track1	"2018-03-19 13:28:12"	40.26	8.14	10.5281/zenodo.1203350	intelligentvoice_systems.pdf	https://zenodo.org/record/1203350
+IntelligentVoice	sys1	Track1	"2018-03-21 10:21:21"	36.73	8.18	10.5281/zenodo.1204862	intelligentvoice_systems.pdf	https://zenodo.org/record/1204862
+IntelligentVoice	sys1	Track1	"2018-03-21 12:32:24"	40.75	8.21	10.5281/zenodo.1204927	intelligentvoice_systems.pdf	https://zenodo.org/record/1204927
+IntelligentVoice	sys1	Track1	"2018-03-23 14:41:28"	37.59	8.07	10.5281/zenodo.1206126	intelligentvoice_systems.pdf	https://zenodo.org/record/1206126
+IntelligentVoice	sys1	Track1	"2018-03-23 19:59:26"	36.73	8.18	10.5281/zenodo.1204862	intelligentvoice_systems.pdf	https://zenodo.org/record/1204862
+JHU	Sys1	Track1	"2018-03-08 18:49:20"	31.56	8.23	10.5281/zenodo.1194390	jhu_system1.pdf	https://zenodo.org/record/1194390
+JHU	Sys1	Track1	"2018-03-19 18:14:42"	31.14	8.23	10.5281/zenodo.1203682	jhu_system1.pdf	https://zenodo.org/record/1203682
+JHU	Sys1	Track1	"2018-03-19 20:31:50"	31.06	8.23	10.5281/zenodo.1203721	jhu_system1.pdf	https://zenodo.org/record/1203721
+JHU	Sys1	Track1	"2018-03-23 19:02:40"	31.56	8.23	10.5281/zenodo.1206221	jhu_system1.pdf	https://zenodo.org/record/1206221
+JHU	Sys1	Track2	"2018-03-08 18:49:20"	50.78	7.76	10.5281/zenodo.1194390	jhu_system1.pdf	https://zenodo.org/record/1194390
+JHU	Sys1	Track2	"2018-03-19 18:14:42"	43.86	7.84	10.5281/zenodo.1203682	jhu_system1.pdf	https://zenodo.org/record/1203682
+JHU	Sys1	Track2	"2018-03-19 20:31:50"	44.96	7.82	10.5281/zenodo.1203721	jhu_system1.pdf	https://zenodo.org/record/1203721
+JHU	Sys1	Track2	"2018-03-23 19:02:40"	43.86	7.84	10.5281/zenodo.1206221	jhu_system1.pdf	https://zenodo.org/record/1206221
+JHU	Sys2	Track1	"2018-03-11 19:20:03"	28.6	8.42	10.5281/zenodo.1195713	jhu_system2.pdf	https://zenodo.org/record/1195713
+JHU	Sys2	Track1	"2018-03-16 00:50:15"	27.58	8.48	10.5281/zenodo.1199685	jhu_system2.pdf	https://zenodo.org/record/1199685
+JHU	Sys2	Track1	"2018-03-17 19:19:55"	28.82	8.35	10.5281/zenodo.1202220	jhu_system2.pdf	https://zenodo.org/record/1202220
+JHU	Sys2	Track1	"2018-03-19 23:13:08"	28.06	8.49	10.5281/zenodo.1203747	jhu_system2.pdf	https://zenodo.org/record/1203747
+JHU	Sys2	Track1	"2018-03-20 19:38:46"	38.64	8.11	10.5281/zenodo.1204545	jhu_system2.pdf	https://zenodo.org/record/1204545
+JHU	Sys2	Track1	"2018-03-20 20:48:22"	27.13	8.37	10.5281/zenodo.1204620	jhu_system2.pdf	https://zenodo.org/record/1204620
+JHU	Sys2	Track1	"2018-03-21 10:49:34"	26.96	8.38	10.5281/zenodo.1204869	jhu_system2.pdf	https://zenodo.org/record/1204869
+JHU	Sys2	Track1	"2018-03-22 18:18:36"	25.06	8.42	10.5281/zenodo.1205595	jhu_system2.pdf	https://zenodo.org/record/1205595
+JHU	Sys2	Track2	"2018-03-11 19:20:03"	48.49	7.91	10.5281/zenodo.1195713	jhu_system2.pdf	https://zenodo.org/record/1195713
+JHU	Sys2	Track2	"2018-03-16 00:50:15"	48.19	7.94	10.5281/zenodo.1199685	jhu_system2.pdf	https://zenodo.org/record/1199685
+JHU	Sys2	Track2	"2018-03-17 19:19:55"	48.43	7.85	10.5281/zenodo.1202220	jhu_system2.pdf	https://zenodo.org/record/1202220
+JHU	Sys2	Track2	"2018-03-19 23:13:08"	40.42	8.06	10.5281/zenodo.1203747	jhu_system2.pdf	https://zenodo.org/record/1203747
+JHU	Sys2	Track2	"2018-03-20 19:38:46"	49.79	7.76	10.5281/zenodo.1204545	jhu_system2.pdf	https://zenodo.org/record/1204545
+JHU	Sys2	Track2	"2018-03-20 20:48:22"	39.85	8.0	10.5281/zenodo.1204620	jhu_system2.pdf	https://zenodo.org/record/1204620
+JHU	Sys2	Track2	"2018-03-21 10:49:34"	39.63	8.01	10.5281/zenodo.1204869	jhu_system2.pdf	https://zenodo.org/record/1204869
+JHU	Sys2	Track2	"2018-03-22 18:18:36"	37.41	8.03	10.5281/zenodo.1205595	jhu_system2.pdf	https://zenodo.org/record/1205595
+JHU	Sys4	Track1	"2018-03-08 19:07:32"	29.38	8.41	10.5281/zenodo.1194392	jhu_system4.pdf	https://zenodo.org/record/1194392
+JHU	Sys4	Track1	"2018-03-11 19:14:14"	27.8	8.45	10.5281/zenodo.1195716	jhu_system4.pdf	https://zenodo.org/record/1195716
+JHU	Sys4	Track1	"2018-03-16 01:08:07"	27.11	8.46	10.5281/zenodo.1199687	jhu_system4.pdf	https://zenodo.org/record/1199687
+JHU	Sys4	Track1	"2018-03-18 00:25:50"	26.54	8.43	10.5281/zenodo.1202266	jhu_system4.pdf	https://zenodo.org/record/1202266
+JHU	Sys4	Track1	"2018-03-18 00:31:50"	26.67	8.47	10.5281/zenodo.1202270	jhu_system4.pdf	https://zenodo.org/record/1202270
+JHU	Sys4	Track1	"2018-03-19 23:14:20"	26.15	8.46	10.5281/zenodo.1203749	jhu_system4.pdf	https://zenodo.org/record/1203749
+JHU	Sys4	Track1	"2018-03-19 23:15:29"	25.94	8.5	10.5281/zenodo.1203751	jhu_system4.pdf	https://zenodo.org/record/1203751
+JHU	Sys4	Track1	"2018-03-22 18:47:24"	23.73	8.44	10.5281/zenodo.1205604	jhu_system4.pdf	https://zenodo.org/record/1205604
+JHU	Sys4	Track2	"2018-03-08 19:07:32"	48.95	7.89	10.5281/zenodo.1194392	jhu_system4.pdf	https://zenodo.org/record/1194392
+JHU	Sys4	Track2	"2018-03-11 19:14:14"	48.34	7.9	10.5281/zenodo.1195716	jhu_system4.pdf	https://zenodo.org/record/1195716
+JHU	Sys4	Track2	"2018-03-16 01:08:07"	47.62	7.92	10.5281/zenodo.1199687	jhu_system4.pdf	https://zenodo.org/record/1199687
+JHU	Sys4	Track2	"2018-03-18 00:25:50"	47.16	7.9	10.5281/zenodo.1202266	jhu_system4.pdf	https://zenodo.org/record/1202266
+JHU	Sys4	Track2	"2018-03-18 00:31:50"	46.91	7.94	10.5281/zenodo.1202270	jhu_system4.pdf	https://zenodo.org/record/1202270
+JHU	Sys4	Track2	"2018-03-19 23:14:20"	39.36	8.02	10.5281/zenodo.1203749	jhu_system4.pdf	https://zenodo.org/record/1203749
+JHU	Sys4	Track2	"2018-03-19 23:15:29"	39.43	8.06	10.5281/zenodo.1203751	jhu_system4.pdf	https://zenodo.org/record/1203751
+JHU	Sys4	Track2	"2018-03-22 18:47:24"	37.29	8.04	10.5281/zenodo.1205604	jhu_system4.pdf	https://zenodo.org/record/1205604
+JHU	Sys5	Track1	"2018-03-12 20:46:08"	26.82	8.45	10.5281/zenodo.1196636	jhu_system5.pdf	https://zenodo.org/record/1196636
+JHU	Sys5	Track1	"2018-03-12 21:27:11"	26.51	8.45	10.5281/zenodo.1196649	jhu_system5.pdf	https://zenodo.org/record/1196649
+JHU	Sys5	Track1	"2018-03-16 01:20:16"	26.4	8.49	10.5281/zenodo.1199689	jhu_system5.pdf	https://zenodo.org/record/1199689
+JHU	Sys5	Track1	"2018-03-18 00:27:43"	26.15	8.46	10.5281/zenodo.1202268	jhu_system5.pdf	https://zenodo.org/record/1202268
+JHU	Sys5	Track1	"2018-03-18 00:33:10"	25.84	8.49	10.5281/zenodo.1202272	jhu_system5.pdf	https://zenodo.org/record/1202272
+JHU	Sys5	Track1	"2018-03-19 20:33:51"	26.05	8.49	10.5281/zenodo.1203723	jhu_system5.pdf	https://zenodo.org/record/1203723
+JHU	Sys5	Track1	"2018-03-19 23:16:48"	25.5	8.51	10.5281/zenodo.1203753	jhu_system5.pdf	https://zenodo.org/record/1203753
+JHU	Sys5	Track1	"2018-03-22 18:48:42"	23.99	8.43	10.5281/zenodo.1205606	jhu_system5.pdf	https://zenodo.org/record/1205606
+JHU	Sys5	Track2	"2018-03-12 20:46:08"	47.01	7.92	10.5281/zenodo.1196636	jhu_system5.pdf	https://zenodo.org/record/1196636
+JHU	Sys5	Track2	"2018-03-12 21:27:11"	46.76	7.93	10.5281/zenodo.1196649	jhu_system5.pdf	https://zenodo.org/record/1196649
+JHU	Sys5	Track2	"2018-03-16 01:20:16"	46.76	7.95	10.5281/zenodo.1199689	jhu_system5.pdf	https://zenodo.org/record/1199689
+JHU	Sys5	Track2	"2018-03-18 00:27:43"	46.82	7.92	10.5281/zenodo.1202268	jhu_system5.pdf	https://zenodo.org/record/1202268
+JHU	Sys5	Track2	"2018-03-18 00:33:10"	46.48	7.95	10.5281/zenodo.1202272	jhu_system5.pdf	https://zenodo.org/record/1202272
+JHU	Sys5	Track2	"2018-03-19 20:33:51"	47.01	7.95	10.5281/zenodo.1203723	jhu_system5.pdf	https://zenodo.org/record/1203723
+JHU	Sys5	Track2	"2018-03-19 23:16:48"	39.0	8.07	10.5281/zenodo.1203753	jhu_system5.pdf	https://zenodo.org/record/1203753
+JHU	Sys5	Track2	"2018-03-22 18:48:42"	37.19	8.04	10.5281/zenodo.1205606	jhu_system5.pdf	https://zenodo.org/record/1205606
+LEAP	leap_system1	Track1	"2018-03-21 07:39:11"	31.77	8.44	10.5281/zenodo.1194180	"leap_systems.pdf "	https://zenodo.org/record/1194180
+LEAP	leap_system1	Track1	"2018-03-21 11:45:30"	29.81	8.4	10.5281/zenodo.1204908	"leap_systems.pdf "	https://zenodo.org/record/1204908
+LEAP	leap_system1	Track1	"2018-03-22 10:51:20"	28.52	8.32	10.5281/zenodo.1205294	"leap_systems.pdf "	https://zenodo.org/record/1205294
+LEAP	System_1_mbp	Track1	"2018-03-08 12:49:18"	35.67	8.37	10.5281/zenodo.1194212	"leap_systems.pdf "	https://zenodo.org/record/1194212
+LEAP	System_1_mbp	Track1	"2018-03-21 12:35:16"	29.65	8.27	10.5281/zenodo.1194188	"leap_systems.pdf "	https://zenodo.org/record/1194188
+LEAP	System_1_mbp	Track1	"2018-03-23 19:21:52"	31.49	8.38	10.5281/zenodo.1206226	"leap_systems.pdf "	https://zenodo.org/record/1206226
+LEAP	System_1_mbp	Track2	"2018-03-23 21:23:06"	53.45	7.66	10.5281/zenodo.1206274	"leap_systems.pdf "	https://zenodo.org/record/1206274
+"SAIVT - Speech Research Lab"	test1_baseline	Track1	"2018-03-19 05:57:46"	33.15	8.39	10.5281/zenodo.1202517	"saivt_systems.pdf "	https://zenodo.org/record/1202517
+"SAIVT - Speech Research Lab"	test2_baseline	Track2	"2018-03-16 02:48:42"	453.24	7.73	10.5281/zenodo.1199702	"saivt_systems.pdf "	https://zenodo.org/record/1199702
+"SAIVT - Speech Research Lab"	test2_baseline	Track2	"2018-03-17 09:24:23"	64.56	7.7	10.5281/zenodo.1202100	"saivt_systems.pdf "	https://zenodo.org/record/1202100
+"SAIVT - Speech Research Lab"	test2_baseline	Track2	"2018-03-18 08:16:43"	65.07	7.7	10.5281/zenodo.1202304	"saivt_systems.pdf "	https://zenodo.org/record/1202304
+"SAIVT - Speech Research Lab"	test2_baseline	Track2	"2018-03-23 09:15:53"	57.14	7.76	10.5281/zenodo.1205865	"saivt_systems.pdf "	https://zenodo.org/record/1205865
+SINICA	COMBINE_MFCC_13	Track1	"2018-03-20 06:36:32"	37.65	8.05	10.5281/zenodo.1203827		https://zenodo.org/record/1203827
+SINICA	IRM_MFCC_13	Track1	"2018-03-20 07:08:07"	37.99	8.01	10.5281/zenodo.1203833		https://zenodo.org/record/1203833
+SINICA	MFCC_13	Track1	"2018-03-14 16:14:13"	39.45	7.99	10.5281/zenodo.1198644		https://zenodo.org/record/1198644
+SINICA	RAW_MFCC_13	Track1	"2018-03-19 09:56:58"	38.53	8.02	10.5281/zenodo.1203222		https://zenodo.org/record/1203222
+SINICA	REG_MFCC_13	Track1	"2018-03-19 17:29:30"	37.46	8.04	10.5281/zenodo.1203667		https://zenodo.org/record/1203667
+SINICA	REG_MFCC_13	Track1	"2018-03-21 12:53:53"	39.44	7.99	10.5281/zenodo.1204932		https://zenodo.org/record/1204932
+SINICA	REG_MFCC_13	Track1	"2018-03-22 04:34:30"	37.46	8.04	10.5281/zenodo.1205199		https://zenodo.org/record/1205199
+SINICA	REG_MFCC_13_DcAE_70_3	Track1	"2018-03-21 08:26:32"	55.97	8.07	10.5281/zenodo.1204782		https://zenodo.org/record/1204782
+SINICA	REG_MFCC_13_DcAE_70_3	Track1	"2018-03-21 09:28:56"	53.98	8.03	10.5281/zenodo.1204823		https://zenodo.org/record/1204823
+STAR-LAB	Baseline	Track1	"2018-03-09 23:02:23"	38.35	8.19	10.5281/zenodo.1195038	star-lab_systems.pdf	https://zenodo.org/record/1195038
+STAR-LAB	Baseline	Track1	"2018-03-16 11:38:26"	30.56	8.27	10.5281/zenodo.1200250	star-lab_systems.pdf	https://zenodo.org/record/1200250
+STAR-LAB	Baseline	Track2	"2018-03-10 01:39:02"	59.34	7.7	10.5281/zenodo.1195045	star-lab_systems.pdf	https://zenodo.org/record/1195045
+STAR-LAB	Baseline	Track2	"2018-03-16 11:38:26"	45.2	7.79	10.5281/zenodo.1200250	star-lab_systems.pdf	https://zenodo.org/record/1200250
+STAR-LAB	Hyb-BN-Emb	Track1	"2018-03-16 17:25:02"	28.69	8.3	10.5281/zenodo.1201532	star-lab_systems.pdf	https://zenodo.org/record/1201532
+STAR-LAB	Hyb-BN-Emb	Track1	"2018-03-17 22:11:40"	28.64	8.29	10.5281/zenodo.1202245	star-lab_systems.pdf	https://zenodo.org/record/1202245
+STAR-LAB	Hyb-BN-Emb	Track1	"2018-03-19 21:42:23"	28.04	8.32	10.5281/zenodo.1203735	star-lab_systems.pdf	https://zenodo.org/record/1203735
+STAR-LAB	Hyb-BN-Emb	Track1	"2018-03-20 23:58:21"	27.92	8.34	10.5281/zenodo.1204706	star-lab_systems.pdf	https://zenodo.org/record/1204706
+STAR-LAB	Hyb-BN-Emb	Track1	"2018-03-21 23:11:22"	27.92	8.34	10.5281/zenodo.1205152	star-lab_systems.pdf	https://zenodo.org/record/1205152
+STAR-LAB	Hyb-BN-Emb	Track1	"2018-03-22 14:26:05"	27.98	8.33	10.5281/zenodo.1205491	star-lab_systems.pdf	https://zenodo.org/record/1205491
+STAR-LAB	Hyb-BN-Emb	Track2	"2018-03-16 17:25:02"	44.42	7.81	10.5281/zenodo.1201532	star-lab_systems.pdf	https://zenodo.org/record/1201532
+STAR-LAB	Hyb-BN-Emb	Track2	"2018-03-17 22:11:40"	44.56	7.84	10.5281/zenodo.1202245	star-lab_systems.pdf	https://zenodo.org/record/1202245
+STAR-LAB	Hyb-BN-Emb	Track2	"2018-03-19 21:42:23"	42.14	7.88	10.5281/zenodo.1203735	star-lab_systems.pdf	https://zenodo.org/record/1203735
+STAR-LAB	Hyb-BN-Emb	Track2	"2018-03-20 23:58:21"	79.6	7.83	10.5281/zenodo.1204706	star-lab_systems.pdf	https://zenodo.org/record/1204706
+STAR-LAB	Hyb-BN-Emb	Track2	"2018-03-21 23:11:22"	41.58	7.87	10.5281/zenodo.1205152	star-lab_systems.pdf	https://zenodo.org/record/1205152
+STAR-LAB	Hyb-BN-Emb	Track2	"2018-03-22 14:26:05"	41.83	7.87	10.5281/zenodo.1205491	star-lab_systems.pdf	https://zenodo.org/record/1205491
+STAR-LAB	Hyb-Multi	Track1	"2018-03-22 01:14:37"	27.61	8.33	10.5281/zenodo.1205177	star-lab_systems.pdf	https://zenodo.org/record/1205177
+STAR-LAB	Hyb-Multi	Track2	"2018-03-22 01:14:37"	41.56	7.87	10.5281/zenodo.1205177	star-lab_systems.pdf	https://zenodo.org/record/1205177
+USTC-iFLYTEK	system1	Track1	"2018-03-07 01:17:46"	29.96	8.24	10.5281/zenodo.1193185	ustc-iflytek_sytems.pdf	https://zenodo.org/record/1193185
+USTC-iFLYTEK	system1	Track1	"2018-03-07 11:30:23"	29.72	8.24	10.5281/zenodo.1193507	ustc-iflytek_sytems.pdf	https://zenodo.org/record/1193507
+USTC-iFLYTEK	system1	Track1	"2018-03-08 14:10:00"	28.85	8.28	10.5281/zenodo.1194234	ustc-iflytek_sytems.pdf	https://zenodo.org/record/1194234
+USTC-iFLYTEK	system1	Track1	"2018-03-08 15:56:46"	29.08	8.25	10.5281/zenodo.1194307	ustc-iflytek_sytems.pdf	https://zenodo.org/record/1194307
+USTC-iFLYTEK	system1	Track1	"2018-03-09 14:48:17"	27.75	8.3	10.5281/zenodo.1194822	ustc-iflytek_sytems.pdf	https://zenodo.org/record/1194822
+USTC-iFLYTEK	system1	Track1	"2018-03-10 15:09:08"	26.66	8.37	10.5281/zenodo.1195506	ustc-iflytek_sytems.pdf	https://zenodo.org/record/1195506
+USTC-iFLYTEK	system1	Track1	"2018-03-10 16:22:17"	26.38	8.41	10.5281/zenodo.1195509	ustc-iflytek_sytems.pdf	https://zenodo.org/record/1195509
+USTC-iFLYTEK	system1	Track1	"2018-03-11 13:41:18"	25.64	8.42	10.5281/zenodo.1195675	ustc-iflytek_sytems.pdf	https://zenodo.org/record/1195675
+USTC-iFLYTEK	system1	Track1	"2018-03-14 16:40:59"	25.74	8.43	10.5281/zenodo.1198671	ustc-iflytek_sytems.pdf	https://zenodo.org/record/1198671
+USTC-iFLYTEK	system1	Track1	"2018-03-14 16:56:10"	26.3	8.43	10.5281/zenodo.1198680	ustc-iflytek_sytems.pdf	https://zenodo.org/record/1198680
+USTC-iFLYTEK	system1	Track1	"2018-03-15 04:00:01"	25.42	8.41	10.5281/zenodo.1198896	ustc-iflytek_sytems.pdf	https://zenodo.org/record/1198896
+USTC-iFLYTEK	system1	Track1	"2018-03-15 04:12:33"	25.44	8.41	10.5281/zenodo.1198898	ustc-iflytek_sytems.pdf	https://zenodo.org/record/1198898
+USTC-iFLYTEK	system1	Track1	"2018-03-16 13:01:10"	26.19	8.44	10.5281/zenodo.1200441	ustc-iflytek_sytems.pdf	https://zenodo.org/record/1200441
+USTC-iFLYTEK	system1	Track1	"2018-03-16 13:18:37"	26.42	8.39	10.5281/zenodo.1200541	ustc-iflytek_sytems.pdf	https://zenodo.org/record/1200541
+USTC-iFLYTEK	system1	Track1	"2018-03-17 08:06:52"	25.53	8.43	10.5281/zenodo.1202091	ustc-iflytek_sytems.pdf	https://zenodo.org/record/1202091
+USTC-iFLYTEK	system1	Track1	"2018-03-17 11:17:12"	25.45	8.43	10.5281/zenodo.1202122	ustc-iflytek_sytems.pdf	https://zenodo.org/record/1202122
+USTC-iFLYTEK	system1	Track1	"2018-03-19 15:53:24"	25.01	8.45	10.5281/zenodo.1203616	ustc-iflytek_sytems.pdf	https://zenodo.org/record/1203616
+USTC-iFLYTEK	system1	Track1	"2018-03-19 16:05:57"	25.01	8.45	10.5281/zenodo.1203619	ustc-iflytek_sytems.pdf	https://zenodo.org/record/1203619
+USTC-iFLYTEK	system1	Track1	"2018-03-22 00:41:51"	26.69	8.36	10.5281/zenodo.1205174	ustc-iflytek_sytems.pdf	https://zenodo.org/record/1205174
+USTC-iFLYTEK	system1	Track1	"2018-03-23 19:00:48"	24.56	8.47	10.5281/zenodo.1206219	ustc-iflytek_sytems.pdf	https://zenodo.org/record/1206219
+USTC-iFLYTEK	system1	Track2	"2018-03-07 01:17:46"	42.74	7.91	10.5281/zenodo.1193185	ustc-iflytek_sytems.pdf	https://zenodo.org/record/1193185
+USTC-iFLYTEK	system1	Track2	"2018-03-07 11:30:23"	42.68	7.9	10.5281/zenodo.1193507	ustc-iflytek_sytems.pdf	https://zenodo.org/record/1193507
+USTC-iFLYTEK	system1	Track2	"2018-03-08 14:10:00"	44.18	7.92	10.5281/zenodo.1194234	ustc-iflytek_sytems.pdf	https://zenodo.org/record/1194234
+USTC-iFLYTEK	system1	Track2	"2018-03-08 15:56:46"	41.39	7.93	10.5281/zenodo.1194307	ustc-iflytek_sytems.pdf	https://zenodo.org/record/1194307
+USTC-iFLYTEK	system1	Track2	"2018-03-09 14:48:17"	40.51	7.94	10.5281/zenodo.1194822	ustc-iflytek_sytems.pdf	https://zenodo.org/record/1194822
+USTC-iFLYTEK	system1	Track2	"2018-03-10 15:09:08"	40.21	7.96	10.5281/zenodo.1195506	ustc-iflytek_sytems.pdf	https://zenodo.org/record/1195506
+USTC-iFLYTEK	system1	Track2	"2018-03-10 16:22:17"	39.84	8.0	10.5281/zenodo.1195509	ustc-iflytek_sytems.pdf	https://zenodo.org/record/1195509
+USTC-iFLYTEK	system1	Track2	"2018-03-11 13:41:18"	39.78	8.02	10.5281/zenodo.1195675	ustc-iflytek_sytems.pdf	https://zenodo.org/record/1195675
+USTC-iFLYTEK	system1	Track2	"2018-03-11 14:36:35"	39.15	8.04	10.5281/zenodo.1195685	ustc-iflytek_sytems.pdf	https://zenodo.org/record/1195685
+USTC-iFLYTEK	system1	Track2	"2018-03-13 15:47:43"	36.46	8.09	10.5281/zenodo.1197217	ustc-iflytek_sytems.pdf	https://zenodo.org/record/1197217
+USTC-iFLYTEK	system1	Track2	"2018-03-14 16:40:59"	36.62	8.1	10.5281/zenodo.1198671	ustc-iflytek_sytems.pdf	https://zenodo.org/record/1198671
+USTC-iFLYTEK	system1	Track2	"2018-03-14 16:56:10"	36.58	8.09	10.5281/zenodo.1198680	ustc-iflytek_sytems.pdf	https://zenodo.org/record/1198680
+USTC-iFLYTEK	system1	Track2	"2018-03-16 13:01:10"	36.49	8.09	10.5281/zenodo.1200441	ustc-iflytek_sytems.pdf	https://zenodo.org/record/1200441
+USTC-iFLYTEK	system1	Track2	"2018-03-16 13:18:37"	36.64	8.09	10.5281/zenodo.1200541	ustc-iflytek_sytems.pdf	https://zenodo.org/record/1200541
+USTC-iFLYTEK	system1	Track2	"2018-03-18 15:51:59"	37.26	8.08	10.5281/zenodo.1202372	ustc-iflytek_sytems.pdf	https://zenodo.org/record/1202372
+USTC-iFLYTEK	system1	Track2	"2018-03-18 15:54:58"	37.02	8.07	10.5281/zenodo.1202375	ustc-iflytek_sytems.pdf	https://zenodo.org/record/1202375
+USTC-iFLYTEK	system1	Track2	"2018-03-22 00:41:51"	40.29	7.95	10.5281/zenodo.1205174	ustc-iflytek_sytems.pdf	https://zenodo.org/record/1205174
+USTC-iFLYTEK	system1	Track2	"2018-03-23 19:00:48"	39.95	7.98	10.5281/zenodo.1206219	ustc-iflytek_sytems.pdf	https://zenodo.org/record/1206219
+USTC-iFLYTEK	system1	Track2	"2018-03-23 20:37:41"	38.99	8.01	10.5281/zenodo.1206251	ustc-iflytek_sytems.pdf	https://zenodo.org/record/1206251
+USTC-iFLYTEK	system2	Track1	"2018-03-07 01:03:08"	29.76	8.28	10.5281/zenodo.1193059	ustc-iflytek_sytems.pdf	https://zenodo.org/record/1193059
+USTC-iFLYTEK	system2	Track1	"2018-03-07 11:32:46"	29.25	8.28	10.5281/zenodo.1193527	ustc-iflytek_sytems.pdf	https://zenodo.org/record/1193527
+USTC-iFLYTEK	system2	Track1	"2018-03-08 15:12:07"	28.62	8.27	10.5281/zenodo.1194276	ustc-iflytek_sytems.pdf	https://zenodo.org/record/1194276
+USTC-iFLYTEK	system2	Track1	"2018-03-08 16:14:19"	28.6	8.27	10.5281/zenodo.1194317	ustc-iflytek_sytems.pdf	https://zenodo.org/record/1194317
+USTC-iFLYTEK	system2	Track1	"2018-03-10 14:37:28"	26.69	8.36	10.5281/zenodo.1195502	ustc-iflytek_sytems.pdf	https://zenodo.org/record/1195502
+USTC-iFLYTEK	system2	Track1	"2018-03-10 14:51:59"	26.54	8.37	10.5281/zenodo.1195503	ustc-iflytek_sytems.pdf	https://zenodo.org/record/1195503
+USTC-iFLYTEK	system2	Track1	"2018-03-11 13:59:18"	26.03	8.42	10.5281/zenodo.1195680	ustc-iflytek_sytems.pdf	https://zenodo.org/record/1195680
+USTC-iFLYTEK	system2	Track1	"2018-03-11 14:10:59"	26.03	8.42	10.5281/zenodo.1195683	ustc-iflytek_sytems.pdf	https://zenodo.org/record/1195683
+USTC-iFLYTEK	system2	Track1	"2018-03-12 17:30:33"	25.97	8.44	10.5281/zenodo.1196556	ustc-iflytek_sytems.pdf	https://zenodo.org/record/1196556
+USTC-iFLYTEK	system2	Track1	"2018-03-13 15:11:25"	26.19	8.4	10.5281/zenodo.1197179	ustc-iflytek_sytems.pdf	https://zenodo.org/record/1197179
+USTC-iFLYTEK	system2	Track1	"2018-03-13 15:29:15"	26.23	8.41	10.5281/zenodo.1197197	ustc-iflytek_sytems.pdf	https://zenodo.org/record/1197197
+USTC-iFLYTEK	system2	Track1	"2018-03-14 15:53:37"	25.6	8.41	10.5281/zenodo.1198625	ustc-iflytek_sytems.pdf	https://zenodo.org/record/1198625
+USTC-iFLYTEK	system2	Track1	"2018-03-14 16:07:39"	25.4	8.43	10.5281/zenodo.1198649	ustc-iflytek_sytems.pdf	https://zenodo.org/record/1198649
+USTC-iFLYTEK	system2	Track1	"2018-03-17 12:16:43"	26.24	8.41	10.5281/zenodo.1202157	ustc-iflytek_sytems.pdf	https://zenodo.org/record/1202157
+USTC-iFLYTEK	system2	Track1	"2018-03-17 12:41:25"	25.96	8.43	10.5281/zenodo.1202167	ustc-iflytek_sytems.pdf	https://zenodo.org/record/1202167
+USTC-iFLYTEK	system2	Track1	"2018-03-18 13:28:09"	25.79	8.42	10.5281/zenodo.1202334	ustc-iflytek_sytems.pdf	https://zenodo.org/record/1202334
+USTC-iFLYTEK	system2	Track1	"2018-03-18 13:42:45"	25.98	8.43	10.5281/zenodo.1202340	ustc-iflytek_sytems.pdf	https://zenodo.org/record/1202340
+USTC-iFLYTEK	system2	Track1	"2018-03-19 09:22:24"	25.01	8.45	10.5281/zenodo.1203199	ustc-iflytek_sytems.pdf	https://zenodo.org/record/1203199
+USTC-iFLYTEK	system2	Track1	"2018-03-19 14:50:55"	25.28	8.46	10.5281/zenodo.1203586	ustc-iflytek_sytems.pdf	https://zenodo.org/record/1203586
+USTC-iFLYTEK	system2	Track1	"2018-03-20 16:34:29"	26.37	8.38	10.5281/zenodo.1204409	ustc-iflytek_sytems.pdf	https://zenodo.org/record/1204409
+USTC-iFLYTEK	system2	Track1	"2018-03-20 16:49:21"	26.24	8.39	10.5281/zenodo.1204431	ustc-iflytek_sytems.pdf	https://zenodo.org/record/1204431
+USTC-iFLYTEK	system2	Track1	"2018-03-21 10:16:58"	25.18	8.43	10.5281/zenodo.1204861	ustc-iflytek_sytems.pdf	https://zenodo.org/record/1204861
+USTC-iFLYTEK	system2	Track1	"2018-03-21 10:34:07"	25.67	8.41	10.5281/zenodo.1204865	ustc-iflytek_sytems.pdf	https://zenodo.org/record/1204865
+USTC-iFLYTEK	system2	Track2	"2018-03-07 01:03:08"	42.04	7.92	10.5281/zenodo.1193059	ustc-iflytek_sytems.pdf	https://zenodo.org/record/1193059
+USTC-iFLYTEK	system2	Track2	"2018-03-07 11:32:46"	42.32	7.89	10.5281/zenodo.1193527	ustc-iflytek_sytems.pdf	https://zenodo.org/record/1193527
+USTC-iFLYTEK	system2	Track2	"2018-03-08 15:12:07"	43.5	7.9	10.5281/zenodo.1194276	ustc-iflytek_sytems.pdf	https://zenodo.org/record/1194276
+USTC-iFLYTEK	system2	Track2	"2018-03-08 16:14:19"	41.71	7.96	10.5281/zenodo.1194317	ustc-iflytek_sytems.pdf	https://zenodo.org/record/1194317
+USTC-iFLYTEK	system2	Track2	"2018-03-09 15:32:55"	41.69	7.9	10.5281/zenodo.1194834	ustc-iflytek_sytems.pdf	https://zenodo.org/record/1194834
+USTC-iFLYTEK	system2	Track2	"2018-03-10 14:37:28"	40.29	7.95	10.5281/zenodo.1195502	ustc-iflytek_sytems.pdf	https://zenodo.org/record/1195502
+USTC-iFLYTEK	system2	Track2	"2018-03-10 14:51:59"	39.72	7.99	10.5281/zenodo.1195503	ustc-iflytek_sytems.pdf	https://zenodo.org/record/1195503
+USTC-iFLYTEK	system2	Track2	"2018-03-11 13:59:18"	39.92	8.04	10.5281/zenodo.1195680	ustc-iflytek_sytems.pdf	https://zenodo.org/record/1195680
+USTC-iFLYTEK	system2	Track2	"2018-03-11 14:10:59"	39.42	7.99	10.5281/zenodo.1195683	ustc-iflytek_sytems.pdf	https://zenodo.org/record/1195683
+USTC-iFLYTEK	system2	Track2	"2018-03-12 06:27:44"	36.9	8.04	10.5281/zenodo.1195851	ustc-iflytek_sytems.pdf	https://zenodo.org/record/1195851
+USTC-iFLYTEK	system2	Track2	"2018-03-12 17:30:33"	37.06	8.04	10.5281/zenodo.1196556	ustc-iflytek_sytems.pdf	https://zenodo.org/record/1196556
+USTC-iFLYTEK	system2	Track2	"2018-03-13 15:11:25"	37.59	8.03	10.5281/zenodo.1197179	ustc-iflytek_sytems.pdf	https://zenodo.org/record/1197179
+USTC-iFLYTEK	system2	Track2	"2018-03-13 15:29:15"	36.91	8.06	10.5281/zenodo.1197197	ustc-iflytek_sytems.pdf	https://zenodo.org/record/1197197
+USTC-iFLYTEK	system2	Track2	"2018-03-14 15:53:37"	37.02	8.05	10.5281/zenodo.1198625	ustc-iflytek_sytems.pdf	https://zenodo.org/record/1198625
+USTC-iFLYTEK	system2	Track2	"2018-03-14 16:07:39"	36.86	8.11	10.5281/zenodo.1198649	ustc-iflytek_sytems.pdf	https://zenodo.org/record/1198649
+USTC-iFLYTEK	system2	Track2	"2018-03-16 13:33:54"	36.57	8.09	10.5281/zenodo.1200622	ustc-iflytek_sytems.pdf	https://zenodo.org/record/1200622
+USTC-iFLYTEK	system2	Track2	"2018-03-18 13:28:09"	37.32	8.07	10.5281/zenodo.1202334	ustc-iflytek_sytems.pdf	https://zenodo.org/record/1202334
+USTC-iFLYTEK	system2	Track2	"2018-03-18 13:42:45"	100.0	7.26	10.5281/zenodo.1202340	ustc-iflytek_sytems.pdf	https://zenodo.org/record/1202340
+USTC-iFLYTEK	system2	Track2	"2018-03-19 09:22:24"	37.26	8.08	10.5281/zenodo.1203199	ustc-iflytek_sytems.pdf	https://zenodo.org/record/1203199
+USTC-iFLYTEK	system2	Track2	"2018-03-20 16:34:29"	36.31	8.09	10.5281/zenodo.1204409	ustc-iflytek_sytems.pdf	https://zenodo.org/record/1204409
+USTC-iFLYTEK	system2	Track2	"2018-03-20 16:49:21"	36.39	8.09	10.5281/zenodo.1204431	ustc-iflytek_sytems.pdf	https://zenodo.org/record/1204431
+USTC-iFLYTEK	system3	Track1	"2018-03-07 01:25:40"	31.03	8.21	10.5281/zenodo.1193187	ustc-iflytek_sytems.pdf	https://zenodo.org/record/1193187
+USTC-iFLYTEK	system3	Track1	"2018-03-08 14:53:58"	28.84	8.28	10.5281/zenodo.1194249	ustc-iflytek_sytems.pdf	https://zenodo.org/record/1194249
+USTC-iFLYTEK	system3	Track1	"2018-03-08 15:41:54"	28.64	8.28	10.5281/zenodo.1194296	ustc-iflytek_sytems.pdf	https://zenodo.org/record/1194296
+USTC-iFLYTEK	system3	Track1	"2018-03-09 15:09:06"	27.76	8.3	10.5281/zenodo.1194829	ustc-iflytek_sytems.pdf	https://zenodo.org/record/1194829
+USTC-iFLYTEK	system3	Track1	"2018-03-10 15:24:24"	26.54	8.41	10.5281/zenodo.1195510	ustc-iflytek_sytems.pdf	https://zenodo.org/record/1195510
+USTC-iFLYTEK	system3	Track1	"2018-03-10 16:05:03"	25.98	8.4	10.5281/zenodo.1195518	ustc-iflytek_sytems.pdf	https://zenodo.org/record/1195518
+USTC-iFLYTEK	system3	Track1	"2018-03-11 13:26:36"	26.03	8.4	10.5281/zenodo.1195672	ustc-iflytek_sytems.pdf	https://zenodo.org/record/1195672
+USTC-iFLYTEK	system3	Track1	"2018-03-11 14:23:27"	26.28	8.43	10.5281/zenodo.1195684	ustc-iflytek_sytems.pdf	https://zenodo.org/record/1195684
+USTC-iFLYTEK	system3	Track1	"2018-03-12 17:02:26"	26.53	8.4	10.5281/zenodo.1196518	ustc-iflytek_sytems.pdf	https://zenodo.org/record/1196518
+USTC-iFLYTEK	system3	Track1	"2018-03-12 17:14:27"	26.11	8.41	10.5281/zenodo.1196539	ustc-iflytek_sytems.pdf	https://zenodo.org/record/1196539
+USTC-iFLYTEK	system3	Track1	"2018-03-14 16:24:30"	25.63	8.42	10.5281/zenodo.1198655	ustc-iflytek_sytems.pdf	https://zenodo.org/record/1198655
+USTC-iFLYTEK	system3	Track1	"2018-03-15 09:11:33"	25.73	8.4	10.5281/zenodo.1198670	ustc-iflytek_sytems.pdf	https://zenodo.org/record/1198670
+USTC-iFLYTEK	system3	Track1	"2018-03-16 14:10:54"	25.72	8.42	10.5281/zenodo.1200859	ustc-iflytek_sytems.pdf	https://zenodo.org/record/1200859
+USTC-iFLYTEK	system3	Track1	"2018-03-16 14:49:30"	26.23	8.44	10.5281/zenodo.1200884	ustc-iflytek_sytems.pdf	https://zenodo.org/record/1200884
+USTC-iFLYTEK	system3	Track1	"2018-03-17 11:32:16"	25.4	8.44	10.5281/zenodo.1202131	ustc-iflytek_sytems.pdf	https://zenodo.org/record/1202131
+USTC-iFLYTEK	system3	Track1	"2018-03-17 11:50:13"	25.39	8.44	10.5281/zenodo.1202143	ustc-iflytek_sytems.pdf	https://zenodo.org/record/1202143
+USTC-iFLYTEK	system3	Track1	"2018-03-19 13:30:11"	25.1	8.44	10.5281/zenodo.1203359	ustc-iflytek_sytems.pdf	https://zenodo.org/record/1203359
+USTC-iFLYTEK	system3	Track1	"2018-03-19 15:05:52"	25.06	8.45	10.5281/zenodo.1203595	ustc-iflytek_sytems.pdf	https://zenodo.org/record/1203595
+USTC-iFLYTEK	system3	Track1	"2018-03-20 17:03:02"	25.75	8.4	10.5281/zenodo.1204448	ustc-iflytek_sytems.pdf	https://zenodo.org/record/1204448
+USTC-iFLYTEK	system3	Track1	"2018-03-20 17:11:34"	26.2	8.39	10.5281/zenodo.1204446	ustc-iflytek_sytems.pdf	https://zenodo.org/record/1204446
+USTC-iFLYTEK	system3	Track1	"2018-03-21 13:55:53"	25.12	8.48	10.5281/zenodo.1204952	ustc-iflytek_sytems.pdf	https://zenodo.org/record/1204952
+USTC-iFLYTEK	system3	Track1	"2018-03-21 14:10:07"	25.25	8.43	10.5281/zenodo.1204957	ustc-iflytek_sytems.pdf	https://zenodo.org/record/1204957
+USTC-iFLYTEK	system3	Track1	"2018-03-22 13:23:44"	24.77	8.44	10.5281/zenodo.1205461	ustc-iflytek_sytems.pdf	https://zenodo.org/record/1205461
+USTC-iFLYTEK	system3	Track1	"2018-03-23 22:56:23"	36.14	8.09	10.5281/zenodo.1206300	ustc-iflytek_sytems.pdf	https://zenodo.org/record/1206300
+USTC-iFLYTEK	system3	Track2	"2018-03-07 01:25:40"	44.33	7.81	10.5281/zenodo.1193187	ustc-iflytek_sytems.pdf	https://zenodo.org/record/1193187
+USTC-iFLYTEK	system3	Track2	"2018-03-08 14:53:58"	44.66	7.95	10.5281/zenodo.1194249	ustc-iflytek_sytems.pdf	https://zenodo.org/record/1194249
+USTC-iFLYTEK	system3	Track2	"2018-03-08 15:41:54"	44.12	7.93	10.5281/zenodo.1194296	ustc-iflytek_sytems.pdf	https://zenodo.org/record/1194296
+USTC-iFLYTEK	system3	Track2	"2018-03-09 15:09:06"	40.32	7.97	10.5281/zenodo.1194829	ustc-iflytek_sytems.pdf	https://zenodo.org/record/1194829
+USTC-iFLYTEK	system3	Track2	"2018-03-10 15:24:24"	39.78	7.99	10.5281/zenodo.1195510	ustc-iflytek_sytems.pdf	https://zenodo.org/record/1195510
+USTC-iFLYTEK	system3	Track2	"2018-03-10 16:05:03"	50.06	7.59	10.5281/zenodo.1195518	ustc-iflytek_sytems.pdf	https://zenodo.org/record/1195518
+USTC-iFLYTEK	system3	Track2	"2018-03-11 13:26:36"	39.83	7.98	10.5281/zenodo.1195672	ustc-iflytek_sytems.pdf	https://zenodo.org/record/1195672
+USTC-iFLYTEK	system3	Track2	"2018-03-11 14:23:27"	39.32	8.03	10.5281/zenodo.1195684	ustc-iflytek_sytems.pdf	https://zenodo.org/record/1195684
+USTC-iFLYTEK	system3	Track2	"2018-03-12 17:02:26"	36.81	8.06	10.5281/zenodo.1196518	ustc-iflytek_sytems.pdf	https://zenodo.org/record/1196518
+USTC-iFLYTEK	system3	Track2	"2018-03-12 17:14:27"	36.78	8.08	10.5281/zenodo.1196539	ustc-iflytek_sytems.pdf	https://zenodo.org/record/1196539
+USTC-iFLYTEK	system3	Track2	"2018-03-14 16:24:30"	36.45	8.09	10.5281/zenodo.1198655	ustc-iflytek_sytems.pdf	https://zenodo.org/record/1198655
+USTC-iFLYTEK	system3	Track2	"2018-03-22 13:23:44"	36.05	8.08	10.5281/zenodo.1205461	ustc-iflytek_sytems.pdf	https://zenodo.org/record/1205461
+USTC-iFLYTEK	system3	Track2	"2018-03-23 22:19:06"	36.32	8.09	10.5281/zenodo.1206291	ustc-iflytek_sytems.pdf	https://zenodo.org/record/1206291
+USTC-iFLYTEK	system3	Track2	"2018-03-23 22:56:23"	36.56	8.06	10.5281/zenodo.1206300	ustc-iflytek_sytems.pdf	https://zenodo.org/record/1206300
+USTC-iFLYTEK	system4	Track1	"2018-03-21 08:18:06"	25.14	8.42	10.5281/zenodo.1204769	ustc-iflytek_sytems.pdf	https://zenodo.org/record/1204769
+USTC-iFLYTEK	system4	Track1	"2018-03-21 08:31:59"	25.42	8.41	10.5281/zenodo.1204787	ustc-iflytek_sytems.pdf	https://zenodo.org/record/1204787
+USTC-iFLYTEK	system4	Track1	"2018-03-22 03:15:31"	24.88	8.45	10.5281/zenodo.1205190	ustc-iflytek_sytems.pdf	https://zenodo.org/record/1205190
+USTC-iFLYTEK	system4	Track1	"2018-03-22 16:06:59"	24.96	8.46	10.5281/zenodo.1205528	ustc-iflytek_sytems.pdf	https://zenodo.org/record/1205528
+USTC-iFLYTEK	system4	Track2	"2018-03-22 03:15:31"	37.11	8.05	10.5281/zenodo.1205190	ustc-iflytek_sytems.pdf	https://zenodo.org/record/1205190
+USTC-iFLYTEK	system4	Track2	"2018-03-22 16:06:59"	36.52	8.07	10.5281/zenodo.1205528	ustc-iflytek_sytems.pdf	https://zenodo.org/record/1205528
+USTC-iFLYTEK	system4	Track2	"2018-03-23 22:15:12"	36.05	8.08	10.5281/zenodo.1206290	ustc-iflytek_sytems.pdf	https://zenodo.org/record/1206290
+ViVoLab	"VivoLab Sys 1"	Track1	"2018-03-08 15:28:07"	33.58	8.23	10.5281/zenodo.1194286	vivolab_systems.pdf	https://zenodo.org/record/1194286
+ViVoLab	"VivoLab Sys 1"	Track1	"2018-03-08 16:36:10"	33.2	8.26	10.5281/zenodo.1194338	vivolab_systems.pdf	https://zenodo.org/record/1194338
+ViVoLab	"VivoLab Sys 1"	Track1	"2018-03-09 13:25:12"	32.9	8.29	10.5281/zenodo.1194784	vivolab_systems.pdf	https://zenodo.org/record/1194784
+ViVoLab	"VivoLab Sys 1"	Track1	"2018-03-12 16:45:21"	32.84	8.25	10.5281/zenodo.1196493	vivolab_systems.pdf	https://zenodo.org/record/1196493
+ViVoLab	"VivoLab Sys 1"	Track1	"2018-03-12 17:18:55"	32.86	8.26	10.5281/zenodo.1196544	vivolab_systems.pdf	https://zenodo.org/record/1196544
+ViVoLab	"VivoLab Sys 1"	Track1	"2018-03-23 14:18:21"	32.9	8.29	10.5281/zenodo.1206113	vivolab_systems.pdf	https://zenodo.org/record/1206113
+ViVoLab	"VivoLab Sys 1"	Track2	"2018-03-08 15:28:07"	48.54	7.81	10.5281/zenodo.1194286	vivolab_systems.pdf	https://zenodo.org/record/1194286
+ViVoLab	"VivoLab Sys 1"	Track2	"2018-03-08 16:36:10"	48.21	7.83	10.5281/zenodo.1194338	vivolab_systems.pdf	https://zenodo.org/record/1194338
+ViVoLab	"VivoLab Sys 1"	Track2	"2018-03-09 10:44:42"	43.77	7.86	10.5281/zenodo.1194688	vivolab_systems.pdf	https://zenodo.org/record/1194688
+ViVoLab	"VivoLab Sys 1"	Track2	"2018-03-09 13:25:12"	44.91	7.89	10.5281/zenodo.1194784	vivolab_systems.pdf	https://zenodo.org/record/1194784
+ViVoLab	"VivoLab Sys 1"	Track2	"2018-03-12 16:45:21"	43.57	7.85	10.5281/zenodo.1196493	vivolab_systems.pdf	https://zenodo.org/record/1196493
+ViVoLab	"VivoLab Sys 1"	Track2	"2018-03-12 17:18:55"	43.7	7.85	10.5281/zenodo.1196544	vivolab_systems.pdf	https://zenodo.org/record/1196544
+ViVoLab	"VivoLab Sys 1"	Track2	"2018-03-23 14:18:21"	44.91	7.89	10.5281/zenodo.1206113	vivolab_systems.pdf	https://zenodo.org/record/1206113
+ViVoLab	"VivoLab Sys 2"	Track1	"2018-03-09 16:17:33"	46.15	8.44	10.5281/zenodo.1194852	vivolab_systems.pdf	https://zenodo.org/record/1194852
+ViVoLab	"VivoLab Sys 2"	Track1	"2018-03-12 16:47:16"	47.7	8.47	10.5281/zenodo.1196499	vivolab_systems.pdf	https://zenodo.org/record/1196499
+ViVoLab	"VivoLab Sys 2"	Track1	"2018-03-21 19:09:46"	28.02	8.38	10.5281/zenodo.1205108	vivolab_systems.pdf	https://zenodo.org/record/1205108
+ViVoLab	"VivoLab Sys 2"	Track1	"2018-03-22 13:49:55"	26.15	8.34	10.5281/zenodo.1205473	vivolab_systems.pdf	https://zenodo.org/record/1205473
+ViVoLab	"VivoLab Sys 2"	Track1	"2018-03-23 14:19:47"	26.15	8.34	10.5281/zenodo.1206117	vivolab_systems.pdf	https://zenodo.org/record/1206117
+ViVoLab	"VivoLab Sys 2"	Track2	"2018-03-09 16:17:33"	52.92	8.07	10.5281/zenodo.1194852	vivolab_systems.pdf	https://zenodo.org/record/1194852
+ViVoLab	"VivoLab Sys 2"	Track2	"2018-03-12 16:47:16"	49.44	8.08	10.5281/zenodo.1196499	vivolab_systems.pdf	https://zenodo.org/record/1196499
+ViVoLab	"VivoLab Sys 2"	Track2	"2018-03-21 19:09:46"	40.31	8.02	10.5281/zenodo.1205108	vivolab_systems.pdf	https://zenodo.org/record/1205108
+ViVoLab	"VivoLab Sys 2"	Track2	"2018-03-22 13:49:55"	39.2	7.97	10.5281/zenodo.1205473	vivolab_systems.pdf	https://zenodo.org/record/1205473
+ViVoLab	"VivoLab Sys 2"	Track2	"2018-03-23 14:19:47"	39.2	7.97	10.5281/zenodo.1206117	vivolab_systems.pdf	https://zenodo.org/record/1206117
+ViVoLab	"VivoLab Sys 3"	Track1	"2018-03-09 16:20:08"	32.83	8.24	10.5281/zenodo.1194854	vivolab_systems.pdf	https://zenodo.org/record/1194854
+ViVoLab	"VivoLab Sys 3"	Track1	"2018-03-09 16:41:55"	32.15	8.2	10.5281/zenodo.1194861	vivolab_systems.pdf	https://zenodo.org/record/1194861
+ViVoLab	"VivoLab Sys 3"	Track1	"2018-03-12 16:49:05"	36.88	8.4	10.5281/zenodo.1196503	vivolab_systems.pdf	https://zenodo.org/record/1196503
+ViVoLab	"VivoLab Sys 3"	Track1	"2018-03-12 17:21:58"	32.27	8.28	10.5281/zenodo.1196552	vivolab_systems.pdf	https://zenodo.org/record/1196552
+ViVoLab	"VivoLab Sys 3"	Track1	"2018-03-21 19:12:03"	28.28	8.32	10.5281/zenodo.1205112	vivolab_systems.pdf	https://zenodo.org/record/1205112
+ViVoLab	"VivoLab Sys 3"	Track1	"2018-03-22 13:52:54"	27.69	8.28	10.5281/zenodo.1205477	vivolab_systems.pdf	https://zenodo.org/record/1205477
+ViVoLab	"VivoLab Sys 3"	Track1	"2018-03-23 14:21:35"	26.27	8.33	10.5281/zenodo.1206119	vivolab_systems.pdf	https://zenodo.org/record/1206119
+ViVoLab	"VivoLab Sys 3"	Track2	"2018-03-09 16:20:08"	43.35	7.87	10.5281/zenodo.1194854	vivolab_systems.pdf	https://zenodo.org/record/1194854
+ViVoLab	"VivoLab Sys 3"	Track2	"2018-03-09 16:41:55"	44.18	7.81	10.5281/zenodo.1194861	vivolab_systems.pdf	https://zenodo.org/record/1194861
+ViVoLab	"VivoLab Sys 3"	Track2	"2018-03-12 16:49:05"	43.99	7.81	10.5281/zenodo.1196503	vivolab_systems.pdf	https://zenodo.org/record/1196503
+ViVoLab	"VivoLab Sys 3"	Track2	"2018-03-12 17:21:58"	43.99	7.81	10.5281/zenodo.1196552	vivolab_systems.pdf	https://zenodo.org/record/1196552
+ViVoLab	"VivoLab Sys 3"	Track2	"2018-03-21 19:12:03"	39.97	7.97	10.5281/zenodo.1205112	vivolab_systems.pdf	https://zenodo.org/record/1205112
+ViVoLab	"VivoLab Sys 3"	Track2	"2018-03-22 13:52:54"	40.88	7.91	10.5281/zenodo.1205477	vivolab_systems.pdf	https://zenodo.org/record/1205477
+ViVoLab	"VivoLab Sys 3"	Track2	"2018-03-23 14:21:35"	39.15	7.96	10.5281/zenodo.1206119	vivolab_systems.pdf	https://zenodo.org/record/1206119
+ViVoLab	"VivoLab Sys 4"	Track1	"2018-03-23 08:18:00"	26.02	8.35	10.5281/zenodo.1205792	vivolab_systems.pdf	https://zenodo.org/record/1205792
+ViVoLab	"VivoLab Sys 4"	Track2	"2018-03-23 08:18:00"	38.0	7.99	10.5281/zenodo.1205792	vivolab_systems.pdf	https://zenodo.org/record/1205792
+ViVoLab	ViVoLab_Baseline	Track1	"2018-03-08 14:55:22"	48.4	8.52	10.5281/zenodo.1194251	vivolab_systems.pdf	https://zenodo.org/record/1194251
+ViVoLab	ViVoLab_Baseline	Track1	"2018-03-12 16:42:58"	48.69	8.52	10.5281/zenodo.1196487	vivolab_systems.pdf	https://zenodo.org/record/1196487
+ViVoLab	ViVoLab_Baseline	Track1	"2018-03-21 07:57:26"	38.95	8.42	10.5281/zenodo.1204763	vivolab_systems.pdf	https://zenodo.org/record/1204763
+ViVoLab	ViVoLab_Baseline	Track1	"2018-03-23 14:16:17"	48.4	8.52	10.5281/zenodo.1206111	vivolab_systems.pdf	https://zenodo.org/record/1206111
+ViVoLab	ViVoLab_Baseline	Track2	"2018-03-08 14:55:22"	62.25	8.01	10.5281/zenodo.1194251	vivolab_systems.pdf	https://zenodo.org/record/1194251
+ViVoLab	ViVoLab_Baseline	Track2	"2018-03-09 10:42:36"	51.78	8.12	10.5281/zenodo.1194681	vivolab_systems.pdf	https://zenodo.org/record/1194681
+ViVoLab	ViVoLab_Baseline	Track2	"2018-03-12 16:42:58"	51.73	8.13	10.5281/zenodo.1196487	vivolab_systems.pdf	https://zenodo.org/record/1196487
+ViVoLab	ViVoLab_Baseline	Track2	"2018-03-21 07:57:26"	47.17	7.98	10.5281/zenodo.1204763	vivolab_systems.pdf	https://zenodo.org/record/1204763
+ViVoLab	ViVoLab_Baseline	Track2	"2018-03-23 14:16:17"	51.78	8.12	10.5281/zenodo.1206111	vivolab_systems.pdf	https://zenodo.org/record/1206111
+ZCU-NTIS	MH-crR	Track1	"2018-03-15 20:33:08"	28.3	8.3	10.5281/zenodo.1199661	zcu-ntis_mh-crR.pdf	https://zenodo.org/record/1199661
+ZCU-NTIS	MH-crR	Track1	"2018-03-15 20:58:50"	27.68	8.31	10.5281/zenodo.1199662	zcu-ntis_mh-crR.pdf	https://zenodo.org/record/1199662
+ZCU-NTIS	MH-crR	Track1	"2018-03-16 17:37:07"	27.56	8.31	10.5281/zenodo.1201537	zcu-ntis_mh-crR.pdf	https://zenodo.org/record/1201537
+ZCU-NTIS	MH-crR	Track1	"2018-03-19 18:35:05"	27.88	8.31	10.5281/zenodo.1203688	zcu-ntis_mh-crR.pdf	https://zenodo.org/record/1203688
+ZCU-NTIS	MH-crR	Track1	"2018-03-20 14:48:36"	27.89	8.32	10.5281/zenodo.1204342	zcu-ntis_mh-crR.pdf	https://zenodo.org/record/1204342
+ZCU-NTIS	MH-crR	Track1	"2018-03-21 17:05:58"	27.12	8.31	10.5281/zenodo.1205053	zcu-ntis_mh-crR.pdf	https://zenodo.org/record/1205053
+ZCU-NTIS	MH-crR	Track1	"2018-03-23 13:09:55"	27.92	8.31	10.5281/zenodo.1206070	zcu-ntis_mh-crR.pdf	https://zenodo.org/record/1206070
+ZCU-NTIS	MH-crR	Track1	"2018-03-23 13:19:43"	27.12	8.31	10.5281/zenodo.1205053	zcu-ntis_mh-crR.pdf	https://zenodo.org/record/1205053
+ZCU-NTIS	MH-crR	Track2	"2018-03-17 18:41:08"	45.94	7.77	10.5281/zenodo.1202213	zcu-ntis_mh-crR.pdf	https://zenodo.org/record/1202213
+ZCU-NTIS	MH-crR	Track2	"2018-03-19 18:35:05"	46.03	7.78	10.5281/zenodo.1203688	zcu-ntis_mh-crR.pdf	https://zenodo.org/record/1203688
+ZCU-NTIS	MH-crR	Track2	"2018-03-20 14:48:36"	46.23	7.76	10.5281/zenodo.1204342	zcu-ntis_mh-crR.pdf	https://zenodo.org/record/1204342
+ZCU-NTIS	MH-crR	Track2	"2018-03-21 17:05:58"	46.14	7.77	10.5281/zenodo.1205053	zcu-ntis_mh-crR.pdf	https://zenodo.org/record/1205053
+ZCU-NTIS	MH-crR	Track2	"2018-03-23 13:19:43"	46.14	7.77	10.5281/zenodo.1205053	zcu-ntis_mh-crR.pdf	https://zenodo.org/record/1205053
+ZCU-NTIS	ws-cr	Track1	"2018-03-07 13:29:01"	33.26	8.26	10.5281/zenodo.1193611	zcu-ntis_ws-cr.pdf	https://zenodo.org/record/1193611
+ZCU-NTIS	ws-cr	Track1	"2018-03-07 20:25:53"	30.56	8.29	10.5281/zenodo.1193835	zcu-ntis_ws-cr.pdf	https://zenodo.org/record/1193835
+ZCU-NTIS	ws-cr	Track1	"2018-03-08 17:28:35"	30.32	8.29	10.5281/zenodo.1194364	zcu-ntis_ws-cr.pdf	https://zenodo.org/record/1194364
+ZCU-NTIS	ws-cr	Track1	"2018-03-08 18:23:22"	30.19	8.26	10.5281/zenodo.1194382	zcu-ntis_ws-cr.pdf	https://zenodo.org/record/1194382
+ZCU-NTIS	ws-cr	Track1	"2018-03-09 11:02:54"	30.59	8.23	10.5281/zenodo.1194701	zcu-ntis_ws-cr.pdf	https://zenodo.org/record/1194701
+ZCU-NTIS	ws-cr	Track1	"2018-03-09 20:32:46"	29.12	8.29	10.5281/zenodo.1195016	zcu-ntis_ws-cr.pdf	https://zenodo.org/record/1195016
+ZCU-NTIS	ws-cr	Track1	"2018-03-10 16:47:23"	28.9	8.32	10.5281/zenodo.1195526	zcu-ntis_ws-cr.pdf	https://zenodo.org/record/1195526
+ZCU-NTIS	ws-cr	Track1	"2018-03-10 17:35:24"	29.15	8.32	10.5281/zenodo.1195529	zcu-ntis_ws-cr.pdf	https://zenodo.org/record/1195529
+ZCU-NTIS	ws-cr	Track1	"2018-03-11 13:20:15"	28.91	8.32	10.5281/zenodo.1195668	zcu-ntis_ws-cr.pdf	https://zenodo.org/record/1195668
+ZCU-NTIS	ws-cr	Track1	"2018-03-12 06:23:33"	28.9	8.29	10.5281/zenodo.1195850	zcu-ntis_ws-cr.pdf	https://zenodo.org/record/1195850
+ZCU-NTIS	ws-cr	Track1	"2018-03-12 20:10:06"	28.07	8.31	10.5281/zenodo.1196632	zcu-ntis_ws-cr.pdf	https://zenodo.org/record/1196632
+ZCU-NTIS	ws-cr	Track1	"2018-03-13 20:13:36"	29.09	8.31	10.5281/zenodo.1197351	zcu-ntis_ws-cr.pdf	https://zenodo.org/record/1197351
+ZCU-NTIS	ws-cr	Track1	"2018-03-14 19:06:02"	29.13	8.31	10.5281/zenodo.1198782	zcu-ntis_ws-cr.pdf	https://zenodo.org/record/1198782
+ZCU-NTIS	ws-cr	Track1	"2018-03-14 20:38:23"	28.76	8.32	10.5281/zenodo.1198837	zcu-ntis_ws-cr.pdf	https://zenodo.org/record/1198837
+ZCU-NTIS	ws-cr	Track1	"2018-03-15 12:06:05"	28.21	8.32	10.5281/zenodo.1199417	zcu-ntis_ws-cr.pdf	https://zenodo.org/record/1199417
+ZCU-NTIS	ws-cr	Track1	"2018-03-15 20:34:17"	28.93	8.3	10.5281/zenodo.1199659	zcu-ntis_ws-cr.pdf	https://zenodo.org/record/1199659
+ZCU-NTIS	ws-cr	Track1	"2018-03-17 07:21:44"	26.91	8.34	10.5281/zenodo.1202088	zcu-ntis_ws-cr.pdf	https://zenodo.org/record/1202088
+ZCU-NTIS	ws-cr	Track1	"2018-03-17 23:09:46"	28.07	8.31	10.5281/zenodo.1196632	zcu-ntis_ws-cr.pdf	https://zenodo.org/record/1196632
+ZCU-NTIS	ws-cr	Track1	"2018-03-19 18:22:23"	27.43	8.33	10.5281/zenodo.1203685	zcu-ntis_ws-cr.pdf	https://zenodo.org/record/1203685
+ZCU-NTIS	ws-crR	Track1	"2018-03-08 17:40:12"	32.65	8.26	10.5281/zenodo.1194372	zcu-ntis_ws-crR.pdf	https://zenodo.org/record/1194372
+ZCU-NTIS	ws-crR	Track1	"2018-03-08 18:24:04"	32.51	8.23	10.5281/zenodo.1194383	zcu-ntis_ws-crR.pdf	https://zenodo.org/record/1194383
+ZCU-NTIS	ws-crR	Track1	"2018-03-09 11:03:29"	32.91	8.2	10.5281/zenodo.1194703	zcu-ntis_ws-crR.pdf	https://zenodo.org/record/1194703
+ZCU-NTIS	ws-crR	Track1	"2018-03-11 20:50:33"	27.31	8.33	10.5281/zenodo.1195748	zcu-ntis_ws-crR.pdf	https://zenodo.org/record/1195748
+ZCU-NTIS	ws-crR	Track1	"2018-03-12 09:40:51"	28.24	8.3	10.5281/zenodo.1195884	zcu-ntis_ws-crR.pdf	https://zenodo.org/record/1195884
+ZCU-NTIS	ws-crR	Track1	"2018-03-12 20:08:16"	27.59	8.32	10.5281/zenodo.1196629	zcu-ntis_ws-crR.pdf	https://zenodo.org/record/1196629
+ZCU-NTIS	ws-crR	Track1	"2018-03-13 17:36:28"	27.9	8.3	10.5281/zenodo.1197284	zcu-ntis_ws-crR.pdf	https://zenodo.org/record/1197284
+ZCU-NTIS	ws-crR	Track1	"2018-03-13 19:24:50"	27.63	8.32	10.5281/zenodo.1197337	zcu-ntis_ws-crR.pdf	https://zenodo.org/record/1197337
+ZCU-NTIS	ws-crR	Track1	"2018-03-14 19:04:45"	27.7	8.32	10.5281/zenodo.1198779	zcu-ntis_ws-crR.pdf	https://zenodo.org/record/1198779
+ZCU-NTIS	ws-crR	Track1	"2018-03-14 20:37:01"	27.87	8.32	10.5281/zenodo.1198836	zcu-ntis_ws-crR.pdf	https://zenodo.org/record/1198836
+ZCU-NTIS	ws-crR	Track1	"2018-03-15 12:07:39"	27.7	8.32	10.5281/zenodo.1199420	zcu-ntis_ws-crR.pdf	https://zenodo.org/record/1199420
+ZCU-NTIS	ws-crR	Track1	"2018-03-15 12:41:46"	27.38	8.33	10.5281/zenodo.1199455	zcu-ntis_ws-crR.pdf	https://zenodo.org/record/1199455
+ZCU-NTIS	ws-crR	Track1	"2018-03-16 06:40:05"	28.66	8.34	10.5281/zenodo.1199975	zcu-ntis_ws-crR.pdf	https://zenodo.org/record/1199975
+ZCU-NTIS	ws-crR	Track1	"2018-03-16 17:39:52"	27.19	8.33	10.5281/zenodo.1201538	zcu-ntis_ws-crR.pdf	https://zenodo.org/record/1201538
+ZCU-NTIS	ws-crR	Track1	"2018-03-17 07:24:35"	30.8	8.21	10.5281/zenodo.1202089	zcu-ntis_ws-crR.pdf	https://zenodo.org/record/1202089
+ZCU-NTIS	ws-crR	Track1	"2018-03-17 23:08:18"	26.91	8.34	10.5281/zenodo.1202254	zcu-ntis_ws-crR.pdf	https://zenodo.org/record/1202254
+ZCU-NTIS	ws-crR	Track1	"2018-03-18 13:45:06"	27.04	8.34	10.5281/zenodo.1202341	zcu-ntis_ws-crR.pdf	https://zenodo.org/record/1202341
+ZCU-NTIS	ws-crR	Track1	"2018-03-18 17:30:10"	27.08	8.34	10.5281/zenodo.1202385	zcu-ntis_ws-crR.pdf	https://zenodo.org/record/1202385
+ZCU-NTIS	ws-crR	Track1	"2018-03-19 13:30:04"	27.04	8.34	10.5281/zenodo.1203356	zcu-ntis_ws-crR.pdf	https://zenodo.org/record/1203356
+ZCU-NTIS	ws-crR	Track1	"2018-03-19 18:18:45"	26.99	8.34	10.5281/zenodo.1203683	zcu-ntis_ws-crR.pdf	https://zenodo.org/record/1203683
+ZCU-NTIS	ws-crR	Track1	"2018-03-20 07:11:16"	26.9	8.34	10.5281/zenodo.1203834	zcu-ntis_ws-crR.pdf	https://zenodo.org/record/1203834
+ZCU-NTIS	ws-crR	Track2	"2018-03-17 23:08:18"	45.92	7.78	10.5281/zenodo.1202254	zcu-ntis_ws-crR.pdf	https://zenodo.org/record/1202254
+ZCU-NTIS	ws-crR	Track2	"2018-03-19 13:30:04"	45.78	7.79	10.5281/zenodo.1203356	zcu-ntis_ws-crR.pdf	https://zenodo.org/record/1203356
+								

@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>DIHARD Challenge</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- StyleSheet -->
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/custom.min.css">
+    <link rel="stylesheet" href="./css/flaty.css">
+    <!-- SCRIPT -->
+    <script src="./js/dihard.js"></script>
+</head>
+
+<body>
+    <div class="page-header" id="banner">
+        <center>
+            <div class="my4" style="max-width: 69rem;background-color:pink;padding-left:20px;padding-right:20px">
+                <h4 class="card-title" align="justify">
+                    <br>
+         The first DIHARD challenge is now complete. We would like to thank all teams that participated in the challenge and at the special session an Interspeech 2018 for making it a success. For full results as well as system descriptions, please see the <a href="results.php" style="color:blue">results page</a>. Development and test sets are in the process of being published through <a href="https://www.ldc.upenn.edu/" style="color:blue">LDC</a>.
+         <br><br>
+       </h4>
+            </div>
+           </center> 
+    </div>
+    <div class="container">
+        <!-- Navbar -->
+        <div class="bs-docs-section clearfix">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+                <a class="navbar-brand" href="index.html">DIHARD</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="true" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse show" id="navbarColor01">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="overview.html">
+                                <font size="4">Overview </font>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="data.html">
+                                <font size="4">Data </font>
+                            </a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="instructions.html">
+                                <font size="4">Instructions </font><span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="submission.html">
+                                <font size="4">Submissions </font>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="results.php">
+                                <font size="4">Results </font>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">
+                                <font size="4">Contact Us </font>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <!-- Navbar -->
+        <!-- Content -->
+        <div class="jumbotron">
+            <h1>Instructions for participation</h1>
+            <hr class="my-4">
+            <!-- Registration -->
+            <h4><b>Registration</b></h4>
+            <p align="justify">To register for the evaluation, participants should email <a href="mailto:dihardchallenge@gmail.com" target="_top">dihardchallenge@gmail.com</a> with the subject line “<code>REGISTRATION</code>” and the following details:</p>
+            <ul>
+                <li>Organization – the organization competing (e.g., NIST, BBN, SRI)</li>
+                <li>Team name – the name to be displayed on the leaderboard</li>
+                <li>Tracks – which tracks they will be competing in</li>
+            </ul>
+            <br>
+            <!-- License agreement -->
+            <h4><b>Data license agreement</b></h4>
+            <p align="justify">One participant from each site must sign the <a href="docs/First_DIHARD_Challenge_License_Agreement.pdf">data license agreement</a> and its <a href="docs/Addendum_First_DIHARD_Challenge_License_Agreement.pdf">addendum</a> and return them to LDC: (1) by email to <a href="mailto:ldc@ldc.upenn.edu" target="_top">ldc@ldc.upenn.edu</a> or (2) by facsimile, Attention: Membership Office, fax number (+1) 215-573-2175. They will also need to create an <a href="https://catalog.ldc.upenn.edu/signup">LDC Online user account</a>, which will be used to download the dev and eval releases</p>
+            <br>
+            <!-- Zenodo -->
+            <h4><b>Zenodo registration</b></h4>
+            <p align="justify">In order to submit system results, performers will need to create an account with <a href="https://zenodo.org/">Zenodo</a>.</p>
+            <br>
+            <!-- Paper submission -->
+            <h4><b>Paper submission</b></h4>
+            <p align="justify">
+                For challenge participants contributing papers to the Interspeech special session, the deadline for submission of papers is March 23, 2018 (<a href="https://www.timeanddate.com/countdown/generic?p0=769&iso=20180324T00&year=2018&month=3&day=24&hour=0&min=0&sec=0&msg=DIHARD%20Submission%20Deadline">midnight GMT</a>). Please submit your paper by this date via the Interspeech submission system at <a href="https://www.softconf.com/i/interspeech2018/">https://www.softconf.com/i/interspeech2018/</a>. As topic, you should choose <b>ONLY</b> the special session: 13.3 The First DIHARD Speech Diarization Challenge.
+                <ul>
+                    <li>
+                        <b><font color="red">IMPORTANT</font></b> Papers must be registered in the Interspeech submission system by March 16 (<a href="https://www.timeanddate.com/countdown/generic?p0=769&iso=20180317T00&year=2018&month=3&day=24&hour=0&min=0&sec=0&msg=DIHARD%20Submission%20Deadline">midnight GMT</a>). While the title, abstract, authors list, and pdf may all be changed after this date, a version <b>MUST</b> be submitted to the system with the correct topic (13.3 The First DIHARD Speech Diarization Challenge) by March 16.
+                    </li>
+                    <li>
+                        Papers should not repeat the descriptions of the dataset composition or annotation process, but should cite the evaluation plan:<br><br>
+                        <p style="margin-left: 40px">
+                            Ryant, N., Church, K., Cieri, C., Cristia, A., Du, J., Ganapathy, S., and Liberman, M. (2018). First DIHARD Challenge Evaluation Plan. https://zenodo.org/record/1199638.
+                        </p>
+                        and the DIHARD and SEEDLingS corpora:<br><br>
+                        <p style="margin-left: 40px">
+                            Bergelson, E. (2016). Bergelson Seedlings HomeBank Corpus. doi: 10.21415/T5PK6D.<br><br>
+                            Ryant et al. (2018). DIHARD Corpus. Linguistic Data Consortium.
+                        </p>
+                    </li>
+                    <li>
+                        Papers may report additional results on other corpora.
+                    </li>
+                    <li>
+                        Accepted papers may update their results on the development and evaluation sets during the paper revision period (June 3-17), though any such updates will not be reflected on the official challenge leaderboard.
+                    </li>
+                </ul>
+            </p>
+            <br>
+            <!-- Rules -->
+            <h4><b>Results submission</b></h4>
+            <p align="justify">
+                The deadline for submission of final system results is March 23 (<a href="https://www.timeanddate.com/countdown/generic?p0=769&iso=20180324T00&year=2018&month=3&day=24&hour=0&min=0&sec=0&msg=DIHARD%20Submission%20Deadline">midnight GMT</a>). Results should be submitted via Zenodo according to the instructions at the <a href="submission.html">submissions page</a>.
+                <ul>
+                    <li>
+                        The scores for the most recently submitted output for each system for each track will be displayed on the <a href="results.php">leaderboard</a>, which will update in real time until the challenge submission deadline, at which point it will be frozen.
+                    </li>
+                    <li>
+                        Teams may submit results from multiple systems, in which case all will be displayed on the leaderboard and included in any post-challenge discussion of results.
+                    </li>
+                    <li>
+                        If a team wishes to remove a system (e.g., remove a test submission or a mistake) or change its name, they should contact the DIHARD organizers at <a href="mailto:dihardchallenge@gmail.com">dihardchallenge@gmail.com</a>. These are the only changes to the leaderboard that will be allowed post-deadline.
+                    </li>
+                    <li>
+                        Each submitted system must be accompanied by a detailed system description following the provided <a href="data.html#appendixc">template</a>. These system descriptions should be submitted as PDFs via <a href="mailto:dihardchallenge@gmail.com">dihardchallenge@gmail.com</a> by March 31, 2018 (midnight GMT). Preferably, each team will send one email containing an attachment for each system description.
+                    </li>
+                </ul>
+            </p><br>
+            <h4><b>Rules</b></h4>
+            <p align="justify">The 2018 DIHARD challenge is an open evaluation where the test data is sent to participants, who will process the data locally and submit their system outputs to LDC via <a href="https://zenodo.org/">Zenodo</a> for scoring. As such, the participants have agreed to process the data in accordance with the following rules:
+                <ul>
+                    <li>Investigation of the evaluation data prior to the end of the evaluation is disallowed.</li>
+                    <li>Automatic identification of the domain of the test utterance is allowed.</li>
+                    <li>During the evaluation period, each team may make at most two submissions per day per system. Additional submissions past the first two each day will be ignored.</li>
+                    <li>While most test data is actually, or effectively, unexposed, portions have been exposed in part in the following corpora:</li>
+                    <ul>
+                        <li>HCRC Map Task Corpus (LDC93S12)</li>
+                        <li>DCIEM Map Task Corpus (LDC96S38)</li>
+                        <li>MIXER6 Speech (LDC2013S03)</li>
+                        <li>NIST SRE10 evaluation data</li>
+                        <li>NIST SRE12 evaluation data</li>
+                    </ul>
+                    Use of these corpora is prohibited.
+                    <li>Participants in the 2017 JSALT Summer Workshop would have had access to an earlier version of the following sources:</li>
+                    <ul>
+                        <li>ADOS</li>
+                        <li>SEEDlingS</li>
+                        <li>YouthPoint</li>
+                    </ul>
+                    Teams containing members who participated in JSALT will be allowed to submit systems, but their scores will be flagged on the leaderboard and in publications.
+                    <li>
+                        While participants are encouraged to submit papers to the special session at Interspeech 2018, this is not a requirement for participation.
+                    </li>
+                </ul>
+        </div>
+        <!-- Content -->
+    </div>
+</body>
+
+</html>
