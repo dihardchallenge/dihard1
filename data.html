@@ -15,17 +15,17 @@
 </head>
 
 <body>
-    <div class="page-header" id="banner">
-        <center>
-            <div class="my4" style="max-width: 69rem;background-color:pink;padding-left:20px;padding-right:20px">
-                <h4 class="card-title" align="justify">
+<div class="page-header" id="banner">
+    <center>
+        <div class="my4" style="max-width: 69rem;background-color:pink;padding-left:20px;padding-right:20px">
+            <h4 class="card-title" align="justify">
                     <br>
-         The first DIHARD challenge is now complete. We would like to thank all teams that participated in the challenge and at the special session an Interspeech 2018 for making it a success. For full results as well as system descriptions, please see the <a href="results.php" style="color:blue">results page</a>. Development and test sets are in the process of being published through <a href="https://www.ldc.upenn.edu/" style="color:blue">LDC</a>.
+         The first DIHARD challenge is now complete. We would like to thank all teams that participated in the challenge and at the special session at Interspeech 2018 for making it a success. For full results as well as system descriptions, please see the <a href="results.html" style="color:blue">results page</a>. Development and test sets are now available from <a href="https://www.ldc.upenn.edu/" style="color:blue">LDC</a>.
          <br><br>
        </h4>
-            </div>
-           </center> 
-    </div>
+        </div>
+    </center>
+</div>
     <div class="container">
         <!-- Navbar -->
         <div class="bs-docs-section clearfix">
@@ -57,7 +57,7 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="results.php">
+                            <a class="nav-link" href="results.html">
                                 <font size="4">Results </font>
                             </a>
                         </li>
@@ -92,7 +92,8 @@
             <!-- Development data -->
             <h3><b>2. Development data </b></h3>
             <p align="justify">
-                Speech samples with diarization and reference speech segmentation will be be distributed to registered participants and may be used for any purpose including system development or training. These samples consist of approximately 19 hours worth of 5-10 minute chunks drawn from the following domains:
+	        The development set is available from LDC as <a href="https://catalog.ldc.upenn.edu/LDC2019S09">LDC2019S09</a> and <a href="https://catalog.ldc.upenn.edu/LDC2019S10">LDC2019S10</a>.
+                Speech samples are distributed alongside diarization and reference speech segmentation and may be used for any purpose including system development or training. These samples consist of approximately 19 hours worth of 5-10 minute chunks drawn from the following domains:
             </p>
             <ul>
                 <li><i>Child language acquisition recordings</i></li>
@@ -155,13 +156,13 @@
                 </p>
             </ul>
             <p align="justify">
-                All samples will be distributed as 16 kHz, mono-channel FLAC files.
+                All samples are distributed as 16 kHz, mono-channel FLAC files.
             </p>
             <hr class="my-4">
             <!-- Evaluation data -->
             <h3><b>3. Evaluation data </b></h3>
             <p align="justify">
-                The evaluation set consists of approximately 21 hours worth of 5-10 minute speech samples drawn from the same domains and sources as the development set with the following exceptions:
+                The evaluation set is available from LDC as <a href="https://catalog.ldc.upenn.edu/LDC2019S12">LDC2019S12</a> and <a href="https://catalog.ldc.upenn.edu/LDC2019S13">LDC2019S13</a>. It consists of approximately 21 hours worth of 5-10 minute speech samples drawn from the same domains and sources as the development set with the following exceptions:
             </p>
             <ul>
                 <li><i>Sociolinguistic interviews</i></li>
@@ -182,7 +183,7 @@
                 </p>
             </ul>
             <p align="justify">
-                The domain from which each sample is drawn will not be provided during the evaluation period, but will be revealed at the conclusion of the evaluation.
+                The domain from which each sample is drawn was not provided during the evaluation period.
             </p>
             <!-- Segmentation -->
             <hr class="my-4">
@@ -249,7 +250,7 @@
             <!-- File formats -->
             <hr class="my-4">
             <h3><b>5. File formats </b></h3>
-            <p align="justify">For each recording, speech segmentation will be provided via an HTK label file listing one segment per line, each line consisting of three space-delimited fields:</p>
+            <p align="justify">For each recording, speech segmentation is provided via an HTK label file listing one segment per line, each line consisting of three space-delimited fields:</p>
             <ul>
                 <li>segment onset in seconds from beginning of recording</li>
                 <br>
@@ -263,7 +264,7 @@
     1.98  3.44  speech
     5.0   7.52  speech</code>
         </pre>
-            <p align="justify">Following prior NIST RT evaluations, diarization for recordings will be provided using Rich Transcription Time Marked (RTTM) files. RTTM files are space-separated text files containing one turn per line, each line containing ten fields:</p>
+            <p align="justify">Following prior NIST RT evaluations, diarization for recordings is provided using Rich Transcription Time Marked (RTTM) files. RTTM files are space-separated text files containing one turn per line, each line containing ten fields:</p>
             <ul>
                 <li>Type – segment type; should always by “SPEAKER”</li>
                 <br>

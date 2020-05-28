@@ -1,0 +1,1108 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>DIHARD Challenge</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- StyleSheet -->
+    <link rel="stylesheet" href="./css/bootstrap.css" media="screen">
+    <link rel="stylesheet" href="./css/custom.min.css" media="screen">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./datatable/bootstrap-table.min.css">
+    <link rel="stylesheet" href="./datatable/datatable.min.css">
+
+    <!-- SCRIPT -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="./datatable/bootstrap-table.min.js"></script>
+    <script src="./datatable/Chart.bundle.min.js"></script>
+    <script src="./datatable/datatable.min.js"></script>
+</head>
+
+<body>
+<div class="page-header" id="banner">
+    <center>
+        <div class="my4" style="max-width: 69rem;background-color:pink;padding-left:20px;padding-right:20px">
+            <h4 class="card-title" align="justify">
+                    <br>
+         The first DIHARD challenge is now complete. We would like to thank all teams that participated in the challenge and at the special session at Interspeech 2018 for making it a success. For full results as well as system descriptions, please see the <a href="results.html" style="color:blue">results page</a>. Development and test sets are now available from <a href="https://www.ldc.upenn.edu/" style="color:blue">LDC</a>.
+         <br><br>
+       </h4>
+        </div>
+    </center>
+</div>
+    <div class="container">
+        <!-- Navbar -->
+        <div class="bs-docs-section clearfix">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+                <a class="navbar-brand" href="index.html">DIHARD</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+
+                <div class="collapse navbar-collapse" id="navbarColor01">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="overview.html">
+                                <font size="4">Overview </font>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="data.html">
+                                <font size="4">Data </font>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="instructions.html">
+                                <font size="4">Instructions </font>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="submission.html">
+                                <font size="4">Submissions </font>
+                            </a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="results.html">
+                                <font size="4">Results </font><span class="sr-only">(current)</span></a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">
+                                <font size="4">Contact Us </font>
+                            </a>
+                        </li>
+                    </ul>
+
+                </div>
+            </nav>
+        </div>
+        <!-- Navbar -->
+
+
+        <!-- Content -->
+        <div class="jumbotron">
+            <h1>Results</h1>
+            <br>
+            <hr class="my-4">
+            <h2><b>Online leaderboard</b></h2>
+            <button onClick="location.href='#track1'" class="btn btn-primary btn-lg">Track 1</button>
+            <button onClick="location.href='#track2'" class="btn btn-primary btn-lg">Track 2</button>
+            <hr class="my-4">
+        </div>
+        <!-- Content -->
+	<br><h2 id="track1"><b>Track1</b></h2>
+	<hr class="my-4">
+	<table class="datatable table table-hover table-condensed"
+	       data-bar-hline="true"
+	       data-chart-default-mode="bar"
+	       data-chart-modes="bar,scatter"
+	       data-id-field="teamsystem"
+	       data-pagination="true" data-page-size="30"
+	       data-rank-mode="grouped_muted"
+	       data-row-highlighting="true"
+	       data-show-chart="true"
+	       data-show-rank="true"
+	       data-sort-name="der"
+	       data-sort-order="asc"
+	       data-scatter-x="der"
+	       data-scatter-y="mi">
+	  <thead>
+	    <tr>
+	      <th class="sep-left-cell text-center" data-rank="true">Rank</th>
+	      <th class="sep-left-cell text-center" data-field="teamsystem"  data-sortable="true" data-value-type="str", data-visible="false">TeamSystem</th>
+	      <th class="sep-left-cell text-center" data-field="team"  data-sortable="true" data-value-type="str">Team</th>
+	      <th class="sep-left-cell text-center" data-field="system"  data-sortable="true" data-value-type="str">System</th>
+	      <th class="sep-left-cell text-center" data-field="SystemDescription" data-sortable="false" data-value-type="str">Description</th>
+	      <th class="sep-left-cell text-center" data-field="Zenodo" data-sortable="false" data-value-type="str">Zenodo</th>
+	      <th class="sep-left-cell text-center" data-field="date" data-sortable="false" data-value-type="str">Date</th>
+	      <th class="sep-left-cell text-center" data-chartable="true" data-field="der" data-sortable="true" data-value-type="float2-percentage">DER</th>
+	      <th class="sep-left-cell text-center" data-chartable="true" data-field="mi" data-sortable="true" data-value-type="float4">MI</th>
+	    </tr>
+	  </thead>
+	  <tbody>
+	    <tr>
+	      <td></td>
+	      <td>JHU (Sys4)</td>
+	      <td>JHU</td>
+              <td>Sys4</td>
+              <td>
+                  <a href="./system_descriptions/jhu_system4.pdf">[pdf]</a>
+              </td>
+	      <td><a href="https://zenodo.org/record/1205604">[submission]</a></td>
+              <td>2018-03-22 18:47:24</td>
+              <td>23.73</td>
+              <td>8.44</td>
+	    </tr>
+	    <tr>
+	      <td></td>
+	      <td>JHU (Sys5)</td>
+	      <td>JHU</td>
+              <td>Sys5</td>
+              <td>
+                  <a href="./system_descriptions/jhu_system5.pdf">[pdf]</a>
+              </td>
+	      <td><a href="https://zenodo.org/record/1205606">[submission]</a></td>
+              <td>2018-03-22 18:48:42</td>
+              <td>23.99</td>
+              <td>8.43</td>
+	    </tr>
+	    <tr>
+	      <td></td>
+	      <td>USTC-iFLYTEK (system1)</td>
+	      <td>USTC-iFLYTEK</td>
+              <td>system1</td>
+              <td>
+                  <a href="./system_descriptions/ustc-iflytek_sytems.pdf">[pdf]</a>
+              </td>
+	      <td><a href="https://zenodo.org/record/1206219">[submission]</a></td>
+              <td>2018-03-23 19:00:48</td>
+              <td>24.56</td>
+              <td>8.47</td>
+	    </tr>
+	    <tr>
+	      <td></td>
+	      <td>USTC-iFLYTEK (system4)</td>
+	      <td>USTC-iFLYTEK</td>
+              <td>system4</td>
+              <td>
+                  <a href="./system_descriptions/ustc-iflytek_sytems.pdf">[pdf]</a>
+              </td>
+	      <td><a href="https://zenodo.org/record/1205528">[submission]</a></td>
+              <td>2018-03-22 16:06:59</td>
+              <td>24.96</td>
+              <td>8.46</td>
+	    </tr>
+	    <tr>
+	      <td></td>
+	      <td>JHU (Sys2)</td>
+	      <td>JHU</td>
+              <td>Sys2</td>
+              <td>
+                  <a href="./system_descriptions/jhu_system2.pdf">[pdf]</a>
+              </td>
+	      <td><a href="https://zenodo.org/record/1205595">[submission]</a></td>
+              <td>2018-03-22 18:18:36</td>
+              <td>25.06</td>
+              <td>8.42</td>
+	    </tr>
+	    <tr>
+	      <td></td>
+	      <td>BUT (dev-s6)</td>
+	      <td>BUT</td>
+              <td>dev-s6</td>
+              <td>
+                  <a href="./system_descriptions/but_systems.pdf">[pdf]</a>
+              </td>
+	      <td><a href="https://zenodo.org/record/1206216">[submission]</a></td>
+              <td>2018-03-23 18:51:05</td>
+              <td>25.07</td>
+              <td>8.46</td>
+	    </tr>
+	    <tr>
+	      <td></td>
+	      <td>BUT (dev-s2)</td>
+	      <td>BUT</td>
+              <td>dev-s2</td>
+              <td>
+                  <a href="./system_descriptions/but_systems.pdf">[pdf]</a>
+              </td>
+	      <td><a href="https://zenodo.org/record/1206206">[submission]</a></td>
+              <td>2018-03-23 18:21:08</td>
+              <td>25.39</td>
+              <td>8.43</td>
+	    </tr>
+	    <tr>
+	      <td></td>
+	      <td>USTC-iFLYTEK (system2)</td>
+	      <td>USTC-iFLYTEK</td>
+              <td>system2</td>
+              <td>
+                  <a href="./system_descriptions/ustc-iflytek_sytems.pdf">[pdf]</a>
+              </td>
+	      <td><a href="https://zenodo.org/record/1204865">[submission]</a></td>
+              <td>2018-03-21 10:34:07</td>
+              <td>25.67</td>
+              <td>8.41</td>
+	    </tr>
+	    <tr>
+	      <td></td>
+	      <td>ViVoLab (VivoLab Sys 4)</td>
+	      <td>ViVoLab</td>
+              <td>VivoLab Sys 4</td>
+              <td>
+                  <a href="./system_descriptions/vivolab_systems.pdf">[pdf]</a>
+              </td>
+	      <td><a href="https://zenodo.org/record/1205792">[submission]</a></td>
+              <td>2018-03-23 08:18:00</td>
+              <td>26.02</td>
+              <td>8.35</td>
+	    </tr>
+	    <tr>
+	      <td></td>
+	      <td>ViVoLab (VivoLab Sys 2)</td>
+	      <td>ViVoLab</td>
+              <td>VivoLab Sys 2</td>
+              <td>
+                  <a href="./system_descriptions/vivolab_systems.pdf">[pdf]</a>
+              </td>
+	      <td><a href="https://zenodo.org/record/1206117">[submission]</a></td>
+              <td>2018-03-23 14:19:47</td>
+              <td>26.15</td>
+              <td>8.34</td>
+	    </tr>
+	    <tr>
+	      <td></td>
+	      <td>ViVoLab (VivoLab Sys 3)</td>
+	      <td>ViVoLab</td>
+              <td>VivoLab Sys 3</td>
+              <td>
+                  <a href="./system_descriptions/vivolab_systems.pdf">[pdf]</a>
+              </td>
+	      <td><a href="https://zenodo.org/record/1206119">[submission]</a></td>
+              <td>2018-03-23 14:21:35</td>
+              <td>26.27</td>
+              <td>8.33</td>
+	    </tr>
+	    <tr>
+	      <td></td>
+	      <td>BUT (dev-s5)</td>
+	      <td>BUT</td>
+              <td>dev-s5</td>
+              <td>
+                  <a href="./system_descriptions/but_systems.pdf">[pdf]</a>
+              </td>
+	      <td><a href="https://zenodo.org/record/1206192">[submission]</a></td>
+              <td>2018-03-23 17:45:42</td>
+              <td>26.46</td>
+              <td>8.4</td>
+	    </tr>
+	    <tr>
+	      <td></td>
+	      <td>ZCU-NTIS (ws-crR)</td>
+	      <td>ZCU-NTIS</td>
+              <td>ws-crR</td>
+              <td>
+                  <a href="./system_descriptions/zcu-ntis_ws-crR.pdf">[pdf]</a>
+              </td>
+	      <td><a href="https://zenodo.org/record/1203834">[submission]</a></td>
+              <td>2018-03-20 07:11:16</td>
+              <td>26.9</td>
+              <td>8.34</td>
+	    </tr>
+	    <tr>
+	      <td></td>
+	      <td>ZCU-NTIS (MH-crR)</td>
+	      <td>ZCU-NTIS</td>
+              <td>MH-crR</td>
+              <td>
+                  <a href="./system_descriptions/zcu-ntis_mh-crR.pdf">[pdf]</a>
+              </td>
+	      <td><a href="https://zenodo.org/record/1205053">[submission]</a></td>
+              <td>2018-03-23 13:19:43</td>
+              <td>27.12</td>
+              <td>8.31</td>
+	    </tr>
+	    <tr>
+	      <td></td>
+	      <td>ZCU-NTIS (ws-cr)</td>
+	      <td>ZCU-NTIS</td>
+              <td>ws-cr</td>
+              <td>
+                  <a href="./system_descriptions/zcu-ntis_ws-cr.pdf">[pdf]</a>
+              </td>
+	      <td><a href="https://zenodo.org/record/1203685">[submission]</a></td>
+              <td>2018-03-19 18:22:23</td>
+              <td>27.43</td>
+              <td>8.33</td>
+	    </tr>
+	    <tr>
+	      <td></td>
+	      <td>STAR-LAB (Hyb-Multi)</td>
+	      <td>STAR-LAB</td>
+              <td>Hyb-Multi</td>
+              <td>
+                  <a href="./system_descriptions/star-lab_systems.pdf">[pdf]</a>
+              </td>
+	      <td><a href="https://zenodo.org/record/1205177">[submission]</a></td>
+              <td>2018-03-22 01:14:37</td>
+              <td>27.61</td>
+              <td>8.33</td>
+	    </tr>
+	    <tr>
+	      <td></td>
+	      <td>STAR-LAB (Hyb-BN-Emb)</td>
+	      <td>STAR-LAB</td>
+              <td>Hyb-BN-Emb</td>
+              <td>
+                  <a href="./system_descriptions/star-lab_systems.pdf">[pdf]</a>
+              </td>
+	      <td><a href="https://zenodo.org/record/1205491">[submission]</a></td>
+              <td>2018-03-22 14:26:05</td>
+              <td>27.98</td>
+              <td>8.33</td>
+	    </tr>
+	    <tr>
+	      <td></td>
+	      <td>LEAP (leap_system1)</td>
+	      <td>LEAP</td>
+              <td>leap_system1</td>
+              <td>
+                  <a href="./system_descriptions/leap_systems.pdf ">[pdf]</a>
+              </td>
+	      <td><a href="https://zenodo.org/record/1205294">[submission]</a></td>
+              <td>2018-03-22 10:51:20</td>
+              <td>28.52</td>
+              <td>8.32</td>
+	    </tr>
+	    <tr>
+	      <td></td>
+	      <td>BISC (SYSTEM_5)</td>
+	      <td>BISC</td>
+              <td>SYSTEM_5</td>
+              <td>
+                  <a href="./system_descriptions/bisc_systems.pdf">[pdf]</a>
+              </td>
+	      <td><a href="https://zenodo.org/record/1204767">[submission]</a></td>
+              <td>2018-03-22 14:28:20</td>
+              <td>29.33</td>
+              <td>8.33</td>
+	    </tr>
+	    <tr>
+	      <td></td>
+	      <td>BUT (dev-s4)</td>
+	      <td>BUT</td>
+              <td>dev-s4</td>
+              <td>
+                  <a href="./system_descriptions/but_systems.pdf">[pdf]</a>
+              </td>
+	      <td><a href="https://zenodo.org/record/1205526">[submission]</a></td>
+              <td>2018-03-22 16:04:18</td>
+              <td>29.94</td>
+              <td>8.39</td>
+	    </tr>
+	    <tr>
+	      <td></td>
+	      <td>BISC (SYSTEM_4)</td>
+	      <td>BISC</td>
+              <td>SYSTEM_4</td>
+              <td>
+                  <a href="./system_descriptions/bisc_systems.pdf">[pdf]</a>
+              </td>
+	      <td><a href="https://zenodo.org/record/1205323">[submission]</a></td>
+              <td>2018-03-22 11:53:14</td>
+              <td>30.44</td>
+              <td>8.33</td>
+	    </tr>
+	    <tr>
+	      <td></td>
+	      <td>STAR-LAB (Baseline)</td>
+	      <td>STAR-LAB</td>
+              <td>Baseline</td>
+              <td>
+                  <a href="./system_descriptions/star-lab_systems.pdf">[pdf]</a>
+              </td>
+	      <td><a href="https://zenodo.org/record/1200250">[submission]</a></td>
+              <td>2018-03-16 11:38:26</td>
+              <td>30.56</td>
+              <td>8.27</td>
+	    </tr>
+	    <tr>
+	      <td></td>
+	      <td>LEAP (System_1_mbp)</td>
+	      <td>LEAP</td>
+              <td>System_1_mbp</td>
+              <td>
+                  <a href="./system_descriptions/leap_systems.pdf ">[pdf]</a>
+              </td>
+	      <td><a href="https://zenodo.org/record/1206226">[submission]</a></td>
+              <td>2018-03-23 19:21:52</td>
+              <td>31.49</td>
+              <td>8.38</td>
+	    </tr>
+	    <tr>
+	      <td></td>
+	      <td>JHU (Sys1)</td>
+	      <td>JHU</td>
+              <td>Sys1</td>
+              <td>
+                  <a href="./system_descriptions/jhu_system1.pdf">[pdf]</a>
+              </td>
+	      <td><a href="https://zenodo.org/record/1206221">[submission]</a></td>
+              <td>2018-03-23 19:02:40</td>
+              <td>31.56</td>
+              <td>8.23</td>
+	    </tr>
+	    <tr>
+	      <td></td>
+	      <td>CPqD (hybrid_system)</td>
+	      <td>CPqD</td>
+              <td>hybrid_system</td>
+              <td>
+                  <a href="./system_descriptions/cpqd_hybrid.pdf">[pdf]</a>
+              </td>
+	      <td><a href="https://zenodo.org/record/1205697">[submission]</a></td>
+              <td>2018-03-22 23:41:25</td>
+              <td>32.76</td>
+              <td>8.29</td>
+	    </tr>
+	    <tr>
+	      <td></td>
+	      <td>ViVoLab (VivoLab Sys 1)</td>
+	      <td>ViVoLab</td>
+              <td>VivoLab Sys 1</td>
+              <td>
+                  <a href="./system_descriptions/vivolab_systems.pdf">[pdf]</a>
+              </td>
+	      <td><a href="https://zenodo.org/record/1206113">[submission]</a></td>
+              <td>2018-03-23 14:18:21</td>
+              <td>32.9</td>
+              <td>8.29</td>
+	    </tr>
+	    <tr>
+	      <td></td>
+	      <td>SAIVT - Speech Research Lab (test1_baseline)</td>
+	      <td>SAIVT - Speech Research Lab</td>
+              <td>test1_baseline</td>
+              <td>
+                  <a href="./system_descriptions/saivt_systems.pdf ">[pdf]</a>
+              </td>
+	      <td><a href="https://zenodo.org/record/1202517">[submission]</a></td>
+              <td>2018-03-19 05:57:46</td>
+              <td>33.15</td>
+              <td>8.39</td>
+	    </tr>
+	    <tr>
+	      <td></td>
+	      <td>CDS (CRIM2)</td>
+	      <td>CDS</td>
+              <td>CRIM2</td>
+              <td>
+                  <a href="./system_descriptions/crim_systems.pdf">[pdf]</a>
+              </td>
+	      <td><a href="https://zenodo.org/record/1206243">[submission]</a></td>
+              <td>2018-03-23 20:10:19</td>
+              <td>33.79</td>
+              <td>8.14</td>
+	    </tr>
+	    <tr>
+	      <td></td>
+	      <td>CDS (CRIM1)</td>
+	      <td>CDS</td>
+              <td>CRIM1</td>
+              <td>
+                  <a href="./system_descriptions/crim_systems.pdf">[pdf]</a>
+              </td>
+	      <td><a href="https://zenodo.org/record/1194393">[submission]</a></td>
+              <td>2018-03-08 19:21:15</td>
+              <td>33.84</td>
+              <td>8.12</td>
+	    </tr>
+	    <tr>
+	      <td></td>
+	      <td>BISC (SYSTEM_3)</td>
+	      <td>BISC</td>
+              <td>SYSTEM_3</td>
+              <td>
+                  <a href="./system_descriptions/bisc_systems.pdf">[pdf]</a>
+              </td>
+	      <td><a href="https://zenodo.org/record/1205790">[submission]</a></td>
+              <td>2018-03-23 08:08:36</td>
+              <td>34.29</td>
+              <td>8.33</td>
+	    </tr>
+	    <tr>
+	      <td></td>
+	      <td>BUT (BASELINE)</td>
+	      <td>BUT</td>
+              <td>BASELINE</td>
+              <td>
+                  <a href="./system_descriptions/but_systems.pdf">[pdf]</a>
+              </td>
+	      <td><a href="https://zenodo.org/record/1193633">[submission]</a></td>
+              <td>2018-03-07 13:54:33</td>
+              <td>35.85</td>
+              <td>8.33</td>
+	    </tr>
+	    <tr>
+	      <td></td>
+	      <td>USTC-iFLYTEK (system3)</td>
+	      <td>USTC-iFLYTEK</td>
+              <td>system3</td>
+              <td>
+                  <a href="./system_descriptions/ustc-iflytek_sytems.pdf">[pdf]</a>
+              </td>
+	      <td><a href="https://zenodo.org/record/1206300">[submission]</a></td>
+              <td>2018-03-23 22:56:23</td>
+              <td>36.14</td>
+              <td>8.09</td>
+	    </tr>
+	    <tr>
+	      <td></td>
+	      <td>IntelligentVoice (sys1)</td>
+	      <td>IntelligentVoice</td>
+              <td>sys1</td>
+              <td>
+                  <a href="./system_descriptions/intelligentvoice_systems.pdf">[pdf]</a>
+              </td>
+	      <td><a href="https://zenodo.org/record/1204862">[submission]</a></td>
+              <td>2018-03-23 19:59:26</td>
+              <td>36.73</td>
+              <td>8.18</td>
+	    </tr>
+	    <tr>
+	      <td></td>
+	      <td>IntelligentVoice (Baseline_v3)</td>
+	      <td>IntelligentVoice</td>
+              <td>Baseline_v3</td>
+              <td>
+                  <a href="./system_descriptions/intelligentvoice_systems.pdf">[pdf]</a>
+              </td>
+	      <td><a href="https://zenodo.org/record/1204379">[submission]</a></td>
+              <td>2018-03-20 15:55:28</td>
+              <td>36.76</td>
+              <td>8.12</td>
+	    </tr>
+	    <tr>
+	      <td></td>
+	      <td>IntelligentVoice (Baseline_v2)</td>
+	      <td>IntelligentVoice</td>
+              <td>Baseline_v2</td>
+              <td>
+                  <a href="./system_descriptions/intelligentvoice_systems.pdf">[pdf]</a>
+              </td>
+	      <td><a href="https://zenodo.org/record/1203813">[submission]</a></td>
+              <td>2018-03-20 05:16:51</td>
+              <td>37.11</td>
+              <td>8.12</td>
+	    </tr>
+	    <tr>
+	      <td></td>
+	      <td>SINICA (REG_MFCC_13)</td>
+	      <td>SINICA</td>
+              <td>REG_MFCC_13</td>
+              <td>
+              </td>
+	      <td><a href="https://zenodo.org/record/1205199">[submission]</a></td>
+              <td>2018-03-22 04:34:30</td>
+              <td>37.46</td>
+              <td>8.04</td>
+	    </tr>
+	    <tr>
+	      <td></td>
+	      <td>SINICA (COMBINE_MFCC_13)</td>
+	      <td>SINICA</td>
+              <td>COMBINE_MFCC_13</td>
+              <td>
+              </td>
+	      <td><a href="https://zenodo.org/record/1203827">[submission]</a></td>
+              <td>2018-03-20 06:36:32</td>
+              <td>37.65</td>
+              <td>8.05</td>
+	    </tr>
+	    <tr>
+	      <td></td>
+	      <td>SINICA (IRM_MFCC_13)</td>
+	      <td>SINICA</td>
+              <td>IRM_MFCC_13</td>
+              <td>
+              </td>
+	      <td><a href="https://zenodo.org/record/1203833">[submission]</a></td>
+              <td>2018-03-20 07:08:07</td>
+              <td>37.99</td>
+              <td>8.01</td>
+	    </tr>
+	    <tr>
+	      <td></td>
+	      <td>SINICA (RAW_MFCC_13)</td>
+	      <td>SINICA</td>
+              <td>RAW_MFCC_13</td>
+              <td>
+              </td>
+	      <td><a href="https://zenodo.org/record/1203222">[submission]</a></td>
+              <td>2018-03-19 09:56:58</td>
+              <td>38.53</td>
+              <td>8.02</td>
+	    </tr>
+	    <tr>
+	      <td></td>
+	      <td>SINICA (MFCC_13)</td>
+	      <td>SINICA</td>
+              <td>MFCC_13</td>
+              <td>
+              </td>
+	      <td><a href="https://zenodo.org/record/1198644">[submission]</a></td>
+              <td>2018-03-14 16:14:13</td>
+              <td>39.45</td>
+              <td>7.99</td>
+	    </tr>
+	    <tr>
+	      <td></td>
+	      <td>IntelligentVoice (IV_baseline)</td>
+	      <td>IntelligentVoice</td>
+              <td>IV_baseline</td>
+              <td>
+                  <a href="./system_descriptions/intelligentvoice_systems.pdf">[pdf]</a>
+              </td>
+	      <td><a href="https://zenodo.org/record/1203350">[submission]</a></td>
+              <td>2018-03-19 13:28:12</td>
+              <td>40.26</td>
+              <td>8.14</td>
+	    </tr>
+	    <tr>
+	      <td></td>
+	      <td>CPqD (b1_system)</td>
+	      <td>CPqD</td>
+              <td>b1_system</td>
+              <td>
+                  <a href="./system_descriptions/cpqd_b1b2.pdf">[pdf]</a>
+              </td>
+	      <td><a href="https://zenodo.org/record/1205150">[submission]</a></td>
+              <td>2018-03-21 22:49:43</td>
+              <td>40.94</td>
+              <td>8.17</td>
+	    </tr>
+	    <tr>
+	      <td></td>
+	      <td>CPqD (b2_system)</td>
+	      <td>CPqD</td>
+              <td>b2_system</td>
+              <td>
+                  <a href="./system_descriptions/cpqd_b1b2.pdf">[pdf]</a>
+              </td>
+	      <td><a href="https://zenodo.org/record/1206194">[submission]</a></td>
+              <td>2018-03-23 17:58:48</td>
+              <td>42.28</td>
+              <td>8.08</td>
+	    </tr>
+	    <tr>
+	      <td></td>
+	      <td>BISC (SYSTEM_1)</td>
+	      <td>BISC</td>
+              <td>SYSTEM_1</td>
+              <td>
+                  <a href="./system_descriptions/bisc_systems.pdf">[pdf]</a>
+              </td>
+	      <td><a href="https://zenodo.org/record/1193762">[submission]</a></td>
+              <td>2018-03-22 09:51:56</td>
+              <td>48.31</td>
+              <td>8.5</td>
+	    </tr>
+	    <tr>
+	      <td></td>
+	      <td>ViVoLab (ViVoLab_Baseline)</td>
+	      <td>ViVoLab</td>
+              <td>ViVoLab_Baseline</td>
+              <td>
+                  <a href="./system_descriptions/vivolab_systems.pdf">[pdf]</a>
+              </td>
+	      <td><a href="https://zenodo.org/record/1206111">[submission]</a></td>
+              <td>2018-03-23 14:16:17</td>
+              <td>48.4</td>
+              <td>8.52</td>
+	    </tr>
+	    <tr>
+	      <td></td>
+	      <td>BISC (SYSTEM_2)</td>
+	      <td>BISC</td>
+              <td>SYSTEM_2</td>
+              <td>
+                  <a href="./system_descriptions/bisc_systems.pdf">[pdf]</a>
+              </td>
+	      <td><a href="https://zenodo.org/record/1205784">[submission]</a></td>
+              <td>2018-03-23 08:06:17</td>
+              <td>48.7</td>
+              <td>8.5</td>
+	    </tr>
+	    <tr>
+	      <td></td>
+	      <td>SINICA (REG_MFCC_13_DcAE_70_3)</td>
+	      <td>SINICA</td>
+              <td>REG_MFCC_13_DcAE_70_3</td>
+              <td>
+              </td>
+	      <td><a href="https://zenodo.org/record/1204823">[submission]</a></td>
+              <td>2018-03-21 09:28:56</td>
+              <td>53.98</td>
+              <td>8.03</td>
+	    </tr>
+	  </tbody>
+        </table>
+        <br><h2 id="track2"><b>Track2</b></h2>
+        <hr class="my-4">
+        <table class="datatable table table-hover table-condensed"
+               data-bar-hline="true"
+               data-chart-default-mode="bar"
+               data-chart-modes="bar,scatter"
+               data-id-field="teamsystem"
+	       data-pagination="true" data-page-size="30"
+               data-rank-mode="grouped_muted"
+               data-row-highlighting="true"
+               data-show-chart="true"
+               data-show-rank="true"
+               data-sort-name="der"
+               data-sort-order="asc"
+               data-scatter-x="der"
+               data-scatter-y="mi">
+          <thead>
+            <tr>
+              <th class="sep-left-cell text-center" data-rank="true">Rank</th>
+	      <th class="sep-left-cell text-center" data-field="teamsystem"  data-sortable="true" data-value-type="str", data-visible="false">TeamSystem</th>
+              <th class="sep-left-cell text-center" data-field="team"  data-sortable="true" data-value-type="str">Team</th>
+              <th class="sep-left-cell text-center" data-field="system"  data-sortable="true" data-value-type="str">System</th>
+              <th class="sep-left-cell text-center" data-field="SystemDescription" data-sortable="false" data-value-type="str">Description</th>
+              <th class="sep-left-cell text-center" data-field="Zenodo" data-sortable="false" data-value-type="str">Zenodo</th>
+              <th class="sep-left-cell text-center" data-field="date" data-sortable="false" data-value-type="str">Date</th>
+              <th class="sep-left-cell text-center" data-chartable="true" data-field="der" data-sortable="true" data-value-type="float2-percentage">DER</th>
+              <th class="sep-left-cell text-center" data-chartable="true" data-field="mi" data-sortable="true" data-value-type="float4">MI</th>
+            </tr>
+          </thead>
+          <tbody>
+          <tr>
+	    <td></td>
+            <td>BUT (dev-s2)</td>
+            <td>BUT</td>
+            <td>dev-s2</td>
+            <td>
+	        <a href="./system_descriptions/but_systems.pdf">[pdf]</a>
+            </td>
+            <td><a href="https://zenodo.org/record/1206206">[submission]</a></td>
+            <td>2018-03-23 18:21:08</td>
+            <td>35.51</td>
+            <td>8.07</td>
+          </tr>
+          <tr>
+	    <td></td>
+            <td>USTC-iFLYTEK (system4)</td>
+            <td>USTC-iFLYTEK</td>
+            <td>system4</td>
+            <td>
+	        <a href="./system_descriptions/ustc-iflytek_sytems.pdf">[pdf]</a>
+            </td>
+            <td><a href="https://zenodo.org/record/1206290">[submission]</a></td>
+            <td>2018-03-23 22:15:12</td>
+            <td>36.05</td>
+            <td>8.08</td>
+          </tr>
+          <tr>
+	    <td></td>
+            <td>USTC-iFLYTEK (system2)</td>
+            <td>USTC-iFLYTEK</td>
+            <td>system2</td>
+            <td>
+	        <a href="./system_descriptions/ustc-iflytek_sytems.pdf">[pdf]</a>
+            </td>
+            <td><a href="https://zenodo.org/record/1204431">[submission]</a></td>
+            <td>2018-03-20 16:49:21</td>
+            <td>36.39</td>
+            <td>8.09</td>
+          </tr>
+          <tr>
+	    <td></td>
+            <td>USTC-iFLYTEK (system3)</td>
+            <td>USTC-iFLYTEK</td>
+            <td>system3</td>
+            <td>
+	        <a href="./system_descriptions/ustc-iflytek_sytems.pdf">[pdf]</a>
+            </td>
+            <td><a href="https://zenodo.org/record/1206300">[submission]</a></td>
+            <td>2018-03-23 22:56:23</td>
+            <td>36.56</td>
+            <td>8.06</td>
+          </tr>
+          <tr>
+	    <td></td>
+            <td>JHU (Sys5)</td>
+            <td>JHU</td>
+            <td>Sys5</td>
+            <td>
+	        <a href="./system_descriptions/jhu_system5.pdf">[pdf]</a>
+            </td>
+            <td><a href="https://zenodo.org/record/1205606">[submission]</a></td>
+            <td>2018-03-22 18:48:42</td>
+            <td>37.19</td>
+            <td>8.04</td>
+          </tr>
+          <tr>
+	    <td></td>
+            <td>JHU (Sys4)</td>
+            <td>JHU</td>
+            <td>Sys4</td>
+            <td>
+	        <a href="./system_descriptions/jhu_system4.pdf">[pdf]</a>
+            </td>
+            <td><a href="https://zenodo.org/record/1205604">[submission]</a></td>
+            <td>2018-03-22 18:47:24</td>
+            <td>37.29</td>
+            <td>8.04</td>
+          </tr>
+          <tr>
+	    <td></td>
+            <td>JHU (Sys2)</td>
+            <td>JHU</td>
+            <td>Sys2</td>
+            <td>
+	        <a href="./system_descriptions/jhu_system2.pdf">[pdf]</a>
+            </td>
+            <td><a href="https://zenodo.org/record/1205595">[submission]</a></td>
+            <td>2018-03-22 18:18:36</td>
+            <td>37.41</td>
+            <td>8.03</td>
+          </tr>
+          <tr>
+	    <td></td>
+            <td>ViVoLab (VivoLab Sys 4)</td>
+            <td>ViVoLab</td>
+            <td>VivoLab Sys 4</td>
+            <td>
+	        <a href="./system_descriptions/vivolab_systems.pdf">[pdf]</a>
+            </td>
+            <td><a href="https://zenodo.org/record/1205792">[submission]</a></td>
+            <td>2018-03-23 08:18:00</td>
+            <td>38.0</td>
+            <td>7.99</td>
+          </tr>
+          <tr>
+	    <td></td>
+            <td>USTC-iFLYTEK (system1)</td>
+            <td>USTC-iFLYTEK</td>
+            <td>system1</td>
+            <td>
+	        <a href="./system_descriptions/ustc-iflytek_sytems.pdf">[pdf]</a>
+            </td>
+            <td><a href="https://zenodo.org/record/1206251">[submission]</a></td>
+            <td>2018-03-23 20:37:41</td>
+            <td>38.99</td>
+            <td>8.01</td>
+          </tr>
+          <tr>
+	    <td></td>
+            <td>ViVoLab (VivoLab Sys 3)</td>
+            <td>ViVoLab</td>
+            <td>VivoLab Sys 3</td>
+            <td>
+	        <a href="./system_descriptions/vivolab_systems.pdf">[pdf]</a>
+            </td>
+            <td><a href="https://zenodo.org/record/1206119">[submission]</a></td>
+            <td>2018-03-23 14:21:35</td>
+            <td>39.15</td>
+            <td>7.96</td>
+          </tr>
+          <tr>
+	    <td></td>
+            <td>ViVoLab (VivoLab Sys 2)</td>
+            <td>ViVoLab</td>
+            <td>VivoLab Sys 2</td>
+            <td>
+	        <a href="./system_descriptions/vivolab_systems.pdf">[pdf]</a>
+            </td>
+            <td><a href="https://zenodo.org/record/1206117">[submission]</a></td>
+            <td>2018-03-23 14:19:47</td>
+            <td>39.2</td>
+            <td>7.97</td>
+          </tr>
+          <tr>
+	    <td></td>
+            <td>CPqD (hybrid_system)</td>
+            <td>CPqD</td>
+            <td>hybrid_system</td>
+            <td>
+	        <a href="./system_descriptions/cpqd_hybrid.pdf">[pdf]</a>
+            </td>
+            <td><a href="https://zenodo.org/record/1205697">[submission]</a></td>
+            <td>2018-03-22 23:41:25</td>
+            <td>41.17</td>
+            <td>8.03</td>
+          </tr>
+          <tr>
+	    <td></td>
+            <td>STAR-LAB (Hyb-Multi)</td>
+            <td>STAR-LAB</td>
+            <td>Hyb-Multi</td>
+            <td>
+	        <a href="./system_descriptions/star-lab_systems.pdf">[pdf]</a>
+            </td>
+            <td><a href="https://zenodo.org/record/1205177">[submission]</a></td>
+            <td>2018-03-22 01:14:37</td>
+            <td>41.56</td>
+            <td>7.87</td>
+          </tr>
+          <tr>
+	    <td></td>
+            <td>STAR-LAB (Hyb-BN-Emb)</td>
+            <td>STAR-LAB</td>
+            <td>Hyb-BN-Emb</td>
+            <td>
+	        <a href="./system_descriptions/star-lab_systems.pdf">[pdf]</a>
+            </td>
+            <td><a href="https://zenodo.org/record/1205491">[submission]</a></td>
+            <td>2018-03-22 14:26:05</td>
+            <td>41.83</td>
+            <td>7.87</td>
+          </tr>
+          <tr>
+	    <td></td>
+            <td>JHU (Sys1)</td>
+            <td>JHU</td>
+            <td>Sys1</td>
+            <td>
+	        <a href="./system_descriptions/jhu_system1.pdf">[pdf]</a>
+            </td>
+            <td><a href="https://zenodo.org/record/1206221">[submission]</a></td>
+            <td>2018-03-23 19:02:40</td>
+            <td>43.86</td>
+            <td>7.84</td>
+          </tr>
+          <tr>
+	    <td></td>
+            <td>ViVoLab (VivoLab Sys 1)</td>
+            <td>ViVoLab</td>
+            <td>VivoLab Sys 1</td>
+            <td>
+	        <a href="./system_descriptions/vivolab_systems.pdf">[pdf]</a>
+            </td>
+            <td><a href="https://zenodo.org/record/1206113">[submission]</a></td>
+            <td>2018-03-23 14:18:21</td>
+            <td>44.91</td>
+            <td>7.89</td>
+          </tr>
+          <tr>
+	    <td></td>
+            <td>STAR-LAB (Baseline)</td>
+            <td>STAR-LAB</td>
+            <td>Baseline</td>
+            <td>
+	        <a href="./system_descriptions/star-lab_systems.pdf">[pdf]</a>
+            </td>
+            <td><a href="https://zenodo.org/record/1200250">[submission]</a></td>
+            <td>2018-03-16 11:38:26</td>
+            <td>45.2</td>
+            <td>7.79</td>
+          </tr>
+          <tr>
+	    <td></td>
+            <td>ZCU-NTIS (ws-crR)</td>
+            <td>ZCU-NTIS</td>
+            <td>ws-crR</td>
+            <td>
+	        <a href="./system_descriptions/zcu-ntis_ws-crR.pdf">[pdf]</a>
+            </td>
+            <td><a href="https://zenodo.org/record/1203356">[submission]</a></td>
+            <td>2018-03-19 13:30:04</td>
+            <td>45.78</td>
+            <td>7.79</td>
+          </tr>
+          <tr>
+	    <td></td>
+            <td>ZCU-NTIS (MH-crR)</td>
+            <td>ZCU-NTIS</td>
+            <td>MH-crR</td>
+            <td>
+	        <a href="./system_descriptions/zcu-ntis_mh-crR.pdf">[pdf]</a>
+            </td>
+            <td><a href="https://zenodo.org/record/1205053">[submission]</a></td>
+            <td>2018-03-23 13:19:43</td>
+            <td>46.14</td>
+            <td>7.77</td>
+          </tr>
+          <tr>
+	    <td></td>
+            <td>CPqD (b2_system)</td>
+            <td>CPqD</td>
+            <td>b2_system</td>
+            <td>
+	        <a href="./system_descriptions/cpqd_b1b2.pdf">[pdf]</a>
+            </td>
+            <td><a href="https://zenodo.org/record/1206194">[submission]</a></td>
+            <td>2018-03-23 17:58:48</td>
+            <td>48.85</td>
+            <td>7.88</td>
+          </tr>
+          <tr>
+	    <td></td>
+            <td>CPqD (b1_system)</td>
+            <td>CPqD</td>
+            <td>b1_system</td>
+            <td>
+	        <a href="./system_descriptions/cpqd_b1b2.pdf">[pdf]</a>
+            </td>
+            <td><a href="https://zenodo.org/record/1205150">[submission]</a></td>
+            <td>2018-03-21 22:49:43</td>
+            <td>50.14</td>
+            <td>7.9</td>
+          </tr>
+          <tr>
+	    <td></td>
+            <td>ViVoLab (ViVoLab_Baseline)</td>
+            <td>ViVoLab</td>
+            <td>ViVoLab_Baseline</td>
+            <td>
+	        <a href="./system_descriptions/vivolab_systems.pdf">[pdf]</a>
+            </td>
+            <td><a href="https://zenodo.org/record/1206111">[submission]</a></td>
+            <td>2018-03-23 14:16:17</td>
+            <td>51.78</td>
+            <td>8.12</td>
+          </tr>
+          <tr>
+	    <td></td>
+            <td>CDS (CRIM2)</td>
+            <td>CDS</td>
+            <td>CRIM2</td>
+            <td>
+	        <a href="./system_descriptions/crim_systems.pdf">[pdf]</a>
+            </td>
+            <td><a href="https://zenodo.org/record/1206243">[submission]</a></td>
+            <td>2018-03-23 20:10:19</td>
+            <td>52.38</td>
+            <td>7.72</td>
+          </tr>
+          <tr>
+	    <td></td>
+            <td>LEAP (System_1_mbp)</td>
+            <td>LEAP</td>
+            <td>System_1_mbp</td>
+            <td>
+	        <a href="./system_descriptions/leap_systems.pdf ">[pdf]</a>
+            </td>
+            <td><a href="https://zenodo.org/record/1206274">[submission]</a></td>
+            <td>2018-03-23 21:23:06</td>
+            <td>53.45</td>
+            <td>7.66</td>
+          </tr>
+          <tr>
+	    <td></td>
+            <td>SAIVT - Speech Research Lab (test2_baseline)</td>
+            <td>SAIVT - Speech Research Lab</td>
+            <td>test2_baseline</td>
+            <td>
+	        <a href="./system_descriptions/saivt_systems.pdf ">[pdf]</a>
+            </td>
+            <td><a href="https://zenodo.org/record/1205865">[submission]</a></td>
+            <td>2018-03-23 09:15:53</td>
+            <td>57.14</td>
+            <td>7.76</td>
+          </tr>
+          <tr>
+	    <td></td>
+            <td>CDS (CRIM1)</td>
+            <td>CDS</td>
+            <td>CRIM1</td>
+            <td>
+	        <a href="./system_descriptions/crim_systems.pdf">[pdf]</a>
+            </td>
+            <td><a href="https://zenodo.org/record/1194393">[submission]</a></td>
+            <td>2018-03-08 19:21:15</td>
+            <td>68.31</td>
+            <td>7.89</td>
+          </tr>
+	  </tbody>
+        </table>
+    </div>
+</body>
+</html>

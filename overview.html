@@ -17,17 +17,17 @@
 </head>
 
 <body>
-    <div class="page-header" id="banner">
-        <center>
-            <div class="my4" style="max-width: 69rem;background-color:pink;padding-left:20px;padding-right:20px">
-                <h4 class="card-title" align="justify">
+<div class="page-header" id="banner">
+    <center>
+        <div class="my4" style="max-width: 69rem;background-color:pink;padding-left:20px;padding-right:20px">
+            <h4 class="card-title" align="justify">
                     <br>
-         The first DIHARD challenge is now complete. We would like to thank all teams that participated in the challenge and at the special session an Interspeech 2018 for making it a success. For full results as well as system descriptions, please see the <a href="results.php" style="color:blue">results page</a>. Development and test sets are in the process of being published through <a href="https://www.ldc.upenn.edu/" style="color:blue">LDC</a>.
+         The first DIHARD challenge is now complete. We would like to thank all teams that participated in the challenge and at the special session at Interspeech 2018 for making it a success. For full results as well as system descriptions, please see the <a href="results.html" style="color:blue">results page</a>. Development and test sets are now available from <a href="https://www.ldc.upenn.edu/" style="color:blue">LDC</a>.
          <br><br>
        </h4>
-            </div>
-           </center> 
-    </div>
+        </div>
+    </center>
+</div>
     <div class="container">
         <!-- Navbar -->
         <div class="bs-docs-section clearfix">
@@ -58,7 +58,7 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="results.php">
+                            <a class="nav-link" href="results.html">
                                 <font size="4">Results </font>
                             </a>
                         </li>
@@ -139,7 +139,7 @@
             <hr class="my-4">
             <h3><b>2. Mutual information</b></h3>
             <p align="justify">
-                We will also approach system evaluation from the standpoint of clustering evaluation, where both the reference and system segmentations are viewed as assignments of labels to frames of speech and a system's score is the mutual information in bits between its labeling and the reference labeling. More concretely, each segmentation will be converted to a sequence of 10 ms frames, each of which is assigned a single label corresponding to one of the following classes:
+                We also approach system evaluation from the standpoint of clustering evaluation, where both the reference and system segmentations are viewed as assignments of labels to frames of speech and a system's score is the mutual information in bits between its labeling and the reference labeling. More concretely, each segmentation will be converted to a sequence of 10 ms frames, each of which is assigned a single label corresponding to one of the following classes:
                 <ul>
                     <li>non-speech</li>
                     <li>non-overlapping speech by speaker<sub>i</sub></li>
@@ -169,9 +169,9 @@
             <hrclass="my-4">
                 <h3><b>3. Scoring regions</b></h3>
                 <p align="justify">
-                    The scoring region for each recording will be the <b>entirety</b> of the recording; that is, for a recording of duration 405.37 seconds, the scoring region will be [0, 405.37]. These regions will be provided to the scoring tool via un-partitioned evaluation map (UEM) files, which are plaintext files containing one scoring region per line, each line consisting of four space-delimited fields
+                    The scoring region for each recording is the <b>entirety</b> of the recording; that is, for a recording of duration 405.37 seconds, the scoring region will be [0, 405.37]. These regions are provided to the scoring tool via un-partitioned evaluation map (UEM) files, which are plaintext files containing one scoring region per line, each line consisting of four space-delimited fields
                     <ul>
-                        <li> File ID -- file name; basename of the recording minus extension (e.g., &#8220;rec1_a&#8221;)</li>
+                        <li>File ID -- file name; basename of the recording minus extension (e.g., &#8220;rec1_a&#8221;)</li>
                         <li>Channel ID -- channel (1-indexed) that scoring region is on</li>
                         <li>Onset -- onset of scoring region in seconds from beginning of recording</li>
                         <li>Offset -- offset of scoring region in seconds from beginning of recording</li>
@@ -195,7 +195,10 @@
                 <hrclass="my-4">
                     <h3><b>4. Scoring tool</b></h3>
                     <p align="justify">
-                        The official scoring tool is maintained as a github repo: <a href="https://github.com/nryant/dscore">https://github.com/nryant/dscore</a>. To score a set of system output RTTMs <i>sys1.rttm</i>, <i>sys2.rttm</i>, ... against corresponding reference RTTMs <i>ref1.rttm</i>, <i>ref2.rttm</i>, ... using the un-partitioned evaluation map (UEM) <i>dev.uem</i>, the command line would be:
+                      The official scoring tool is maintained as a github repo: <a href="https://github.com/nryant/dscore">https://github.com/nryant/dscore</a>. For results comparable to those obtained during the challenge, please checkout the repo to v1.01.
+		    </p>
+		    <p>
+		      To score a set of system output RTTMs <i>sys1.rttm</i>, <i>sys2.rttm</i>, ... against corresponding reference RTTMs <i>ref1.rttm</i>, <i>ref2.rttm</i>, ... using the un-partitioned evaluation map (UEM) <i>dev.uem</i>, the command line would be:
                         <pre>
               <code>
                 $ python score.py -u dev.uem -r ref1.rttm ref2.rttm ... -s sys1.rttm sys2.rttm ...</code>

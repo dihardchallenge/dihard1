@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>DIHARD Challenge</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- StyleSheet -->
+    <link rel="stylesheet" href="./css/bootstrap.css" media="screen">
+    <link rel="stylesheet" href="./css/custom.min.css" media="screen">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./datatable/bootstrap-table.min.css">
+    <link rel="stylesheet" href="./datatable/datatable.min.css">
+
+    <!-- SCRIPT -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="./datatable/bootstrap-table.min.js"></script>
+    <script src="./datatable/Chart.bundle.min.js"></script>
+    <script src="./datatable/datatable.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <!-- Navbar -->
+        <div class="bs-docs-section clearfix">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+                <a class="navbar-brand" href="index.html">DIHARD</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+
+                <div class="collapse navbar-collapse" id="navbarColor01">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="overview.html">
+                                <font size="4">Overview </font>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="data.html">
+                                <font size="4">Data </font>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="instructions.html">
+                                <font size="4">Instructions </font>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="submission.html">
+                                <font size="4">Submissions </font>
+                            </a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="results.php">
+                                <font size="4">Results </font><span class="sr-only">(current)</span></a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">
+                                <font size="4">Contact Us </font>
+                            </a>
+                        </li>
+                    </ul>
+
+                </div>
+            </nav>
+        </div>
+        <!-- Navbar -->
+
+
+        <!-- Content -->
+        <div class="jumbotron">
+            <h1>Results</h1>
+            <br>
+            <hr class="my-4">
+            <h2><b>Online leaderboard</b></h2>
+            <button onClick="location.href='#track1'" class="btn btn-primary btn-lg">Track 1</button>
+            <button onClick="location.href='#track2'" class="btn btn-primary btn-lg">Track 2</button>
+            <hr class="my-4">
+        </div>
+        <!-- Content -->
+	<br><h2 id="track1"><b>Track1</b></h2>
+	<hr class="my-4">
+	<table class="datatable table table-hover table-condensed"
+	       data-bar-hline="true"
+	       data-chart-default-mode="bar"
+	       data-chart-modes="bar,scatter"
+	       data-id-field="teamsystem"
+	       data-pagination="true" data-page-size="30"
+	       data-rank-mode="grouped_muted"
+	       data-row-highlighting="true"
+	       data-show-chart="true"
+	       data-show-rank="true"
+	       data-sort-name="der"
+	       data-sort-order="asc"
+	       data-scatter-x="der"
+	       data-scatter-y="mi">
+	  <thead>
+	    <tr>
+	      <th class="sep-left-cell text-center" data-rank="true">Rank</th>
+	      <th class="sep-left-cell text-center" data-field="teamsystem"  data-sortable="true" data-value-type="str", data-visible="false">TeamSystem</th>
+	      <th class="sep-left-cell text-center" data-field="team"  data-sortable="true" data-value-type="str">Team</th>
+	      <th class="sep-left-cell text-center" data-field="system"  data-sortable="true" data-value-type="str">System</th>
+	      <th class="sep-left-cell text-center" data-field="SystemDescription" data-sortable="false" data-value-type="str">Description</th>
+	      <th class="sep-left-cell text-center" data-field="Zenodo" data-sortable="false" data-value-type="str">Zenodo</th>
+	      <th class="sep-left-cell text-center" data-field="date" data-sortable="false" data-value-type="str">Date</th>
+	      <th class="sep-left-cell text-center" data-chartable="true" data-field="der" data-sortable="true" data-value-type="float2-percentage">DER</th>
+	      <th class="sep-left-cell text-center" data-chartable="true" data-field="mi" data-sortable="true" data-value-type="float4">MI</th>
+	    </tr>
+	  </thead>
+	  <tbody>
+	  %for row in track1_rows:
+	    <tr>
+	      <td></td>
+	      <td>${row.team_system_name}</td>
+	      <td>${row.team_name}</td>
+              <td>${row.system_name}</td>
+              <td>
+                % if row.description_basename:
+                  <a href="./system_descriptions/${row.description_basename}">[pdf]</a>
+	        % endif
+              </td>
+	      <td><a href="${row.url}">[submission]</a></td>
+              <td>${row.date}</td>
+              <td>${row.der}</td>
+              <td>${row.mi}</td>
+	    </tr>
+	  %endfor
+	  </tbody>
+        </table>
+        <br><h2 id="track2"><b>Track2</b></h2>
+        <hr class="my-4">
+        <table class="datatable table table-hover table-condensed"
+               data-bar-hline="true"
+               data-chart-default-mode="bar"
+               data-chart-modes="bar,scatter"
+               data-id-field="teamsystem"
+	       data-pagination="true" data-page-size="30"
+               data-rank-mode="grouped_muted"
+               data-row-highlighting="true"
+               data-show-chart="true"
+               data-show-rank="true"
+               data-sort-name="der"
+               data-sort-order="asc"
+               data-scatter-x="der"
+               data-scatter-y="mi">
+          <thead>
+            <tr>
+              <th class="sep-left-cell text-center" data-rank="true">Rank</th>
+	      <th class="sep-left-cell text-center" data-field="teamsystem"  data-sortable="true" data-value-type="str", data-visible="false">TeamSystem</th>
+              <th class="sep-left-cell text-center" data-field="team"  data-sortable="true" data-value-type="str">Team</th>
+              <th class="sep-left-cell text-center" data-field="system"  data-sortable="true" data-value-type="str">System</th>
+              <th class="sep-left-cell text-center" data-field="SystemDescription" data-sortable="false" data-value-type="str">Description</th>
+              <th class="sep-left-cell text-center" data-field="Zenodo" data-sortable="false" data-value-type="str">Zenodo</th>
+              <th class="sep-left-cell text-center" data-field="date" data-sortable="false" data-value-type="str">Date</th>
+              <th class="sep-left-cell text-center" data-chartable="true" data-field="der" data-sortable="true" data-value-type="float2-percentage">DER</th>
+              <th class="sep-left-cell text-center" data-chartable="true" data-field="mi" data-sortable="true" data-value-type="float4">MI</th>
+            </tr>
+          </thead>
+          <tbody>
+          %for row in track2_rows:
+          <tr>
+	    <td></td>
+            <td>${row.team_system_name}</td>
+            <td>${row.team_name}</td>
+            <td>${row.system_name}</td>
+            <td>
+	      % if row.description_basename:
+	        <a href="./system_descriptions/${row.description_basename}">[pdf]</a>
+	      % endif
+            </td>
+            <td><a href="${row.url}">[submission]</a></td>
+            <td>${row.date}</td>
+            <td>${row.der}</td>
+            <td>${row.mi}</td>
+          </tr>
+          %endfor
+	  </tbody>
+        </table>
+    </div>
+</body>
+</html>
